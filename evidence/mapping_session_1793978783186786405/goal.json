@@ -1,0 +1,16 @@
+{
+  "map_xy_m": [
+    -0.04814128183867428,
+    1.7584869740967033
+  ],
+  "map_yaw_rad": -0.20219348615132526,
+  "map_yaw_deg": -11.584833401507796,
+  "world_xy_m": [
+    1.0800106933507496,
+    -0.8955895780091588
+  ],
+  "world_yaw_rad": 2.9393991674384683,
+  "world_yaw_deg": 168.41516659849222,
+  "yaw_constraint": "REQUIRED; projected marker +X is desired vehicle-front heading",
+  "marker_z_policy": "IGNORED; ground projection uses stored floor display plane"
+}

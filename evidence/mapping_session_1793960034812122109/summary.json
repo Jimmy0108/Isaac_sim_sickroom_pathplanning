@@ -1,0 +1,36 @@
+{
+  "revision": "2026-11-06-v66-nav-1.0",
+  "error": "RuntimeError: Vehicle tilt exceeds 20 degrees; stopped. Inspect contacts before resuming.",
+  "navigation_acceptance": "NOT_STARTED",
+  "sensor_frames": 489,
+  "dropped_sensor_queue_frames": 0,
+  "map_accuracy": "REQUIRES_REVIEW",
+  "candidate_map": null,
+  "manual_compensation": false,
+  "active_recovery": false,
+  "fresh_world_pose_is_localization": false,
+  "final_command_v_w": [
+    0.0,
+    0.0
+  ],
+  "normal_export_stop_verified": false,
+  "final_stop_evidence": {
+    "reason": "Motion or nonzero motor target remains",
+    "wheel_surface_speed_m_s": 0.900740432739261,
+    "body_window_speed_m_s": 0.45592898674896376,
+    "body_window_rotation_rad_s": 3.8747253415067844,
+    "body_median_speed_m_s": 0.8756362824469622,
+    "body_median_yaw_rate_rad_s": 1.7418980598449707,
+    "window_s": 0.13333333333333286,
+    "confirmed": false,
+    "sample_time_s": 51.96666666666667,
+    "age_s": 0.0,
+    "quiet_dwell_s": 0.0,
+    "required_dwell_s": 0.35,
+    "command_v_w": [
+      0.9,
+      0.0
+    ],
+    "usage": "SIMULATOR STOP INTERLOCK ONLY; never steering/SLAM pose feedback"
+  }
+}

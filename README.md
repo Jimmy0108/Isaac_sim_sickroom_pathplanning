@@ -60,5 +60,5 @@ python tools/verify_repository.py
 
 - 已使用的模擬版本為 Isaac Sim 6.0.1-rc.7，其他版本需要重新驗證 API。
 - 車殼尺寸、導航整車包絡與驅動輪心距採不同量測定義，詳見參數表。
-- 本倉庫包含車體及小型落地測試場景。原有病房／Gaussian 重建環境、廠商 STEP 與相機原始 CAD 在外部保存。
+- 本倉庫包含車體、小型落地測試場景、廠商 STEP、驅動器文件及既有實跑原始掃描。完整病房／Gaussian 重建環境與相機原始 CAD 尚未收錄。補充範圍見 [資料盤點](docs/DATA_AVAILABILITY.md)。
 - ROS 2／Nav2 接入屬後續工作。Smac 2D＋RPP 與 State Lattice＋RPP 的討論記在 [後續比較](docs/NAV2_ROADMAP.md)。

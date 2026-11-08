@@ -1,0 +1,8 @@
+{
+  "revision": "V66-existing-scene-clock",
+  "hz": 60.0,
+  "physics_scenes": [
+    "/World/PhysicsScene"
+  ],
+  "policy": "READ_ONLY scene step rate; no SimulationManager.setup_simulation or RenderingManager.set_dt. Live callback-vs-manager dt validation follows Play."
+}

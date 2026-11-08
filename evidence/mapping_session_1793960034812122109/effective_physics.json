@@ -1,0 +1,1825 @@
+{
+  "revision": "v10.5-readonly-effective-settings",
+  "physics_s": 3.05,
+  "meters_per_unit": 1.0,
+  "stage_identifier": "/isaac-sim/.local/share/ov/data/AMR_Project/1019_Scene/Collected_sickroom_with_hand_colaTest/new_car/sickroom_with_hand_colaTest.usd",
+  "session_sublayers": [
+    "anon:0x561f49c28dc0:amr_physx_lidar_v6.usda"
+  ],
+  "base": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link",
+  "controller": "/World/AGV_control/AGV_DifferentialGraph/DifferentialController",
+  "software_body_config": {
+    "length": 0.898,
+    "width": 0.5698,
+    "height": 0.444,
+    "track": 0.4769668332689978,
+    "wheel_radius": 0.08
+  },
+  "graph": {
+    "wheelRadius": 0.08,
+    "wheelDistance": 0.476966833,
+    "maxWheelSpeed": 0.0,
+    "maxLinearSpeed": 0.0,
+    "maxAngularSpeed": 0.0,
+    "maxAcceleration": 0.0,
+    "maxDeceleration": 0.0,
+    "maxAngularAcceleration": 0.0,
+    "dt": 0.0
+  },
+  "joints": [
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_wheel_link/rear_right_caster_wheel_joint",
+      "attributes": {
+        "physics:axis": "Y",
+        "physics:breakForce": null,
+        "physics:breakTorque": null,
+        "physics:collisionEnabled": false,
+        "physics:excludeFromArticulation": false,
+        "physics:jointEnabled": true,
+        "physics:localPos0": [
+          -0.027000000700354576,
+          0.0,
+          -0.06104545295238495
+        ],
+        "physics:localPos1": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(1, 0, 0, 0)",
+        "physics:lowerLimit": null,
+        "physics:upperLimit": null
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_swivel_link"
+        ],
+        "physics:body1": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_wheel_link"
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_swivel_link/rear_left_caster_swivel_joint",
+      "attributes": {
+        "drive:angular:physics:damping": 0.0003490060043986887,
+        "drive:angular:physics:maxForce": 0.10000000149011612,
+        "drive:angular:physics:stiffness": 0.0,
+        "drive:angular:physics:targetPosition": 0.0,
+        "drive:angular:physics:targetVelocity": 0.0,
+        "drive:angular:physics:type": "force",
+        "physics:axis": "Z",
+        "physics:breakForce": null,
+        "physics:breakTorque": null,
+        "physics:collisionEnabled": false,
+        "physics:excludeFromArticulation": false,
+        "physics:jointEnabled": true,
+        "physics:localPos0": [
+          -0.25699999928474426,
+          0.19750000536441803,
+          0.09254545718431473
+        ],
+        "physics:localPos1": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(1, 0, 0, 0)",
+        "physics:lowerLimit": null,
+        "physics:upperLimit": null
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+        ],
+        "physics:body1": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_swivel_link"
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_wheel_link/rear_left_caster_wheel_joint",
+      "attributes": {
+        "physics:axis": "Y",
+        "physics:breakForce": null,
+        "physics:breakTorque": null,
+        "physics:collisionEnabled": false,
+        "physics:excludeFromArticulation": false,
+        "physics:jointEnabled": true,
+        "physics:localPos0": [
+          -0.027000000700354576,
+          0.0,
+          -0.06104545295238495
+        ],
+        "physics:localPos1": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(1, 0, 0, 0)",
+        "physics:lowerLimit": null,
+        "physics:upperLimit": null
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_swivel_link"
+        ],
+        "physics:body1": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_wheel_link"
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/left_drive_wheel_link/left_wheel_joint",
+      "attributes": {
+        "drive:angular:physics:damping": 100.0,
+        "drive:angular:physics:maxForce": 5.0,
+        "drive:angular:physics:stiffness": 0.0,
+        "drive:angular:physics:targetPosition": 0.0,
+        "drive:angular:physics:targetVelocity": 0.0,
+        "drive:angular:physics:type": "force",
+        "physics:axis": "Y",
+        "physics:breakForce": null,
+        "physics:breakTorque": null,
+        "physics:collisionEnabled": false,
+        "physics:excludeFromArticulation": false,
+        "physics:jointEnabled": true,
+        "physics:localPos0": [
+          0.0,
+          0.23848341405391693,
+          0.07999999821186066
+        ],
+        "physics:localPos1": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(1, 0, 0, 0)",
+        "physics:lowerLimit": null,
+        "physics:upperLimit": null
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+        ],
+        "physics:body1": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/left_drive_wheel_link"
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_wheel_link/front_right_caster_wheel_joint",
+      "attributes": {
+        "physics:axis": "Y",
+        "physics:breakForce": null,
+        "physics:breakTorque": null,
+        "physics:collisionEnabled": false,
+        "physics:excludeFromArticulation": false,
+        "physics:jointEnabled": true,
+        "physics:localPos0": [
+          -0.027000000700354576,
+          0.0,
+          -0.06104545295238495
+        ],
+        "physics:localPos1": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(1, 0, 0, 0)",
+        "physics:lowerLimit": null,
+        "physics:upperLimit": null
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_swivel_link"
+        ],
+        "physics:body1": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_wheel_link"
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_wheel_link/front_left_caster_wheel_joint",
+      "attributes": {
+        "physics:axis": "Y",
+        "physics:breakForce": null,
+        "physics:breakTorque": null,
+        "physics:collisionEnabled": false,
+        "physics:excludeFromArticulation": false,
+        "physics:jointEnabled": true,
+        "physics:localPos0": [
+          -0.027000000700354576,
+          0.0,
+          -0.06104545295238495
+        ],
+        "physics:localPos1": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(1, 0, 0, 0)",
+        "physics:lowerLimit": null,
+        "physics:upperLimit": null
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_swivel_link"
+        ],
+        "physics:body1": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_wheel_link"
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_swivel_link/rear_right_caster_swivel_joint",
+      "attributes": {
+        "drive:angular:physics:damping": 0.00034906598739326,
+        "drive:angular:physics:maxForce": 0.10000000149011612,
+        "drive:angular:physics:stiffness": 0.0,
+        "drive:angular:physics:targetPosition": 0.0,
+        "drive:angular:physics:targetVelocity": 0.0,
+        "drive:angular:physics:type": "force",
+        "physics:axis": "Z",
+        "physics:breakForce": null,
+        "physics:breakTorque": null,
+        "physics:collisionEnabled": false,
+        "physics:excludeFromArticulation": false,
+        "physics:jointEnabled": true,
+        "physics:localPos0": [
+          -0.25699999928474426,
+          -0.19750000536441803,
+          0.09254545718431473
+        ],
+        "physics:localPos1": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(1, 0, 0, 0)",
+        "physics:lowerLimit": null,
+        "physics:upperLimit": null
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+        ],
+        "physics:body1": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_swivel_link"
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_swivel_link/front_left_caster_swivel_joint",
+      "attributes": {
+        "physics:axis": "Z",
+        "physics:breakForce": null,
+        "physics:breakTorque": null,
+        "physics:collisionEnabled": false,
+        "physics:excludeFromArticulation": false,
+        "physics:jointEnabled": true,
+        "physics:localPos0": [
+          0.23149999976158142,
+          0.1979999989271164,
+          0.09254545718431473
+        ],
+        "physics:localPos1": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(1, 0, 0, 0)",
+        "physics:lowerLimit": null,
+        "physics:upperLimit": null
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+        ],
+        "physics:body1": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_swivel_link"
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_swivel_link/front_right_caster_swivel_joint",
+      "attributes": {
+        "drive:angular:physics:damping": 0.00034906598739326,
+        "drive:angular:physics:maxForce": 0.10000000149011612,
+        "drive:angular:physics:stiffness": 0.0,
+        "drive:angular:physics:targetPosition": 0.0,
+        "drive:angular:physics:targetVelocity": 0.0,
+        "drive:angular:physics:type": "force",
+        "physics:axis": "Z",
+        "physics:breakForce": null,
+        "physics:breakTorque": null,
+        "physics:collisionEnabled": false,
+        "physics:excludeFromArticulation": false,
+        "physics:jointEnabled": true,
+        "physics:localPos0": [
+          0.23149999976158142,
+          -0.19699999690055847,
+          0.09254545718431473
+        ],
+        "physics:localPos1": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(1, 0, 0, 0)",
+        "physics:lowerLimit": null,
+        "physics:upperLimit": null
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+        ],
+        "physics:body1": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_swivel_link"
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/right_drive_wheel_link/right_wheel_joint",
+      "attributes": {
+        "drive:angular:physics:damping": 100.0,
+        "drive:angular:physics:maxForce": 5.0,
+        "drive:angular:physics:stiffness": 0.0,
+        "drive:angular:physics:targetPosition": 0.0,
+        "drive:angular:physics:targetVelocity": 0.0,
+        "drive:angular:physics:type": "force",
+        "physics:axis": "Y",
+        "physics:breakForce": null,
+        "physics:breakTorque": null,
+        "physics:collisionEnabled": false,
+        "physics:excludeFromArticulation": false,
+        "physics:jointEnabled": true,
+        "physics:localPos0": [
+          0.0,
+          -0.23848341405391693,
+          0.07999999821186066
+        ],
+        "physics:localPos1": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:localRot0": "(1, 0, 0, 0)",
+        "physics:localRot1": "(1, 0, 0, 0)",
+        "physics:lowerLimit": null,
+        "physics:upperLimit": null
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+        ],
+        "physics:body1": [
+          "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/right_drive_wheel_link"
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_wheel_link",
+      "attributes": {
+        "physics:angularVelocity": [
+          0.034265246242284775,
+          -2.389840841293335,
+          0.5050776600837708
+        ],
+        "physics:centerOfMass": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          8.369526040041819e-05,
+          0.00014883751282468438,
+          8.369526040041819e-05
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.30000001192092896,
+        "physics:principalAxes": "(1, 0, 0, 0)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -0.0004724177997559309,
+          -0.00019729332416318357,
+          -0.00031584332464262843
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_swivel_link",
+      "attributes": {
+        "physics:angularVelocity": [
+          0.03323516249656677,
+          0.09850186109542847,
+          0.1397118866443634
+        ],
+        "physics:centerOfMass": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          0.0020000000949949026,
+          0.0020000000949949026,
+          0.0020000000949949026
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.5,
+        "physics:principalAxes": "(1, 0, 0, 0)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -0.00022638103109784424,
+          5.296439667290542e-06,
+          -0.00013305104221217334
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_wheel_link",
+      "attributes": {
+        "physics:angularVelocity": [
+          0.03233451396226883,
+          -0.42296305298805237,
+          0.13972492516040802
+        ],
+        "physics:centerOfMass": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          8.369526040041819e-05,
+          0.00014883751282468438,
+          8.369526040041819e-05
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.30000001192092896,
+        "physics:principalAxes": "(1, 0, 0, 0)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -0.0003314396890345961,
+          -2.512882747396361e-05,
+          -8.660842286190018e-05
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/left_drive_wheel_link",
+      "attributes": {
+        "physics:angularVelocity": [
+          0.033254947513341904,
+          -0.08251670747995377,
+          -0.020478004589676857
+        ],
+        "physics:centerOfMass": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          0.0037041667383164167,
+          0.006399999838322401,
+          0.0037041667383164167
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 2.0,
+        "physics:principalAxes": "(1, 0, 0, 0)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -0.00023328402312472463,
+          -7.930031279101968e-05,
+          -0.0005510672926902771
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_wheel_link",
+      "attributes": {
+        "physics:angularVelocity": [
+          0.06240389868617058,
+          -8.976088523864746,
+          0.6296416521072388
+        ],
+        "physics:centerOfMass": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          8.369526040041819e-05,
+          0.00014883751282468438,
+          8.369526040041819e-05
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.30000001192092896,
+        "physics:principalAxes": "(1, 0, 0, 0)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -0.00047135615022853017,
+          -0.00043055054266005754,
+          -0.0011553536169230938
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_wheel_link",
+      "attributes": {
+        "physics:angularVelocity": [
+          0.03656519576907158,
+          -0.4223482608795166,
+          0.29869797825813293
+        ],
+        "physics:centerOfMass": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          8.369526040041819e-05,
+          0.00014883751282468438,
+          8.369526040041819e-05
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.30000001192092896,
+        "physics:principalAxes": "(1, 0, 0, 0)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -0.00033021860872395337,
+          -0.00027467665495350957,
+          -0.0009262028033845127
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link",
+      "attributes": {
+        "physics:angularVelocity": [
+          0.03323723003268242,
+          0.09849784523248672,
+          -0.020482540130615234
+        ],
+        "physics:centerOfMass": [
+          0.0,
+          0.0,
+          0.18000000715255737
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          2.6090402603149414,
+          5.0177001953125,
+          5.6553802490234375
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 60.0,
+        "physics:principalAxes": "(1, 0, 0, 0)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -0.00014661657041870058,
+          -0.0001373215636704117,
+          -0.0006894477410241961
+        ],
+        "physxArticulation:articulationEnabled": true,
+        "physxArticulation:enabledSelfCollisions": false,
+        "physxArticulation:sleepThreshold": 4.999999873689376e-05,
+        "physxArticulation:solverPositionIterationCount": 32,
+        "physxArticulation:solverVelocityIterationCount": 1,
+        "physxArticulation:stabilizationThreshold": 9.999999747378752e-06
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_swivel_link",
+      "attributes": {
+        "physics:angularVelocity": [
+          0.03323045372962952,
+          0.09851101040840149,
+          0.5050152540206909
+        ],
+        "physics:centerOfMass": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          0.0020000000949949026,
+          0.0020000000949949026,
+          0.0020000000949949026
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.5,
+        "physics:principalAxes": "(1, 0, 0, 0)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -0.0003675716870930046,
+          5.276867341308389e-06,
+          -0.0003622567164711654
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_swivel_link",
+      "attributes": {
+        "physics:angularVelocity": [
+          0.03323311358690262,
+          0.09850583970546722,
+          0.29868486523628235
+        ],
+        "physics:centerOfMass": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          0.0020000000949949026,
+          0.0020000000949949026,
+          0.0020000000949949026
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.5,
+        "physics:principalAxes": "(1, 0, 0, 0)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -0.00022617413196712732,
+          -0.00016934002633206546,
+          -0.000972519104834646
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_swivel_link",
+      "attributes": {
+        "physics:angularVelocity": [
+          0.03322885185480118,
+          0.098514124751091,
+          0.6294139623641968
+        ],
+        "physics:centerOfMass": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          0.0020000000949949026,
+          0.0020000000949949026,
+          0.0020000000949949026
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 0.5,
+        "physics:principalAxes": "(1, 0, 0, 0)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -0.00036736467154696584,
+          -0.00016935956955421716,
+          -0.001201724517159164
+        ]
+      }
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/right_drive_wheel_link",
+      "attributes": {
+        "physics:angularVelocity": [
+          0.03327150270342827,
+          -0.25165626406669617,
+          -0.020473767071962357
+        ],
+        "physics:centerOfMass": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:density": 0.0,
+        "physics:diagonalInertia": [
+          0.0037041667383164167,
+          0.006399999838322401,
+          0.0037041667383164167
+        ],
+        "physics:kinematicEnabled": false,
+        "physics:mass": 2.0,
+        "physics:principalAxes": "(1, 0, 0, 0)",
+        "physics:rigidBodyEnabled": true,
+        "physics:startsAsleep": false,
+        "physics:velocity": [
+          -0.00040377312689088285,
+          -7.932400330901146e-05,
+          -0.0008278356399387121
+        ]
+      }
+    }
+  ],
+  "colliders": [
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_wheel_link/wheel_contact_collider",
+      "type_name": "Cylinder",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_wheel_link",
+      "primitive_cylinder": {
+        "radius_m": 0.0315,
+        "width_m": 0.019262928306058,
+        "axis": "Y",
+        "local_to_owner": [
+          [
+            1.0,
+            -7.842867731203063e-20,
+            -8.785437621136805e-19,
+            0.0
+          ],
+          [
+            -2.7986813110170586e-20,
+            0.9999999999999999,
+            2.1470377206351887e-21,
+            0.0
+          ],
+          [
+            3.0339798351904786e-17,
+            1.3558840252805969e-17,
+            0.9999999999999999,
+            0.0
+          ],
+          [
+            -1.1102230246251565e-16,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "cylinder_convex_approximation_setting": false
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_wheel_link/wheel_contact_collider",
+      "type_name": "Cylinder",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_wheel_link",
+      "primitive_cylinder": {
+        "radius_m": 0.0315,
+        "width_m": 0.019262928306058,
+        "axis": "Y",
+        "local_to_owner": [
+          [
+            1.0,
+            3.7400182308205156e-20,
+            1.235996154507106e-18,
+            9.334569937884827e-36
+          ],
+          [
+            1.4786712185835293e-17,
+            0.9999999999999999,
+            1.4758069412477056e-16,
+            4.517885381693033e-33
+          ],
+          [
+            1.0876593614177461e-16,
+            1.5034487584198145e-16,
+            1.0,
+            -7.256743489235466e-17
+          ],
+          [
+            0.0,
+            -2.220446049250313e-16,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "cylinder_convex_approximation_setting": false
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/left_drive_wheel_link/wheel_contact_collider",
+      "type_name": "Cylinder",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/left_drive_wheel_link",
+      "primitive_cylinder": {
+        "radius_m": 0.08,
+        "width_m": 0.055,
+        "axis": "Y",
+        "local_to_owner": [
+          [
+            1.0,
+            -4.7147832313444104e-17,
+            9.145931627101247e-17,
+            -6.54772088462018e-33
+          ],
+          [
+            -1.4451947803435045e-17,
+            0.9999999999999998,
+            -3.272124517354825e-17,
+            3.5393616702939115e-33
+          ],
+          [
+            2.817084211695695e-17,
+            8.92966395994935e-17,
+            0.9999999999999998,
+            -7.527682438378614e-17
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "cylinder_convex_approximation_setting": false
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_wheel_link/wheel_contact_collider",
+      "type_name": "Cylinder",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_wheel_link",
+      "primitive_cylinder": {
+        "radius_m": 0.0315,
+        "width_m": 0.019262928306058,
+        "axis": "Y",
+        "local_to_owner": [
+          [
+            1.0000000000000002,
+            -5.828710845866356e-17,
+            -3.8399884784763204e-17,
+            0.0
+          ],
+          [
+            -2.585109420916799e-21,
+            1.0,
+            5.667391600536435e-20,
+            0.0
+          ],
+          [
+            -7.307772545638527e-17,
+            -3.058510272584561e-17,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "cylinder_convex_approximation_setting": false
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_wheel_link/wheel_contact_collider",
+      "type_name": "Cylinder",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_wheel_link",
+      "primitive_cylinder": {
+        "radius_m": 0.0315,
+        "width_m": 0.019262928306058,
+        "axis": "Y",
+        "local_to_owner": [
+          [
+            0.9999999999999999,
+            1.6001033581472563e-16,
+            -6.096830411574791e-17,
+            0.0
+          ],
+          [
+            -8.474218259945738e-19,
+            0.9999999999999998,
+            -1.6807336810421929e-19,
+            0.0
+          ],
+          [
+            3.1029745447061944e-17,
+            -7.309038698888914e-18,
+            0.9999999999999999,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "cylinder_convex_approximation_setting": false
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/center",
+      "type_name": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/front_lower",
+      "type_name": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/front_upper",
+      "type_name": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/rear_lower",
+      "type_name": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/rear_upper",
+      "type_name": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/first_deck",
+      "type_name": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/second_deck",
+      "type_name": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/front_bumper",
+      "type_name": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/rear_bumper",
+      "type_name": "Cube",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/enclosure_pentagon_panel_04/Cube_053",
+      "type_name": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/enclosure_pentagon_panel_03/Cube_052",
+      "type_name": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/enclosure_pentagon_panel_05/Cube_054",
+      "type_name": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/enclosure_pentagon_panel_01/Cube_050",
+      "type_name": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/enclosure_pentagon_panel_02/Cube_051",
+      "type_name": "Mesh",
+      "attributes": {
+        "physics:approximation": "convexHull",
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+    },
+    {
+      "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/right_drive_wheel_link/wheel_contact_collider",
+      "type_name": "Cylinder",
+      "attributes": {
+        "physics:collisionEnabled": true
+      },
+      "material_path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/PhysicsMaterials/Wheel",
+      "material_attributes": {
+        "physics:density": 0.0,
+        "physics:dynamicFriction": 0.6000000238418579,
+        "physics:restitution": 0.0,
+        "physics:staticFriction": 0.699999988079071
+      },
+      "world_aabb_m": [
+        [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          3.4028234663852886e+38
+        ],
+        [
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ]
+      ],
+      "owning_rigid_body": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/right_drive_wheel_link",
+      "primitive_cylinder": {
+        "radius_m": 0.08,
+        "width_m": 0.055,
+        "axis": "Y",
+        "local_to_owner": [
+          [
+            1.0,
+            -1.7696430577230802e-18,
+            4.416282193786222e-16,
+            0.0
+          ],
+          [
+            3.4028867993683244e-21,
+            1.0,
+            -6.883172599037573e-21,
+            0.0
+          ],
+          [
+            -6.921121432969993e-17,
+            -2.4736761611211726e-17,
+            1.0000000000000002,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "cylinder_convex_approximation_setting": false
+    }
+  ],
+  "physics_scenes": [
+    {
+      "path": "/World/PhysicsScene",
+      "attributes": {
+        "physics:gravityDirection": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "physics:gravityMagnitude": null,
+        "physxScene:bounceThreshold": 0.0,
+        "physxScene:broadphaseType": "GPU",
+        "physxScene:collisionSystem": "PCM",
+        "physxScene:disableSleeping": false,
+        "physxScene:enableCCD": false,
+        "physxScene:enableEnhancedDeterminism": false,
+        "physxScene:enableExternalForcesEveryIteration": false,
+        "physxScene:enableGPUDynamics": true,
+        "physxScene:enableSceneQuerySupport": true,
+        "physxScene:enableStabilization": false,
+        "physxScene:frictionCorrelationDistance": 0.02500000037252903,
+        "physxScene:frictionOffsetThreshold": 0.03999999910593033,
+        "physxScene:frictionType": "patch",
+        "physxScene:gpuCollisionStackSize": 67108864,
+        "physxScene:gpuFoundLostAggregatePairsCapacity": 1024,
+        "physxScene:gpuFoundLostPairsCapacity": 262144,
+        "physxScene:gpuHeapCapacity": 67108864,
+        "physxScene:gpuMaxDeformableSurfaceContacts": 1048576,
+        "physxScene:gpuMaxDeformableVolumeContacts": 1048576,
+        "physxScene:gpuMaxNumPartitions": 8,
+        "physxScene:gpuMaxParticleContacts": 1048576,
+        "physxScene:gpuMaxRigidContactCount": 524288,
+        "physxScene:gpuMaxRigidPatchCount": 81920,
+        "physxScene:gpuTempBufferCapacity": 16777216,
+        "physxScene:gpuTotalAggregatePairsCapacity": 1024,
+        "physxScene:invertCollisionGroupFilter": false,
+        "physxScene:maxBiasCoefficient": null,
+        "physxScene:maxPositionIterationCount": 255,
+        "physxScene:maxVelocityIterationCount": 255,
+        "physxScene:minPositionIterationCount": 1,
+        "physxScene:minVelocityIterationCount": 0,
+        "physxScene:reportKinematicKinematicPairs": false,
+        "physxScene:reportKinematicStaticPairs": false,
+        "physxScene:solveArticulationContactLast": false,
+        "physxScene:solverType": "TGS",
+        "physxScene:timeStepsPerSecond": 60,
+        "physxScene:updateType": "Synchronous"
+      }
+    }
+  ],
+  "errors": {},
+  "policy": "Read-only resolved values; missing schema attributes are not hardware calibration",
+  "articulation_command_bindings": [
+    {
+      "path": "/World/AGV_control/AGV_DifferentialGraph/ArticulationController",
+      "inputs:effortCommand": null,
+      "inputs:effortCommand_connections": [],
+      "inputs:effortCommand_evaluated": [],
+      "inputs:jointIndices": null,
+      "inputs:jointIndices_connections": [],
+      "inputs:jointIndices_evaluated": [],
+      "inputs:jointNames": null,
+      "inputs:jointNames_connections": [
+        "/World/AGV_control/AGV_DifferentialGraph/ArrayNames.outputs:array"
+      ],
+      "inputs:jointNames_evaluated": [
+        "left_wheel_joint",
+        "right_wheel_joint"
+      ],
+      "inputs:positionCommand": null,
+      "inputs:positionCommand_connections": [],
+      "inputs:positionCommand_evaluated": [],
+      "inputs:robotPath": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link",
+      "inputs:robotPath_connections": [],
+      "inputs:robotPath_evaluated": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link",
+      "inputs:velocityCommand": null,
+      "inputs:velocityCommand_connections": [
+        "/World/AGV_control/AGV_DifferentialGraph/DifferentialController.outputs:velocityCommand"
+      ],
+      "inputs:velocityCommand_evaluated": [
+        0.0,
+        0.0
+      ],
+      "inputs:targetPrim": [
+        "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link"
+      ]
+    }
+  ],
+  "resolved_link_properties": {
+    "get_masses": [
+      [
+        59.999996185302734,
+        0.5,
+        2.0,
+        0.5,
+        0.5,
+        0.5,
+        2.0,
+        0.30000001192092896,
+        0.30000001192092896,
+        0.30000001192092896,
+        0.30000001192092896
+      ]
+    ],
+    "get_inertias": [
+      [
+        [
+          2.6090402603149414,
+          0.0,
+          0.0,
+          0.0,
+          5.0177001953125,
+          0.0,
+          0.0,
+          0.0,
+          5.6553802490234375
+        ],
+        [
+          0.0020000000949949026,
+          0.0,
+          0.0,
+          0.0,
+          0.0020000000949949026,
+          0.0,
+          0.0,
+          0.0,
+          0.0020000000949949026
+        ],
+        [
+          0.0037041667383164167,
+          0.0,
+          0.0,
+          0.0,
+          0.006399999838322401,
+          0.0,
+          0.0,
+          0.0,
+          0.0037041667383164167
+        ],
+        [
+          0.0020000000949949026,
+          0.0,
+          0.0,
+          0.0,
+          0.0020000000949949026,
+          0.0,
+          0.0,
+          0.0,
+          0.0020000000949949026
+        ],
+        [
+          0.0020000000949949026,
+          0.0,
+          0.0,
+          0.0,
+          0.0020000000949949026,
+          0.0,
+          0.0,
+          0.0,
+          0.0020000000949949026
+        ],
+        [
+          0.0020000000949949026,
+          0.0,
+          0.0,
+          0.0,
+          0.0020000000949949026,
+          0.0,
+          0.0,
+          0.0,
+          0.0020000000949949026
+        ],
+        [
+          0.0037041667383164167,
+          0.0,
+          0.0,
+          0.0,
+          0.006399999838322401,
+          0.0,
+          0.0,
+          0.0,
+          0.0037041667383164167
+        ],
+        [
+          8.369526040041819e-05,
+          0.0,
+          0.0,
+          0.0,
+          0.00014883751282468438,
+          0.0,
+          0.0,
+          0.0,
+          8.369526040041819e-05
+        ],
+        [
+          8.369526040041819e-05,
+          0.0,
+          0.0,
+          0.0,
+          0.00014883751282468438,
+          0.0,
+          0.0,
+          0.0,
+          8.369526040041819e-05
+        ],
+        [
+          8.369526040041819e-05,
+          0.0,
+          0.0,
+          0.0,
+          0.00014883751282468438,
+          0.0,
+          0.0,
+          0.0,
+          8.369526040041819e-05
+        ],
+        [
+          8.369526040041819e-05,
+          0.0,
+          0.0,
+          0.0,
+          0.00014883751282468438,
+          0.0,
+          0.0,
+          0.0,
+          8.369526040041819e-05
+        ]
+      ]
+    ],
+    "get_coms": [
+      [
+        [
+          0.0,
+          0.0,
+          0.18000000715255737,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    ],
+    "link_names": [
+      "base_link",
+      "rear_left_caster_swivel_link",
+      "left_drive_wheel_link",
+      "rear_right_caster_swivel_link",
+      "front_left_caster_swivel_link",
+      "front_right_caster_swivel_link",
+      "right_drive_wheel_link",
+      "rear_left_caster_wheel_link",
+      "rear_right_caster_wheel_link",
+      "front_left_caster_wheel_link",
+      "front_right_caster_wheel_link"
+    ]
+  }
+}

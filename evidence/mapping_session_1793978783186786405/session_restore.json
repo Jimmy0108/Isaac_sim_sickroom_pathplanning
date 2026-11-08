@@ -1,0 +1,12 @@
+{
+  "removed_layers": [
+    "anon:0x561fbbaa8350:amr_physx_lidar_v6.usda"
+  ],
+  "timeline_stopped": true,
+  "usd_saved": false,
+  "clock_restore": {
+    "errors": [],
+    "action": "NONE: V66 did not change simulation/render dt or timeline metadata"
+  },
+  "cleanup_errors": []
+}

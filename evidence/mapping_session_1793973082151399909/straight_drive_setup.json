@@ -1,0 +1,10 @@
+{
+  "articulation_controller": "/World/AGV_control/AGV_DifferentialGraph/ArticulationController",
+  "articulation_root": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link",
+  "joint_names_controller_order": [
+    "left_wheel_joint",
+    "right_wheel_joint"
+  ],
+  "velocity_iterations": 1,
+  "policy": "READ_ONLY. No wheel binding, solver, gains, friction or force rewrite."
+}

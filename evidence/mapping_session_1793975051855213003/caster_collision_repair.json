@@ -1,0 +1,10 @@
+{
+  "action": "validated_existing_V66_four_casters",
+  "before": {
+    "front_left": 1,
+    "front_right": 1,
+    "rear_left": 1,
+    "rear_right": 1
+  },
+  "stage_edits": false
+}

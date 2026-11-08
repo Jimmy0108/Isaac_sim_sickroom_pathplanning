@@ -1,0 +1,150 @@
+{
+  "revision": "2026-10-26-collision-ray-lidar-v6",
+  "primary_backend": "PHYSX_COLLISION_RAYCAST",
+  "robot_root": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root",
+  "scan_hz": 10.0,
+  "beam_count": 720,
+  "max_range_m": 12.0,
+  "scene_query_scenes": [
+    "/World/PhysicsScene"
+  ],
+  "session_layer_identifier": "anon:0x561f49c28dc0:amr_physx_lidar_v6.usda",
+  "RTX_reference": "DIAGNOSTIC_ONLY; never passed to the estimator/controller",
+  "world_pose_usage": "Only inside sensor simulation to cast rays; not an estimator pose observation",
+  "policy": "Nearest physical hit. A self hit occludes its beam; no farther point is substituted. Unknown external hit paths remain obstacles. No-hit beams do not become occupied endpoints.",
+  "active_external_collision_prims": [
+    {
+      "path": "/World/Colider/floor",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/bed",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/pillow",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/wall_e",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/wall_s",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/trashbin_01",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/trashbin_02",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/cabinet",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/sickroomOBJ/bed/sugarfine_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000_normalconsistency01_gaussperface1_001",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/sickroomOBJ/anesthesia_machine/sugarfine_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000_normalconsistency01_gaussperface1_003",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/sickroomOBJ/cabinet/sugarfine_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000_normalconsistency01_gaussperface1_002",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/wall_w",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/wall_n_main",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/wall_n_1",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/celling",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Colider/wall_n_2",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle/Circle_Material_0/Circle_Material_0",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle/Circle_Material_001_0/Circle_Material_001_0",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle/Circle_Material_002_0/Circle_Material_002_0",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle_001/Circle_001_Material_001_0/Circle_001_Material_001_0",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle_002/Circle_002_Material_001_0/Circle_002_Material_001_0",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle_002/Circle_002_Material_001_0_1/Circle_002_Material_001_0",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle_002/Circle_002_Material_0/Circle_002_Material_0",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Box/Meshes/Sketchfab_model/a0dc61f4bffe4d9ba466d6d1dc0b6b24_3ds/Box001/_DSMeshMatrix/Object_4/Object_0",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/Box/Meshes/Sketchfab_model/a0dc61f4bffe4d9ba466d6d1dc0b6b24_3ds/Box001/_DSMeshMatrix/Object_5/Object_1",
+      "type_name": "Mesh"
+    },
+    {
+      "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/waist_link_2/waist_link_3/waist_link_4/chest/neck_link/head/box_1",
+      "type_name": "Cube"
+    },
+    {
+      "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/waist_link_2/waist_link_3/waist_link_4/chest/neck_link/cylinder_1",
+      "type_name": "Cylinder"
+    },
+    {
+      "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/waist_link_2/waist_link_3/waist_link_4/chest/box_1",
+      "type_name": "Cube"
+    },
+    {
+      "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/waist_link_2/waist_link_3/waist_link_4/cylinder_1",
+      "type_name": "Cylinder"
+    },
+    {
+      "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/waist_link_2/waist_link_3/cylinder_1",
+      "type_name": "Cylinder"
+    },
+    {
+      "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/waist_link_2/cylinder_1",
+      "type_name": "Cylinder"
+    },
+    {
+      "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/cylinder_1",
+      "type_name": "Cylinder"
+    },
+    {
+      "path": "/World/robotwitharm/Geometry/world/base_cart/box_1",
+      "type_name": "Cube"
+    }
+  ],
+  "collision_model_limitation": "Only collision-enabled geometry is visible to this simulated sensor. Missing furniture colliders must be added before navigation acceptance."
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "wall_unix_s": 1793960034.949001,
+    "wall_monotonic_s": 6445912.297944531,
+    "physics_s": 0.0,
+    "mode": "STARTUP",
+    "message": "V66 dimensions, six wheel colliders and graph bindings checked. No old torque/friction/caster repair applied."
+  },
+  {
+    "wall_unix_s": 1793960034.9502783,
+    "wall_monotonic_s": 6445912.29922188,
+    "physics_s": 0.0,
+    "mode": "STARTUP",
+    "message": "Caster inventory: validated_existing_V66_four_casters; no geometry edits."
+  },
+  {
+    "wall_unix_s": 1793960034.95105,
+    "wall_monotonic_s": 6445912.299992612,
+    "physics_s": 0.0,
+    "mode": "STARTUP",
+    "message": "Existing wheel binding verified; solver, drive gains, force and materials preserved."
+  },
+  {
+    "wall_unix_s": 1793960035.0022016,
+    "wall_monotonic_s": 6445912.351144939,
+    "physics_s": 0.0,
+    "mode": "STARTUP",
+    "message": "Waiting for Play; no saved-map load or active recovery movement on startup."
+  },
+  {
+    "wall_unix_s": 1793960043.9058204,
+    "wall_monotonic_s": 6445921.254763038,
+    "physics_s": 0.05,
+    "mode": "STARTUP",
+    "message": "Scene physics rate retained: 60.0 Hz. Render timing is unchanged."
+  },
+  {
+    "wall_unix_s": 1793960043.90676,
+    "wall_monotonic_s": 6445921.255702456,
+    "physics_s": 0.05,
+    "mode": "STARTUP",
+    "message": "Waiting >=3 simulation seconds and 1 second of quiet wheel encoders..."
+  },
+  {
+    "wall_unix_s": 1793960063.5773282,
+    "wall_monotonic_s": 6445940.926271176,
+    "physics_s": 1.6666666666666667,
+    "mode": "STARTUP",
+    "message": "Manual IO not ready or a map operation is running."
+  },
+  {
+    "wall_unix_s": 1793960079.9575179,
+    "wall_monotonic_s": 6445957.306460633,
+    "physics_s": 3.05,
+    "mode": "STARTUP",
+    "message": "Validating one common physics clock and wheel/body standstill before manual motion..."
+  },
+  {
+    "wall_unix_s": 1793960086.4998944,
+    "wall_monotonic_s": 6445963.848836858,
+    "physics_s": 3.55,
+    "mode": "MANUAL",
+    "message": "Manual ready. Test four directions; then Start NEW map. A is never read from world pose."
+  },
+  {
+    "wall_unix_s": 1793960293.2443495,
+    "wall_monotonic_s": 6446170.593292053,
+    "physics_s": 30.05,
+    "mode": "MANUAL",
+    "message": "Direct target +0.00 m/s, +0.90 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793960313.3387148,
+    "wall_monotonic_s": 6446190.687657722,
+    "physics_s": 32.63333333333333,
+    "mode": "MANUAL",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793960342.7825449,
+    "wall_monotonic_s": 6446220.131487831,
+    "physics_s": 36.666666666666664,
+    "mode": "MANUAL",
+    "message": "Direct target +0.90 m/s, +0.00 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793960369.963938,
+    "wall_monotonic_s": 6446247.312880917,
+    "physics_s": 40.35,
+    "mode": "MANUAL",
+    "message": "STOP: local 2D scan blocks swept footprint; hit front XY=[1.028, -0.259] m; prim=/World/Colider/wall_s"
+  },
+  {
+    "wall_unix_s": 1793960370.8368316,
+    "wall_monotonic_s": 6446248.185774369,
+    "physics_s": 40.46666666666667,
+    "mode": "MANUAL",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793960374.8795426,
+    "wall_monotonic_s": 6446252.228485257,
+    "physics_s": 41.03333333333333,
+    "mode": "MANUAL",
+    "message": "Direct target +0.00 m/s, +0.90 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793960412.714994,
+    "wall_monotonic_s": 6446290.063937164,
+    "physics_s": 46.03333333333333,
+    "mode": "MANUAL",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793960415.0818708,
+    "wall_monotonic_s": 6446292.430813749,
+    "physics_s": 46.36666666666667,
+    "mode": "MANUAL",
+    "message": "Direct target +0.90 m/s, +0.00 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793960456.9114537,
+    "wall_monotonic_s": 6446334.260396426,
+    "physics_s": 51.96666666666667,
+    "mode": "MANUAL",
+    "message": "Session stopped: RuntimeError: Vehicle tilt exceeds 20 degrees; stopped. Inspect contacts before resuming."
+  }
+]

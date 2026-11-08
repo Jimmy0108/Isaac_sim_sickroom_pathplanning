@@ -1,0 +1,686 @@
+[
+  {
+    "path": "evidence/mapping_session_1793961409915912543/caster_collision_repair.json",
+    "source": "mapping_session_1793961409915912543/caster_collision_repair.json",
+    "bytes": 179,
+    "sha256": "dbc2c6bfe2c1a0ee85edb943022c728428f3ed248ad72648b37aac8939e9f7c3"
+  },
+  {
+    "path": "evidence/mapping_session_1793961409915912543/control_tracking_v66.csv",
+    "source": "mapping_session_1793961409915912543/control_tracking_v66.csv",
+    "bytes": 275509,
+    "sha256": "062b8c1aa826eb28e477b87c1075ff5f46a5036862eb8392ad54abb59dc8902f"
+  },
+  {
+    "path": "evidence/mapping_session_1793961409915912543/effective_physics.json",
+    "source": "mapping_session_1793961409915912543/effective_physics.json",
+    "bytes": 55444,
+    "sha256": "3499ef1ed39a4bb0e0c96ec67bbb849f28cda600a06112ff60b573a2d0fecf30"
+  },
+  {
+    "path": "evidence/mapping_session_1793961409915912543/manual_stops.json",
+    "source": "mapping_session_1793961409915912543/manual_stops.json",
+    "bytes": 541,
+    "sha256": "3a95c782476792c604af4f45e74078852b2f1d1e202013e80893518f1b70e9ab"
+  },
+  {
+    "path": "evidence/mapping_session_1793961409915912543/mapping_sensor_frames.json",
+    "source": "mapping_session_1793961409915912543/mapping_sensor_frames.json",
+    "bytes": 32770475,
+    "sha256": "1170cbcc06fb249b3621510b4db192b9b6d4551148a78f77740c096024e4e579"
+  },
+  {
+    "path": "evidence/mapping_session_1793961409915912543/mapping_sensor_samples.npz",
+    "source": "mapping_session_1793961409915912543/mapping_sensor_samples.npz",
+    "bytes": 2645437,
+    "sha256": "ff656dd3654f178f7c08bd481f437678d96ee640a6c8a9287f626fe1b9ff7afe"
+  },
+  {
+    "path": "evidence/mapping_session_1793961409915912543/physics_clock_setup.json",
+    "source": "mapping_session_1793961409915912543/physics_clock_setup.json",
+    "bytes": 272,
+    "sha256": "12c0703e7f5b96df29adb445da661539bd29fc2d3521443f671d3720fcfea62d"
+  },
+  {
+    "path": "evidence/mapping_session_1793961409915912543/session_restore.json",
+    "source": "mapping_session_1793961409915912543/session_restore.json",
+    "bytes": 280,
+    "sha256": "6d4b8816a54f95532b60309ec3e092e5fe006ef296b818c3d541141755c6023a"
+  },
+  {
+    "path": "evidence/mapping_session_1793961409915912543/straight_drive_setup.json",
+    "source": "mapping_session_1793961409915912543/straight_drive_setup.json",
+    "bytes": 397,
+    "sha256": "f95b543b04a971a3946640159595f723b25669be8fb0d79d9c761f28afbab6dc"
+  },
+  {
+    "path": "evidence/mapping_session_1793961409915912543/vehicle_preflight.json",
+    "source": "mapping_session_1793961409915912543/vehicle_preflight.json",
+    "bytes": 89882,
+    "sha256": "ab2b77744be3660d7a8be1201191bb621693a4424132ebc2535fb0092bd5e1df"
+  },
+  {
+    "path": "evidence/mapping_session_1793963081030061346/arrival.json",
+    "source": "mapping_session_1793963081030061346/arrival.json",
+    "bytes": 1067,
+    "sha256": "0e01b1a2637723cf6eda4cd751095de9c17dd25095849701f1ee81b193ca4d28"
+  },
+  {
+    "path": "evidence/mapping_session_1793963081030061346/caster_collision_repair.json",
+    "source": "mapping_session_1793963081030061346/caster_collision_repair.json",
+    "bytes": 179,
+    "sha256": "dbc2c6bfe2c1a0ee85edb943022c728428f3ed248ad72648b37aac8939e9f7c3"
+  },
+  {
+    "path": "evidence/mapping_session_1793963081030061346/consumed_slam_inputs.npz",
+    "source": "mapping_session_1793963081030061346/consumed_slam_inputs.npz",
+    "bytes": 5391415,
+    "sha256": "506230d180dc3ca4d1ecf30afb362560ff4e34e44f553c2afdc473f4b57f39f1"
+  },
+  {
+    "path": "evidence/mapping_session_1793963081030061346/control_tracking_v66.csv",
+    "source": "mapping_session_1793963081030061346/control_tracking_v66.csv",
+    "bytes": 809570,
+    "sha256": "21283a684930f38d57170bab77183b917afab19d9f97be74ba155c0bd53378dd"
+  },
+  {
+    "path": "evidence/mapping_session_1793963081030061346/effective_physics.json",
+    "source": "mapping_session_1793963081030061346/effective_physics.json",
+    "bytes": 55542,
+    "sha256": "915d1f1722c5b5645fe163469d87fa989461dc43c40c8ac17579c5e4227f86db"
+  },
+  {
+    "path": "evidence/mapping_session_1793963081030061346/hybrid_path.npz",
+    "source": "mapping_session_1793963081030061346/hybrid_path.npz",
+    "bytes": 4379,
+    "sha256": "f845f358c2466084a87f255af124ad6670a42e7c9da58cddc2d3384c2f0609a7"
+  },
+  {
+    "path": "evidence/mapping_session_1793963081030061346/manual_stops.json",
+    "source": "mapping_session_1793963081030061346/manual_stops.json",
+    "bytes": 524,
+    "sha256": "7a12d9f1e2bc4e08d9f73884038bf24414d5b63608e34c8de9af99abc3b07eb4"
+  },
+  {
+    "path": "evidence/mapping_session_1793963081030061346/mapping_sensor_frames.json",
+    "source": "mapping_session_1793963081030061346/mapping_sensor_frames.json",
+    "bytes": 106045496,
+    "sha256": "9afa8e16b4f7290468780b1777f932c19a8b0d971af67dadec3ae42dc91c6e59"
+  },
+  {
+    "path": "evidence/mapping_session_1793963081030061346/mapping_sensor_samples.npz",
+    "source": "mapping_session_1793963081030061346/mapping_sensor_samples.npz",
+    "bytes": 7661026,
+    "sha256": "cc1d662093be5b56429088686ff950ccd9f5603445a1deff13c30b548020fec8"
+  },
+  {
+    "path": "evidence/mapping_session_1793963081030061346/physics_clock_setup.json",
+    "source": "mapping_session_1793963081030061346/physics_clock_setup.json",
+    "bytes": 272,
+    "sha256": "12c0703e7f5b96df29adb445da661539bd29fc2d3521443f671d3720fcfea62d"
+  },
+  {
+    "path": "evidence/mapping_session_1793963081030061346/session_restore.json",
+    "source": "mapping_session_1793963081030061346/session_restore.json",
+    "bytes": 280,
+    "sha256": "c1580cc0c5dc3f27ebcf59bb3df0193c44f4359f05cabb06709db28410f6fd59"
+  },
+  {
+    "path": "evidence/mapping_session_1793963081030061346/straight_drive_setup.json",
+    "source": "mapping_session_1793963081030061346/straight_drive_setup.json",
+    "bytes": 397,
+    "sha256": "f95b543b04a971a3946640159595f723b25669be8fb0d79d9c761f28afbab6dc"
+  },
+  {
+    "path": "evidence/mapping_session_1793963081030061346/vehicle_preflight.json",
+    "source": "mapping_session_1793963081030061346/vehicle_preflight.json",
+    "bytes": 90514,
+    "sha256": "70bdcf958cd8aed14c22e34c8d57f3b2eceebe9f662f204a58eb24e63052f477"
+  },
+  {
+    "path": "evidence/vehicle_audit_1793959316512928162/REPORT.txt",
+    "source": "vehicle_audit_1793959316512928162/REPORT.txt",
+    "bytes": 14645,
+    "sha256": "d72470ba02f0921f7acc60cd3132a3b0d4f9a68a526027e20e11875c0d5fe696"
+  },
+  {
+    "path": "evidence/vehicle_audit_1793959316512928162/runtime_samples.csv",
+    "source": "vehicle_audit_1793959316512928162/runtime_samples.csv",
+    "bytes": 536387,
+    "sha256": "fea5103bf7157e75e917f111a46a30e9535db8cd8d97193ca5b50009578eccb2"
+  },
+  {
+    "path": "evidence/vehicle_audit_1793959316512928162/runtime_samples.json",
+    "source": "vehicle_audit_1793959316512928162/runtime_samples.json",
+    "bytes": 829993,
+    "sha256": "be5fac9a626b3f920b62f430fe9436d830c2aa37a9cc775b078eadabf499689c"
+  },
+  {
+    "path": "evidence/vehicle_audit_1793959316512928162/timing_summary.json",
+    "source": "vehicle_audit_1793959316512928162/timing_summary.json",
+    "bytes": 109,
+    "sha256": "713e92f9b1133fa67ec2181d07ba0e39fbbc1b60870120ce300a7ec9e316ccc2"
+  },
+  {
+    "path": "evidence/vehicle_audit_1793959316512928162/vehicle_static.json",
+    "source": "vehicle_audit_1793959316512928162/vehicle_static.json",
+    "bytes": 94705,
+    "sha256": "6ac5e088e9f71e9d52352636310a8a6fffb8727f09f04f1955f3c571135e4fed"
+  },
+  {
+    "path": "evidence/wheel_contact_1793961390414977160/collider_inventory.json",
+    "source": "wheel_contact_1793961390414977160/collider_inventory.json",
+    "bytes": 45046,
+    "sha256": "e3920a6c4fef2fdf1bad8753919f5439b39dcf2f778fe6e96eb7150724f5a62f"
+  },
+  {
+    "path": "evidence/wheel_contact_1793961390414977160/contact_pairs.json",
+    "source": "wheel_contact_1793961390414977160/contact_pairs.json",
+    "bytes": 42528192,
+    "sha256": "8a189b206f3de744f93d9224a16dceee33c5921b1aa9c4f3276d52c75cca2a01"
+  },
+  {
+    "path": "evidence/wheel_contact_1793961390414977160/metadata.json",
+    "source": "wheel_contact_1793961390414977160/metadata.json",
+    "bytes": 3297,
+    "sha256": "6b794eb1c8005a5278dd33ac9451d542c98429a79a5b5e9d2c5b1eb13f29f8de"
+  },
+  {
+    "path": "evidence/wheel_contact_1793961390414977160/vehicle_geometry.json",
+    "source": "wheel_contact_1793961390414977160/vehicle_geometry.json",
+    "bytes": 89811,
+    "sha256": "5f44431fd1226becb3f21874089cd3280891e07255482efaed7754fc6d654092"
+  },
+  {
+    "path": "evidence/wheel_contact_1793961390414977160/wheel_kinematics.json",
+    "source": "wheel_contact_1793961390414977160/wheel_kinematics.json",
+    "bytes": 17426091,
+    "sha256": "3aa4e08a88434db71b28f3ede6c270b6ddfa788707dc38f7cb2640cee24c5b59"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/session_restore.json",
+    "source": "mapping_session_1793960034812122109.zip!/session_restore.json",
+    "bytes": 280,
+    "sha256": "7aee5ead10a4449927593117032da89d70dc611e74cb33d383d50bb348c6a03c"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/effective_physics.json",
+    "source": "mapping_session_1793960034812122109.zip!/effective_physics.json",
+    "bytes": 55387,
+    "sha256": "70b1b6dcd80ab20a5104b6636805dc0672115fdd13d3de6c1a2f9281938341ee"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/mapping_sensor_frames.json",
+    "source": "mapping_session_1793960034812122109.zip!/mapping_sensor_frames.json",
+    "bytes": 34317149,
+    "sha256": "d90425b694425b4ce6615c599f9c2fe8fe1c625361dc5f729a11a1d964c22247"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/straight_drive_setup.json",
+    "source": "mapping_session_1793960034812122109.zip!/straight_drive_setup.json",
+    "bytes": 397,
+    "sha256": "f95b543b04a971a3946640159595f723b25669be8fb0d79d9c761f28afbab6dc"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/physics_clock_audit.json",
+    "source": "mapping_session_1793960034812122109.zip!/physics_clock_audit.json",
+    "bytes": 648810,
+    "sha256": "6f2c86ea330a6b3d3f8dbea07523b120e40ab8f81648719256a8e414c7150fe2"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/control_diagnostics.json",
+    "source": "mapping_session_1793960034812122109.zip!/control_diagnostics.json",
+    "bytes": 5060398,
+    "sha256": "7fe65686bc94a4b4b189f736c0938e13f8202ee6e4f7f75509363cfc52ef4db7"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/summary.json",
+    "source": "mapping_session_1793960034812122109.zip!/summary.json",
+    "bytes": 1151,
+    "sha256": "6e6dccdae0de71395d00b4eef237075b7aaedc9fe6b289314445bbe5fb4ad09b"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/manual_stops.json",
+    "source": "mapping_session_1793960034812122109.zip!/manual_stops.json",
+    "bytes": 524,
+    "sha256": "877545f5510fcc0fe618d86ed9c6fb2c15c9f22a37ebc44feaeb4be35832de6f"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/caster_collision_repair.json",
+    "source": "mapping_session_1793960034812122109.zip!/caster_collision_repair.json",
+    "bytes": 179,
+    "sha256": "dbc2c6bfe2c1a0ee85edb943022c728428f3ed248ad72648b37aac8939e9f7c3"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/control_tracking_v66.csv",
+    "source": "mapping_session_1793960034812122109.zip!/control_tracking_v66.csv",
+    "bytes": 260781,
+    "sha256": "17f3bf66a97a41c58b1b0354b259939c73573cf65aa610f3c8575b9360ebe8bc"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/mapping_sensor_samples.npz",
+    "source": "mapping_session_1793960034812122109.zip!/mapping_sensor_samples.npz",
+    "bytes": 2628148,
+    "sha256": "41e8ce865e0d1c6483c31aa1086a6517c5cba92ae52dc1586cf656735eab6549"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/stop_tracking.json",
+    "source": "mapping_session_1793960034812122109.zip!/stop_tracking.json",
+    "bytes": 970149,
+    "sha256": "538427db4a5e867c9e0f7a969c396133a2a481b442dfc18ab4af06e7a53a6df7"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/effective_config.json",
+    "source": "mapping_session_1793960034812122109.zip!/effective_config.json",
+    "bytes": 3448,
+    "sha256": "386b681e2f1870ed563975db301a248d90de87c12dd94a7783a0b86d8caaf568"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/physics_clock_setup.json",
+    "source": "mapping_session_1793960034812122109.zip!/physics_clock_setup.json",
+    "bytes": 272,
+    "sha256": "12c0703e7f5b96df29adb445da661539bd29fc2d3521443f671d3720fcfea62d"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/events.json",
+    "source": "mapping_session_1793960034812122109.zip!/events.json",
+    "bytes": 4318,
+    "sha256": "901a15fcb81d43cce8ca850f8fa5d71079b66148c2b113ce86c0aa09ca1379a0"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/sensor_setup.json",
+    "source": "mapping_session_1793960034812122109.zip!/sensor_setup.json",
+    "bytes": 5566,
+    "sha256": "9ddaeba19ce8ca86c114e6ca04a062df695d1b6c4118d6d4816c29a989637075"
+  },
+  {
+    "path": "evidence/mapping_session_1793960034812122109/vehicle_preflight.json",
+    "source": "mapping_session_1793960034812122109.zip!/vehicle_preflight.json",
+    "bytes": 89823,
+    "sha256": "3b87c3920ba232f8d37b390adb215a61cc41d372e4952a21c6a12776e0785bc7"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/session_restore.json",
+    "source": "mapping_session_1793973082151399909.zip!/session_restore.json",
+    "bytes": 280,
+    "sha256": "47bb22a0c79854e89446a341180ccf98b0347ba7f7a161b2ff2be8708d942530"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/effective_physics.json",
+    "source": "mapping_session_1793973082151399909.zip!/effective_physics.json",
+    "bytes": 55599,
+    "sha256": "c9c7aefc791b3aba1f8eb9bcfd2e3dffd6682b80618224352e94aabee9090f58"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/mapping_sensor_frames.json",
+    "source": "mapping_session_1793973082151399909.zip!/mapping_sensor_frames.json",
+    "bytes": 16754614,
+    "sha256": "bd6bf73efdcdaf4eee0d73defce3a5ac1ac2d39af8895ca0e4a8f3cc9934206c"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/straight_drive_setup.json",
+    "source": "mapping_session_1793973082151399909.zip!/straight_drive_setup.json",
+    "bytes": 397,
+    "sha256": "f95b543b04a971a3946640159595f723b25669be8fb0d79d9c761f28afbab6dc"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/physics_clock_audit.json",
+    "source": "mapping_session_1793973082151399909.zip!/physics_clock_audit.json",
+    "bytes": 316303,
+    "sha256": "9f3b6c43389649a93cc412a9681bfa3b191c86673624acaabc4b58d6563af2f5"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/control_diagnostics.json",
+    "source": "mapping_session_1793973082151399909.zip!/control_diagnostics.json",
+    "bytes": 2469969,
+    "sha256": "277864d4f3e63f4608cd02ff92c9225c7dd6d8627febaeb0ad8ece278e7e58db"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/summary.json",
+    "source": "mapping_session_1793973082151399909.zip!/summary.json",
+    "bytes": 1084,
+    "sha256": "2d327888de633b7749a3c45d780e1b53bff8ff42abcffbd3cf704b3f37892473"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/manual_stops.json",
+    "source": "mapping_session_1793973082151399909.zip!/manual_stops.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/caster_collision_repair.json",
+    "source": "mapping_session_1793973082151399909.zip!/caster_collision_repair.json",
+    "bytes": 179,
+    "sha256": "dbc2c6bfe2c1a0ee85edb943022c728428f3ed248ad72648b37aac8939e9f7c3"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/control_tracking_v66.csv",
+    "source": "mapping_session_1793973082151399909.zip!/control_tracking_v66.csv",
+    "bytes": 133841,
+    "sha256": "3903d77b1ed9be26fe10820864e5812f1ed8cd646e142a64f8c6570b59aa1fa9"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/mapping_sensor_samples.npz",
+    "source": "mapping_session_1793973082151399909.zip!/mapping_sensor_samples.npz",
+    "bytes": 1298135,
+    "sha256": "0de5c30be5c135d2457309de943d2f88f1eeadde17e930f2be59e8fb732811de"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/stop_tracking.json",
+    "source": "mapping_session_1793973082151399909.zip!/stop_tracking.json",
+    "bytes": 475586,
+    "sha256": "b876cbb3409c4c6c8a15890219c202ab1ed88ff999799d13c677c837ef6df465"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/effective_config.json",
+    "source": "mapping_session_1793973082151399909.zip!/effective_config.json",
+    "bytes": 3448,
+    "sha256": "931e0f06c013b6be9483773cc712f9caa70f613c720aa82a12d63d856536f11d"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/physics_clock_setup.json",
+    "source": "mapping_session_1793973082151399909.zip!/physics_clock_setup.json",
+    "bytes": 272,
+    "sha256": "12c0703e7f5b96df29adb445da661539bd29fc2d3521443f671d3720fcfea62d"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/events.json",
+    "source": "mapping_session_1793973082151399909.zip!/events.json",
+    "bytes": 3851,
+    "sha256": "9d0f2f4aad0bc4016353c88be984d660594c2368b82f87731cf7745cb55af685"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/sensor_setup.json",
+    "source": "mapping_session_1793973082151399909.zip!/sensor_setup.json",
+    "bytes": 5566,
+    "sha256": "e6509e56e1d467e3849c78fd490a3d6c26e186a1be15ab5a1a82030d9abc0310"
+  },
+  {
+    "path": "evidence/mapping_session_1793973082151399909/vehicle_preflight.json",
+    "source": "mapping_session_1793973082151399909.zip!/vehicle_preflight.json",
+    "bytes": 90573,
+    "sha256": "8a323994c2f94757d73de6e2474e8004a2293ea317b3e265a23a34988c5c523e"
+  },
+  {
+    "path": "evidence/mapping_session_1793975051855213003/session_restore.json",
+    "source": "mapping_session_1793975051855213003.zip!/session_restore.json",
+    "bytes": 280,
+    "sha256": "7da84d346275fd0b7587b9db402523ad8a4abdf2d9a442f1841a2ec4ebf14a14"
+  },
+  {
+    "path": "evidence/mapping_session_1793975051855213003/effective_physics.json",
+    "source": "mapping_session_1793975051855213003.zip!/effective_physics.json",
+    "bytes": 55690,
+    "sha256": "0146eecbff2027220ebad1150776d580970ffc8560848c5f08b29f7d1fb40927"
+  },
+  {
+    "path": "evidence/mapping_session_1793975051855213003/mapping_sensor_frames.json",
+    "source": "mapping_session_1793975051855213003.zip!/mapping_sensor_frames.json",
+    "bytes": 32880948,
+    "sha256": "7da91caf78e60e46319f2a305f538f9238a2518e1f245d918b01825f532dad99"
+  },
+  {
+    "path": "evidence/mapping_session_1793975051855213003/straight_drive_setup.json",
+    "source": "mapping_session_1793975051855213003.zip!/straight_drive_setup.json",
+    "bytes": 397,
+    "sha256": "f95b543b04a971a3946640159595f723b25669be8fb0d79d9c761f28afbab6dc"
+  },
+  {
+    "path": "evidence/mapping_session_1793975051855213003/physics_clock_audit.json",
+    "source": "mapping_session_1793975051855213003.zip!/physics_clock_audit.json",
+    "bytes": 603173,
+    "sha256": "e5b6780e3c7b5354cefb2dbf7affe20fa8ef3c072b7e5d1368bae3010a5ab9ae"
+  },
+  {
+    "path": "evidence/mapping_session_1793975051855213003/control_diagnostics.json",
+    "source": "mapping_session_1793975051855213003.zip!/control_diagnostics.json",
+    "bytes": 4698554,
+    "sha256": "5b88e3da9b22fcd75601aa7fbfb0ba48b007b51b3f911a7f6b2217a8288700f1"
+  },
+  {
+    "path": "evidence/mapping_session_1793975051855213003/manual_stops.json",
+    "source": "mapping_session_1793975051855213003.zip!/manual_stops.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "evidence/mapping_session_1793975051855213003/caster_collision_repair.json",
+    "source": "mapping_session_1793975051855213003.zip!/caster_collision_repair.json",
+    "bytes": 179,
+    "sha256": "dbc2c6bfe2c1a0ee85edb943022c728428f3ed248ad72648b37aac8939e9f7c3"
+  },
+  {
+    "path": "evidence/mapping_session_1793975051855213003/control_tracking_v66.csv",
+    "source": "mapping_session_1793975051855213003.zip!/control_tracking_v66.csv",
+    "bytes": 246311,
+    "sha256": "beb8dbac93b5fa8e5a35ff301c0dd5d69f4d0b40485658f2ad911c94b33cf244"
+  },
+  {
+    "path": "evidence/mapping_session_1793975051855213003/mapping_sensor_samples.npz",
+    "source": "mapping_session_1793975051855213003.zip!/mapping_sensor_samples.npz",
+    "bytes": 2442674,
+    "sha256": "a64520abcf2c936142867dd0a84d41074654e7f6761a95f25dfbdf1cc77bb63b"
+  },
+  {
+    "path": "evidence/mapping_session_1793975051855213003/physics_clock_setup.json",
+    "source": "mapping_session_1793975051855213003.zip!/physics_clock_setup.json",
+    "bytes": 272,
+    "sha256": "12c0703e7f5b96df29adb445da661539bd29fc2d3521443f671d3720fcfea62d"
+  },
+  {
+    "path": "evidence/mapping_session_1793975051855213003/vehicle_preflight.json",
+    "source": "mapping_session_1793975051855213003.zip!/vehicle_preflight.json",
+    "bytes": 90652,
+    "sha256": "5f35e82e47e27a00cc19c187988c95206750a470e03f6d51328cbd58f3e2a62e"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/session_restore.json",
+    "source": "mapping_session_1793978783186786405.zip!/session_restore.json",
+    "bytes": 280,
+    "sha256": "16124d7060484f4ea2dd75751e5315855e15c3491a41d58489f0e3b477f52cd6"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/effective_physics.json",
+    "source": "mapping_session_1793978783186786405.zip!/effective_physics.json",
+    "bytes": 55633,
+    "sha256": "f85a4116eebb7a1ddc8d4b1161d2b090028da47351cb31e0207d70305b59f225"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/mapping_sensor_frames.json",
+    "source": "mapping_session_1793978783186786405.zip!/mapping_sensor_frames.json",
+    "bytes": 43824238,
+    "sha256": "fa9ce22a37c28f9898c9337bda73a6dc5fb4112b5b0192e714357193509dbfcb"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/straight_drive_setup.json",
+    "source": "mapping_session_1793978783186786405.zip!/straight_drive_setup.json",
+    "bytes": 397,
+    "sha256": "f95b543b04a971a3946640159595f723b25669be8fb0d79d9c761f28afbab6dc"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/physics_clock_audit.json",
+    "source": "mapping_session_1793978783186786405.zip!/physics_clock_audit.json",
+    "bytes": 866849,
+    "sha256": "b48a7aa7d50ecaef2e5cdcfb1ec1f3978557136cf985d1679e00e0cd9c8fa868"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/control_diagnostics.json",
+    "source": "mapping_session_1793978783186786405.zip!/control_diagnostics.json",
+    "bytes": 6868026,
+    "sha256": "9303536fc2997485c246c4e9f30a0ec518421a22a65ee1e398d0cde43e36d6d8"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/manual_stops.json",
+    "source": "mapping_session_1793978783186786405.zip!/manual_stops.json",
+    "bytes": 555,
+    "sha256": "43bf62d29f2e245343bca9009b4dd03284a7fc6637b43abacedad358a8442ace"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/caster_collision_repair.json",
+    "source": "mapping_session_1793978783186786405.zip!/caster_collision_repair.json",
+    "bytes": 179,
+    "sha256": "dbc2c6bfe2c1a0ee85edb943022c728428f3ed248ad72648b37aac8939e9f7c3"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/control_tracking_v66.csv",
+    "source": "mapping_session_1793978783186786405.zip!/control_tracking_v66.csv",
+    "bytes": 363192,
+    "sha256": "2a57932569447c526ac084ef576e4c4cde717277c03ef11a4e481c4c8dd2ca7e"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/mapping_sensor_samples.npz",
+    "source": "mapping_session_1793978783186786405.zip!/mapping_sensor_samples.npz",
+    "bytes": 3450748,
+    "sha256": "918d5cbb31bce339686e01f5414b200d9e89e923ec9a5a80e32edf110884e589"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/goal.json",
+    "source": "mapping_session_1793978783186786405.zip!/goal.json",
+    "bytes": 467,
+    "sha256": "3fb35014a604650dd759c6162e15358e13efc93bd9440ac45d8724133871a222"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/physics_clock_setup.json",
+    "source": "mapping_session_1793978783186786405.zip!/physics_clock_setup.json",
+    "bytes": 272,
+    "sha256": "12c0703e7f5b96df29adb445da661539bd29fc2d3521443f671d3720fcfea62d"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/consumed_slam_inputs.npz",
+    "source": "mapping_session_1793978783186786405.zip!/consumed_slam_inputs.npz",
+    "bytes": 2593443,
+    "sha256": "9d8e2ca96b81a778a628cc9e13df8befa962d01114c7c569be6855f5ee844643"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/vehicle_preflight.json",
+    "source": "mapping_session_1793978783186786405.zip!/vehicle_preflight.json",
+    "bytes": 90595,
+    "sha256": "9431dcf9a0d5f81cd1ee00405bc4765c51be64c8b0d58c4897a7a8c9ec9a14d0"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/room_map_latest.pgm",
+    "source": "mapping_session_1793978783186786405.zip!/candidate_map/room_map_latest.pgm",
+    "bytes": 230415,
+    "sha256": "7ddefe0f05ab8481e1e20b54f025984c975a663c2df9b6dea96aac51f6ff261e"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/loop_audit.json",
+    "source": "mapping_session_1793978783186786405.zip!/candidate_map/loop_audit.json",
+    "bytes": 489,
+    "sha256": "bac0e3ec7512641df7b6a40799c1b3561ec2359d7186ef8ea8b8b1b66548f6ad"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/room_map_latest.png",
+    "source": "mapping_session_1793978783186786405.zip!/candidate_map/room_map_latest.png",
+    "bytes": 2998,
+    "sha256": "d72ce1d776a692d790729047d060c6d17c08d1915a8b67712aa8f4bc12e2aae9"
+  },
+  {
+    "path": "evidence/mapping_session_1793978783186786405/slam_graph.npz",
+    "source": "mapping_session_1793978783186786405.zip!/candidate_map/slam_graph.npz",
+    "bytes": 482740,
+    "sha256": "ead86ad891df938dc39f41ba689ff89f50469b2584e2881214249e3004ed5694"
+  },
+  {
+    "path": "evidence/wheel_contact_1793973053694937406/contact_pairs.json",
+    "source": "wheel_contact_1793973053694937406.zip!/contact_pairs.json",
+    "bytes": 22129625,
+    "sha256": "d4f72f1eecb6aaad08a94a21eb02e7988d5d6abd19bb3eb8adbb1d1f46843758"
+  },
+  {
+    "path": "evidence/wheel_contact_1793973053694937406/vehicle_geometry.json",
+    "source": "wheel_contact_1793973053694937406.zip!/vehicle_geometry.json",
+    "bytes": 90528,
+    "sha256": "1ed471d98629fa1b20c67cb9887d786e0753e5208be4e241573f2d19817c164b"
+  },
+  {
+    "path": "evidence/wheel_contact_1793973053694937406/metadata.json",
+    "source": "wheel_contact_1793973053694937406.zip!/metadata.json",
+    "bytes": 3295,
+    "sha256": "e0929b70ace8429599244b47dc5c5c42ef2a74fb759bc77d8376363dcc1a983e"
+  },
+  {
+    "path": "evidence/wheel_contact_1793973053694937406/collider_inventory.json",
+    "source": "wheel_contact_1793973053694937406.zip!/collider_inventory.json",
+    "bytes": 45046,
+    "sha256": "e3920a6c4fef2fdf1bad8753919f5439b39dcf2f778fe6e96eb7150724f5a62f"
+  },
+  {
+    "path": "evidence/wheel_contact_1793973053694937406/wheel_kinematics.json",
+    "source": "wheel_contact_1793973053694937406.zip!/wheel_kinematics.json",
+    "bytes": 9029326,
+    "sha256": "038d62efd7238d720da3725db44203fa741f00f945364a395ef3875cf8eea0ff"
+  },
+  {
+    "path": "evidence/vehicle_audit_1793958345813086187/runtime_samples.json",
+    "source": "vehicle_audit_1793958345813086187.zip!/runtime_samples.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "evidence/vehicle_audit_1793958345813086187/runtime_samples.csv",
+    "source": "vehicle_audit_1793958345813086187.zip!/runtime_samples.csv",
+    "bytes": 2,
+    "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  {
+    "path": "evidence/vehicle_audit_1793958345813086187/REPORT.txt",
+    "source": "vehicle_audit_1793958345813086187.zip!/REPORT.txt",
+    "bytes": 13749,
+    "sha256": "c0ffb5cab0db3757efa392cf87cef77cbaa508dfa2c31718f6f23bd9a472ffb1"
+  },
+  {
+    "path": "evidence/vehicle_audit_1793958345813086187/vehicle_static.json",
+    "source": "vehicle_audit_1793958345813086187.zip!/vehicle_static.json",
+    "bytes": 84745,
+    "sha256": "93213a3745bc2601d0c5adfa05b50ede6c0c00295a9c584854d85e6f2511a786"
+  },
+  {
+    "path": "assets/vendor/TZAGV-DSB02-kh.STEP",
+    "source": "external_vendor/TZAGV-DSB02-kh.STEP",
+    "bytes": 65320833,
+    "sha256": "85ce091718c9abefd8ed813849df2fe0b08c419ea728195bf7f30e6f4cea136c"
+  },
+  {
+    "path": "assets/vendor/LD dual channel servo controller _485_ASCII communication protocol-2022-03-07.pdf",
+    "source": "external_vendor/LD dual channel servo controller _485_ASCII communication protocol-2022-03-07.pdf",
+    "bytes": 265001,
+    "sha256": "9d5f9d8695c15231f09556f1d4fb11f2b3750eb11c70e8904f65d4c1a9b5e190"
+  },
+  {
+    "path": "assets/vendor/LD dual channel Servo Drive-485-RTU Communication Protocol-2022-03-08.pdf",
+    "source": "external_vendor/LD dual channel Servo Drive-485-RTU Communication Protocol-2022-03-08.pdf",
+    "bytes": 289944,
+    "sha256": "124d7f438b36529a67dcac597a057169fea862f097fadff413f0b9cb69a5ce21"
+  },
+  {
+    "path": "assets/vendor/LDS Series Dual-channel Servo Driver User Manual 20230406.pdf",
+    "source": "external_vendor/LDS Series Dual-channel Servo Driver User Manual 20230406.pdf",
+    "bytes": 4141255,
+    "sha256": "c9507d023bf18bc266a874bc271ee5f30e8edf401ed30fbefa770fc33f6af634"
+  },
+  {
+    "path": "assets/vendor/agv_move_sample_v6.zip",
+    "source": "external_vendor/agv_move_sample_v6.zip",
+    "bytes": 1368,
+    "sha256": "dcb5bfcee7af81bfa67ad499187a41bf1dd2ed327c26b9eac2fcad6823a5b1be"
+  },
+  {
+    "path": "assets/vendor/agv_read_encoder_v6.zip",
+    "source": "external_vendor/agv_read_encoder_v6.zip",
+    "bytes": 1499,
+    "sha256": "f1caaea8e0f6aa06d79ab7a978cfcecc7c4592a3342eafe405640fa2a06632f7"
+  },
+  {
+    "path": "docs/references/Practical Search Techniques in Path Planning for Autonomous Driving.pdf",
+    "source": "external_papers/Practical Search Techniques in Path Planning for Autonomous Driving.pdf",
+    "bytes": 2847072,
+    "sha256": "5fe35eba22c73f7c16a5758bf39bd00dd95ccc1b15d126f416ed0333959a1383"
+  },
+  {
+    "path": "docs/references/IMPROVED HYBRID A-STAR ALGORITHM FOR PATH PLANNING IN (1).pdf",
+    "source": "external_papers/IMPROVED HYBRID A-STAR ALGORITHM FOR PATH PLANNING IN (1).pdf",
+    "bytes": 1292551,
+    "sha256": "02065cb14576ce755d4ae8eff1a4a26d8010badd61625ffc7e29449139759423"
+  }
+]

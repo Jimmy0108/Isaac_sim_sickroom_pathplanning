@@ -1,0 +1,114 @@
+[
+  {
+    "wall_unix_s": 1793973082.2921364,
+    "wall_monotonic_s": 6458959.641081117,
+    "physics_s": 0.0,
+    "mode": "STARTUP",
+    "message": "V66 dimensions, six wheel colliders and graph bindings checked. No old torque/friction/caster repair applied."
+  },
+  {
+    "wall_unix_s": 1793973082.293455,
+    "wall_monotonic_s": 6458959.64239772,
+    "physics_s": 0.0,
+    "mode": "STARTUP",
+    "message": "Caster inventory: validated_existing_V66_four_casters; no geometry edits."
+  },
+  {
+    "wall_unix_s": 1793973082.2942767,
+    "wall_monotonic_s": 6458959.643219299,
+    "physics_s": 0.0,
+    "mode": "STARTUP",
+    "message": "Existing wheel binding verified; solver, drive gains, force and materials preserved."
+  },
+  {
+    "wall_unix_s": 1793973082.3452106,
+    "wall_monotonic_s": 6458959.694153918,
+    "physics_s": 0.0,
+    "mode": "STARTUP",
+    "message": "Waiting for Play; no saved-map load or active recovery movement on startup."
+  },
+  {
+    "wall_unix_s": 1793973092.463845,
+    "wall_monotonic_s": 6458969.812788021,
+    "physics_s": 0.05,
+    "mode": "STARTUP",
+    "message": "Scene physics rate retained: 60.0 Hz. Render timing is unchanged."
+  },
+  {
+    "wall_unix_s": 1793973092.46479,
+    "wall_monotonic_s": 6458969.813732405,
+    "physics_s": 0.05,
+    "mode": "STARTUP",
+    "message": "Waiting >=3 simulation seconds and 1 second of quiet wheel encoders..."
+  },
+  {
+    "wall_unix_s": 1793973127.029055,
+    "wall_monotonic_s": 6459004.377997798,
+    "physics_s": 3.05,
+    "mode": "STARTUP",
+    "message": "Validating one common physics clock and wheel/body standstill before manual motion..."
+  },
+  {
+    "wall_unix_s": 1793973127.2547336,
+    "wall_monotonic_s": 6459004.603676493,
+    "physics_s": 3.066666666666667,
+    "mode": "STARTUP",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793973132.9143193,
+    "wall_monotonic_s": 6459010.263262044,
+    "physics_s": 3.55,
+    "mode": "MANUAL",
+    "message": "Manual ready. Test four directions; then Start NEW map. A is never read from world pose."
+  },
+  {
+    "wall_unix_s": 1793973196.8404462,
+    "wall_monotonic_s": 6459074.189389192,
+    "physics_s": 10.016666666666667,
+    "mode": "MANUAL",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793973197.4298463,
+    "wall_monotonic_s": 6459074.778789141,
+    "physics_s": 10.083333333333334,
+    "mode": "MANUAL",
+    "message": "Direct target -0.90 m/s, +0.00 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793973228.1820312,
+    "wall_monotonic_s": 6459105.530974085,
+    "physics_s": 13.833333333333334,
+    "mode": "MANUAL",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793973231.8475437,
+    "wall_monotonic_s": 6459109.196486717,
+    "physics_s": 14.3,
+    "mode": "MANUAL",
+    "message": "Direct target +0.00 m/s, +0.30 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793973274.9641917,
+    "wall_monotonic_s": 6459152.313134689,
+    "physics_s": 19.616666666666667,
+    "mode": "MANUAL",
+    "message": "Direct target +0.90 m/s, +0.00 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793973333.8525429,
+    "wall_monotonic_s": 6459211.201485794,
+    "physics_s": 26.5,
+    "mode": "MANUAL",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793973346.6551836,
+    "wall_monotonic_s": 6459224.004126198,
+    "physics_s": 0.0,
+    "mode": "MANUAL",
+    "message": "Timeline stopped by operator; exporting interruption diagnostics, not claiming a verified physical stop."
+  }
+]

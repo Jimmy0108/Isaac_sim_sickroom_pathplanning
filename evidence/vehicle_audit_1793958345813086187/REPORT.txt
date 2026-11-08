@@ -1,0 +1,93 @@
+V66 READ-ONLY VEHICLE REPORT
+Static contract: False
+Runtime samples: 0
+Runtime error: None
+Simulation did not command motion or modify USD.
+Static dimensions are not proof of ground contact or stable motion.
+
+PASS metres_per_unit | actual=1.0 | expected=1.0
+PASS Z_up | actual=Z | expected=Z
+PASS base_exists | actual=True | expected=True
+PASS base_transform_rigid | actual=[[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]] | expected=orthonormal, no scaling
+PASS joint_axis:rear_right_caster_wheel_joint | actual=Y | expected=Y
+PASS joint_anchor:rear_right_caster_wheel_joint | actual=1.0030651105818346e-08 | expected=< 0.001 m
+PASS joint_axis_alignment:rear_right_caster_wheel_joint | actual=1.0 | expected=parallel axes
+PASS passive_caster:rear_right_caster_wheel_joint | actual={'physics:axis': 'Y', 'physics:breakForce': 'inf', 'physics:breakTorque': 'inf', 'physics:collisionEnabled': False, 'physics:excludeFromArticulation': False, 'physics:jointEnabled': True, 'physics:localPos0': [-0.027000000700354576, 0.0, -0.06104545295238495], 'physics:localPos1': [0.0, 0.0, 0.0], 'physics:localRot0': '(1, 0, 0, 0)', 'physics:localRot1': '(1, 0, 0, 0)', 'physics:lowerLimit': '-inf', 'physics:upperLimit': 'inf'} | expected=no active angular drive
+PASS joint_axis:rear_left_caster_swivel_joint | actual=Z | expected=Z
+PASS joint_anchor:rear_left_caster_swivel_joint | actual=0.0 | expected=< 0.001 m
+PASS joint_axis_alignment:rear_left_caster_swivel_joint | actual=1.0 | expected=parallel axes
+FAIL passive_caster:rear_left_caster_swivel_joint | actual={'drive:angular:physics:damping': 0.0003490060043986887, 'drive:angular:physics:maxForce': 0.10000000149011612, 'drive:angular:physics:stiffness': 0.0, 'drive:angular:physics:targetPosition': 0.0, 'drive:angular:physics:targetVelocity': 0.0, 'drive:angular:physics:type': 'force', 'physics:axis': 'Z', 'physics:breakForce': 'inf', 'physics:breakTorque': 'inf', 'physics:collisionEnabled': False, 'physics:excludeFromArticulation': False, 'physics:jointEnabled': True, 'physics:localPos0': [-0.25699999928474426, 0.19750000536441803, 0.09254545718431473], 'physics:localPos1': [0.0, 0.0, 0.0], 'physics:localRot0': '(1, 0, 0, 0)', 'physics:localRot1': '(1, 0, 0, 0)', 'physics:lowerLimit': '-inf', 'physics:upperLimit': 'inf'} | expected=no active angular drive
+PASS joint_axis:rear_left_caster_wheel_joint | actual=Y | expected=Y
+PASS joint_anchor:rear_left_caster_wheel_joint | actual=1.0030651105818346e-08 | expected=< 0.001 m
+PASS joint_axis_alignment:rear_left_caster_wheel_joint | actual=1.0 | expected=parallel axes
+PASS passive_caster:rear_left_caster_wheel_joint | actual={'physics:axis': 'Y', 'physics:breakForce': 'inf', 'physics:breakTorque': 'inf', 'physics:collisionEnabled': False, 'physics:excludeFromArticulation': False, 'physics:jointEnabled': True, 'physics:localPos0': [-0.027000000700354576, 0.0, -0.06104545295238495], 'physics:localPos1': [0.0, 0.0, 0.0], 'physics:localRot0': '(1, 0, 0, 0)', 'physics:localRot1': '(1, 0, 0, 0)', 'physics:lowerLimit': '-inf', 'physics:upperLimit': 'inf'} | expected=no active angular drive
+PASS joint_axis:left_wheel_joint | actual=Y | expected=Y
+PASS velocity_drive:left_wheel_joint | actual=[0.0, 100.0, 5.0] | expected=stiffness=0, damping>0, maxForce>0; values are retained
+PASS joint_anchor:left_wheel_joint | actual=0.0 | expected=< 0.001 m
+PASS joint_axis_alignment:left_wheel_joint | actual=1.0 | expected=parallel axes
+PASS joint_axis:front_right_caster_wheel_joint | actual=Y | expected=Y
+PASS joint_anchor:front_right_caster_wheel_joint | actual=6.7158625935464895e-09 | expected=< 0.001 m
+PASS joint_axis_alignment:front_right_caster_wheel_joint | actual=1.0 | expected=parallel axes
+PASS passive_caster:front_right_caster_wheel_joint | actual={'physics:axis': 'Y', 'physics:breakForce': 'inf', 'physics:breakTorque': 'inf', 'physics:collisionEnabled': False, 'physics:excludeFromArticulation': False, 'physics:jointEnabled': True, 'physics:localPos0': [-0.027000000700354576, 0.0, -0.06104545295238495], 'physics:localPos1': [0.0, 0.0, 0.0], 'physics:localRot0': '(1, 0, 0, 0)', 'physics:localRot1': '(1, 0, 0, 0)', 'physics:lowerLimit': '-inf', 'physics:upperLimit': 'inf'} | expected=no active angular drive
+PASS joint_axis:front_left_caster_wheel_joint | actual=Y | expected=Y
+PASS joint_anchor:front_left_caster_wheel_joint | actual=6.7158625935464895e-09 | expected=< 0.001 m
+PASS joint_axis_alignment:front_left_caster_wheel_joint | actual=1.0 | expected=parallel axes
+PASS passive_caster:front_left_caster_wheel_joint | actual={'physics:axis': 'Y', 'physics:breakForce': 'inf', 'physics:breakTorque': 'inf', 'physics:collisionEnabled': False, 'physics:excludeFromArticulation': False, 'physics:jointEnabled': True, 'physics:localPos0': [-0.027000000700354576, 0.0, -0.06104545295238495], 'physics:localPos1': [0.0, 0.0, 0.0], 'physics:localRot0': '(1, 0, 0, 0)', 'physics:localRot1': '(1, 0, 0, 0)', 'physics:lowerLimit': '-inf', 'physics:upperLimit': 'inf'} | expected=no active angular drive
+PASS joint_axis:rear_right_caster_swivel_joint | actual=Z | expected=Z
+PASS joint_anchor:rear_right_caster_swivel_joint | actual=0.0 | expected=< 0.001 m
+PASS joint_axis_alignment:rear_right_caster_swivel_joint | actual=1.0 | expected=parallel axes
+FAIL passive_caster:rear_right_caster_swivel_joint | actual={'drive:angular:physics:damping': 0.00034906598739326, 'drive:angular:physics:maxForce': 0.10000000149011612, 'drive:angular:physics:stiffness': 0.0, 'drive:angular:physics:targetPosition': 0.0, 'drive:angular:physics:targetVelocity': 0.0, 'drive:angular:physics:type': 'force', 'physics:axis': 'Z', 'physics:breakForce': 'inf', 'physics:breakTorque': 'inf', 'physics:collisionEnabled': False, 'physics:excludeFromArticulation': False, 'physics:jointEnabled': True, 'physics:localPos0': [-0.25699999928474426, -0.19750000536441803, 0.09254545718431473], 'physics:localPos1': [0.0, 0.0, 0.0], 'physics:localRot0': '(1, 0, 0, 0)', 'physics:localRot1': '(1, 0, 0, 0)', 'physics:lowerLimit': '-inf', 'physics:upperLimit': 'inf'} | expected=no active angular drive
+PASS joint_axis:front_left_caster_swivel_joint | actual=Z | expected=Z
+PASS joint_anchor:front_left_caster_swivel_joint | actual=0.0 | expected=< 0.001 m
+PASS joint_axis_alignment:front_left_caster_swivel_joint | actual=1.0 | expected=parallel axes
+PASS passive_caster:front_left_caster_swivel_joint | actual={'physics:axis': 'Z', 'physics:breakForce': 'inf', 'physics:breakTorque': 'inf', 'physics:collisionEnabled': False, 'physics:excludeFromArticulation': False, 'physics:jointEnabled': True, 'physics:localPos0': [0.23149999976158142, 0.1979999989271164, 0.09254545718431473], 'physics:localPos1': [0.0, 0.0, 0.0], 'physics:localRot0': '(1, 0, 0, 0)', 'physics:localRot1': '(1, 0, 0, 0)', 'physics:lowerLimit': '-inf', 'physics:upperLimit': 'inf'} | expected=no active angular drive
+PASS joint_axis:front_right_caster_swivel_joint | actual=Z | expected=Z
+PASS joint_anchor:front_right_caster_swivel_joint | actual=0.0 | expected=< 0.001 m
+PASS joint_axis_alignment:front_right_caster_swivel_joint | actual=1.0 | expected=parallel axes
+FAIL passive_caster:front_right_caster_swivel_joint | actual={'drive:angular:physics:damping': 0.00034906598739326, 'drive:angular:physics:maxForce': 0.10000000149011612, 'drive:angular:physics:stiffness': 0.0, 'drive:angular:physics:targetPosition': 0.0, 'drive:angular:physics:targetVelocity': 0.0, 'drive:angular:physics:type': 'force', 'physics:axis': 'Z', 'physics:breakForce': 'inf', 'physics:breakTorque': 'inf', 'physics:collisionEnabled': False, 'physics:excludeFromArticulation': False, 'physics:jointEnabled': True, 'physics:localPos0': [0.23149999976158142, -0.19699999690055847, 0.09254545718431473], 'physics:localPos1': [0.0, 0.0, 0.0], 'physics:localRot0': '(1, 0, 0, 0)', 'physics:localRot1': '(1, 0, 0, 0)', 'physics:lowerLimit': '-inf', 'physics:upperLimit': 'inf'} | expected=no active angular drive
+PASS joint_axis:right_wheel_joint | actual=Y | expected=Y
+PASS velocity_drive:right_wheel_joint | actual=[0.0, 100.0, 5.0] | expected=stiffness=0, damping>0, maxForce>0; values are retained
+PASS joint_anchor:right_wheel_joint | actual=0.0 | expected=< 0.001 m
+PASS joint_axis_alignment:right_wheel_joint | actual=1.0 | expected=parallel axes
+PASS one_articulation_root | actual=['/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link'] | expected=['/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link']
+PASS rigid_body_count | actual=11 | expected=11
+PASS joint_count | actual=10 | expected=10
+PASS one_wheel_collider:left_drive_wheel_link | actual=['/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/left_drive_wheel_link/wheel_contact_collider'] | expected=1
+PASS rigid_wheel_collider_transform:left_drive_wheel_link | actual=[1.0, 1.0, 0.9999999999999999] | expected=no scaling/skew
+PASS wheel_radius:left_drive_wheel_link | actual=0.08 | expected=0.08
+PASS wheel_width:left_drive_wheel_link | actual=0.055 | expected=0.055
+PASS one_wheel_collider:right_drive_wheel_link | actual=['/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/right_drive_wheel_link/wheel_contact_collider'] | expected=1
+PASS rigid_wheel_collider_transform:right_drive_wheel_link | actual=[1.0, 1.0, 0.9999999999999999] | expected=no scaling/skew
+PASS wheel_radius:right_drive_wheel_link | actual=0.08 | expected=0.08
+PASS wheel_width:right_drive_wheel_link | actual=0.055 | expected=0.055
+PASS one_wheel_collider:front_left_caster_wheel_link | actual=['/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_wheel_link/wheel_contact_collider'] | expected=1
+PASS rigid_wheel_collider_transform:front_left_caster_wheel_link | actual=[1.0, 1.0, 0.9999999999999999] | expected=no scaling/skew
+PASS wheel_radius:front_left_caster_wheel_link | actual=0.0315 | expected=0.0315
+PASS wheel_width:front_left_caster_wheel_link | actual=0.019262928306058 | expected=0.019262928306058
+PASS one_wheel_collider:front_right_caster_wheel_link | actual=['/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_wheel_link/wheel_contact_collider'] | expected=1
+PASS rigid_wheel_collider_transform:front_right_caster_wheel_link | actual=[1.0, 1.0, 0.9999999999999999] | expected=no scaling/skew
+PASS wheel_radius:front_right_caster_wheel_link | actual=0.0315 | expected=0.0315
+PASS wheel_width:front_right_caster_wheel_link | actual=0.019262928306058 | expected=0.019262928306058
+PASS one_wheel_collider:rear_left_caster_wheel_link | actual=['/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_wheel_link/wheel_contact_collider'] | expected=1
+PASS rigid_wheel_collider_transform:rear_left_caster_wheel_link | actual=[1.0, 1.0, 0.9999999999999999] | expected=no scaling/skew
+PASS wheel_radius:rear_left_caster_wheel_link | actual=0.0315 | expected=0.0315
+PASS wheel_width:rear_left_caster_wheel_link | actual=0.019262928306058 | expected=0.019262928306058
+PASS one_wheel_collider:rear_right_caster_wheel_link | actual=['/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_wheel_link/wheel_contact_collider'] | expected=1
+PASS rigid_wheel_collider_transform:rear_right_caster_wheel_link | actual=[1.0, 1.0, 0.9999999999999999] | expected=no scaling/skew
+PASS wheel_radius:rear_right_caster_wheel_link | actual=0.0315 | expected=0.0315
+PASS wheel_width:rear_right_caster_wheel_link | actual=0.019262928306058 | expected=0.019262928306058
+PASS drive_track | actual=0.47696682810783364 | expected=0.4769668332689978
+PASS drive_axles_aligned_XZ | actual=[0.0, 0.0] | expected=[0, 0]
+PASS six_bottoms_coplanar_static | actual=[-1.7881393310492655e-09, -1.7881393310492655e-09, 5.066394873076696e-10, 5.066394873076696e-10, 5.066394873076696e-10, 5.066394873076696e-10] | expected=spread < 0.001 m
+PASS shell_dimensions | actual=[0.8100000023841858, 0.5600000023841857, 0.2500000037252905] | expected=[0.81, 0.56, 0.25]
+PASS navigation_footprint_contains_geometry | actual=[[-0.44900000095367437, -0.28529998660087585], [0.44900000095367426, 0.28450000286102284]] | expected=[0.898, 0.5698]
+PASS lidar_mount_exists | actual=True | expected=True
+FAIL lidar_mount_translation | actual=[-0.22175002098083496, 0.0, 0.2819998264312744] | expected=[-0.23, 0, 0.345]
+PASS lidar_horizontal | actual=[-1.6409432580622904e-16, 0.0] | expected=horizontal
+PASS controller_exists | actual=True | expected=True
+PASS controller_wheelRadius | actual=0.08 | expected=0.08
+PASS controller_wheelDistance | actual=0.476966833 | expected=0.4769668332689978
+PASS single_articulation_controller | actual=[{'path': '/World/AGV_control/AGV_DifferentialGraph/ArticulationController', 'robot_path': '/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link', 'joint_names': None, 'joint_name_connections': ['/World/AGV_control/AGV_DifferentialGraph/ArrayNames.outputs:array'], 'targets': ['/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link']}] | expected=one node
+PASS articulation_target | actual={'path': '/World/AGV_control/AGV_DifferentialGraph/ArticulationController', 'robot_path': '/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link', 'joint_names': None, 'joint_name_connections': ['/World/AGV_control/AGV_DifferentialGraph/ArrayNames.outputs:array'], 'targets': ['/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link']} | expected=/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link
+PASS one_graph_motor_writer | actual=['/World/AGV_control/AGV_DifferentialGraph/ArticulationController'] | expected=one articulation controller targeting this base
+PASS one_active_physics_scene | actual=['/World/PhysicsScene'] | expected=1

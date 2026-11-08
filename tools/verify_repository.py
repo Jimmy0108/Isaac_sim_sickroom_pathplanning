@@ -11,6 +11,9 @@ DIRECTORIES = ('navigation', 'archive', 'assets', 'evidence', 'docs', 'tools')
 def main():
     errors = []
     imported = json.loads((ROOT/'docs/source_manifest.json').read_text(encoding='utf-8'))
+    supplement = ROOT/'docs/supplement_manifest.json'
+    if supplement.is_file():
+        imported += json.loads(supplement.read_text(encoding='utf-8'))
     for entry in imported:
         path = ROOT/entry['path']
         if not path.is_file():

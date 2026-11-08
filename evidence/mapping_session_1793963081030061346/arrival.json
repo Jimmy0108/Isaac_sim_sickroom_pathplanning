@@ -1,0 +1,35 @@
+{
+  "result": "GOAL_REACHED_BY_SLAM_ESTIMATE",
+  "position_error_m": 0.045111275478122506,
+  "yaw_error_deg": 4.913851772216296,
+  "pose": [
+    -0.5940658060810995,
+    1.9774109416851673,
+    -0.3258288548293624
+  ],
+  "goal": [
+    -0.6301558830408889,
+    1.9503455852253027,
+    -0.4115917472094952
+  ],
+  "stop_interlock": {
+    "reason": "Standstill dwell",
+    "wheel_surface_speed_m_s": 1.2731552124022805e-05,
+    "body_window_speed_m_s": 1.9992005623874176e-06,
+    "body_window_rotation_rad_s": 2.0916501528672038e-05,
+    "body_median_speed_m_s": 0.00023568667092222254,
+    "body_median_yaw_rate_rad_s": 3.6399182135937735e-05,
+    "window_s": 0.13333333333333997,
+    "confirmed": true,
+    "sample_time_s": 83.46666666666667,
+    "age_s": 0.01666666666666572,
+    "quiet_dwell_s": 0.3499999999999943,
+    "required_dwell_s": 0.35,
+    "command_v_w": [
+      0.0,
+      0.0
+    ],
+    "usage": "SIMULATOR STOP INTERLOCK ONLY; never steering/SLAM pose feedback"
+  },
+  "basis": "SLAM goal pose; separate simulator-only wheel/body standstill interlock"
+}

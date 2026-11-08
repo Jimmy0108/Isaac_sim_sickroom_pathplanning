@@ -1,0 +1,23 @@
+[
+  {
+    "accepted": true,
+    "max_position_shift_m": 0.00609677298421868,
+    "max_yaw_shift_deg": 0.27475649845048433,
+    "node": 31,
+    "candidate": 16
+  },
+  {
+    "accepted": true,
+    "max_position_shift_m": 0.0024681374864322717,
+    "max_yaw_shift_deg": 0.06507871109533628,
+    "node": 41,
+    "candidate": 0
+  },
+  {
+    "accepted": true,
+    "max_position_shift_m": 0.008273005050148679,
+    "max_yaw_shift_deg": 0.34819276284299205,
+    "node": 50,
+    "candidate": 0
+  }
+]

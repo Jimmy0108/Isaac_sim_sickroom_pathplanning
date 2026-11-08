@@ -1,0 +1,26 @@
+[
+  {
+    "reason": "LOCAL_FOOTPRINT_BLOCKED",
+    "physics_s": 45.25,
+    "requested_manual_v_w": [
+      0.9,
+      0.0
+    ],
+    "attempted_v_w": [
+      0.9,
+      0.0
+    ],
+    "scan_age_s": 0.08333333299999879,
+    "retained_returns": 559,
+    "hit_point_front_m": [
+      1.0208127109736638,
+      0.32376747432695896
+    ],
+    "hit_prim": "/World/Colider/wall_s",
+    "pre_steps": 2533,
+    "post_steps": 2532,
+    "footprint_length_m": 0.898,
+    "footprint_width_m": 0.5698,
+    "footprint_margin_m": 0.04
+  }
+]
