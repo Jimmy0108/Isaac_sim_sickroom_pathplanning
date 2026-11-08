@@ -3,6 +3,7 @@
 ## 2026-11-08 開發手冊與資料驗證整理
 
 - 將 README 改寫為研究計畫、開發手冊及實驗資料索引。
+- 新增 DEVELOPMENT_STANDARDS.md，規範分支、提交、Pull Request、程式碼、實驗證據與學術追溯。
 - 補充驗證層級、研究目標、實驗指標、資料追溯及學術使用界線。
 - 修正 repository verifier 對 Git LFS pointer 的重複 JSON 解析錯誤。
 - 保留目前大型 LFS 檔案未 materialize 時的明確失敗狀態，不以指標代替原始資料。

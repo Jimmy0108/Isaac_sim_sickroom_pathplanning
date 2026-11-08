@@ -33,6 +33,7 @@
 | 本次整理範圍 | [審閱與來源](docs/REVIEW_SCOPE.md) |
 | 已有資料與剩餘缺口 | [資料盤點](docs/DATA_AVAILABILITY.md) |
 | 學術文獻與方法來源 | [references](docs/references) |
+| 共同開發規範 | [DEVELOPMENT_STANDARDS.md](DEVELOPMENT_STANDARDS.md) |
 
 ## 研究目標與範圍
 
