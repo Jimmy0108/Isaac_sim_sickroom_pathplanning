@@ -1,0 +1,25 @@
+{
+  "version": "V66-entry-1.0.2-audit-1.0.1",
+  "sha256": {
+    "amr_planner_core.py": "e6a5e149843827ef1f8ffccba4eb68f01c4749264a87b390a009dccaffebde4e",
+    "AMR_V66_Navigation.py": "692b6a0931d403bc6a8264ef81df8f4fc6e9bbaf8f0bb8c9b83eefee98c3dba4",
+    "CHANGELOG_V66.md": "b4ecdb40930a60d570079bd19a386a6c68e225b7eb2af8eb86ac97976bc15b24",
+    "isaac_io.py": "7ead204d5dead92f1eaa2a8c224c4be77b042c67ed97ad0051343c9d9b0f97b1",
+    "occupancy.py": "9abcb843cb6294547d444d86e14e8ed0b6e54e2cba83db0fa061cbb90a763651",
+    "offline_asset_audit.json": "54e6e4c6a870ced922551d418af5d8497aac029db938c43064a2d81f3f241312",
+    "offline_checks.log": "e47bd9f0b0654e835121f68532e40bf41cbcd166c2d879b940257957189fb6b6",
+    "README_\u64cd\u4f5c\u624b\u518a.md": "2700c6b2dc0edf83e6b68af3ccf4c8eacd754e35ea47918ec5ce5f0c2f05fd84",
+    "rpp_core.py": "eaec41b53918dd875cdac27783fc6d2e5adcc18ab244cd86e9a9007b2553edab",
+    "slam_core.py": "3854461ce73328d0f04e5348cd6622d6bd58d06fd9b8a71e24b742b2f5cd6e04",
+    "source_provenance.json": "815be2bb89408b30f1e6bb2651b97dc85928cfd5fa1b1dc9b9a4372a4e01da59",
+    "test_v66_smoke.py": "dce95327e29def3d0ad065f4c80eef69e1bdb686a568b179bd04cc4f467582f4",
+    "v66_app.py": "d72d2083acc6837d7a4dac78e50f14c37e53513ac108491ffaf2a03c56183463",
+    "v66_bootstrap.py": "0398bdc0c49b4b7195adb9c78fee493f49f2f0e09133e03d6c1b3dcf32e1f6fc",
+    "v66_control.py": "e1e156a8fcf724dcbacbfb61b455bec277f6335f4f6b294a33fff8a09962810c",
+    "v66_io.py": "af453bcb0e6edeb96fa060325d6ebf8608201c2831bebefa0e0d1ced7d5cb4c9",
+    "v66_nav_config.json": "5aff97140a20ce507aa13665587aa7ad0e149acccceff5e98d42a7b4b960e6e5",
+    "V66_VehicleAudit.py": "bcff73a622451c32ba97d9eaa31205f6c31fc8924bfdd6e4fc35181a894bcc67",
+    "validation.json": "38f897f465c382eed0f7f93246440a07ca85e891745b229878e233bcac7e211b",
+    "vehicle_geometry_reference.json": "29b9987ace5b1e93340e0466de13577547b6c6d0b642c41b6cd1a1f7e5936790"
+  }
+}

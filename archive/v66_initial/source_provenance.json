@@ -1,0 +1,17 @@
+{
+  "source": "C:\\Users\\jinyu\\Documents\\ChatGPT\\\u5b50\u8a08\u756b\u56db\\package_new",
+  "hashes": {
+    "amr_planner_core.py": "7c3eebf5f60e28586ab167fbcd4a235e2bfd39a14e678302f69ea1046144de85",
+    "occupancy.py": "9abcb843cb6294547d444d86e14e8ed0b6e54e2cba83db0fa061cbb90a763651",
+    "rpp_core.py": "83acd5604252a78de8270ae636fa7aec31c06c4917324cdcc0650fff5f664d75",
+    "slam_core.py": "c0cf113d4c2d91d4584851395e0baa2cd5cc5d5d03cd3471ce0ce6e5c8809675",
+    "isaac_io.py": "edceced9416a9a0f9acaeaab31e846788364c26ec5609f7609b6cb3271fd9ddd",
+    "v105_app.py": "60bb17872eacfcbbfcf47ec40d836fa5e8b2df3fc9614e346f831a14baaa9a89",
+    "v105_control.py": "452764200ea82fd6d846e962218a8a755f2cb196394792471849f8e7d15e8c1e",
+    "v105_io.py": "99255adf58670b675fa45b070f72ba9c2c3e43d829cc2968043c00dfbef00295"
+  },
+  "source_config_sha256": "ed5722b9eddeffc0a0443a4359ee3bcf31c59b2515d5ee966388d36848128ef2",
+  "imported_maps": false,
+  "imported_session_layers": false,
+  "runtime_test": "NOT_RUN_IN_ISAAC_SIM"
+}

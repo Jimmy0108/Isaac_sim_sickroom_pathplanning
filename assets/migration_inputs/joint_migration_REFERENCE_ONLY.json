@@ -1,0 +1,383 @@
+{
+  "status": "REFERENCE_ONLY_NOT_APPLIED_TO_ISAAC",
+  "asset": "TZAGV_B02_v6_6_geometry.usdc",
+  "reference_root": "/TZAGV_B02/TZAGV_B02_root",
+  "base_origin": "Ground datum below the drive axle at X=Y=0; drive tyre bottoms Z=0",
+  "preserve_physical_front": "base_link -X",
+  "joint_frame_assumptions": "Identity link rotations, unit scales, matching Blender v6 local coordinates. Recompute if the asset is re-centred or axes changed.",
+  "joints": [
+    {
+      "name": "left_wheel_joint",
+      "body0": "base_link",
+      "body1": "left_drive_wheel_link",
+      "type": "RevoluteJoint",
+      "axis": "Y",
+      "local_pos0_m": [
+        0,
+        0.2384834166344989,
+        0.08
+      ],
+      "local_pos1_m": [
+        0,
+        0,
+        0
+      ],
+      "local_rot0_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_rot1_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "right_wheel_joint",
+      "body0": "base_link",
+      "body1": "right_drive_wheel_link",
+      "type": "RevoluteJoint",
+      "axis": "Y",
+      "local_pos0_m": [
+        0,
+        -0.2384834166344989,
+        0.08
+      ],
+      "local_pos1_m": [
+        0,
+        0,
+        0
+      ],
+      "local_rot0_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_rot1_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "front_left_caster_swivel_joint",
+      "body0": "base_link",
+      "body1": "front_left_caster_swivel_link",
+      "type": "RevoluteJoint",
+      "axis": "Z",
+      "local_pos0_m": [
+        0.2315,
+        0.198,
+        0.09254545454545454
+      ],
+      "local_pos1_m": [
+        0,
+        0,
+        0
+      ],
+      "local_rot0_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_rot1_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "front_left_caster_wheel_joint",
+      "body0": "front_left_caster_swivel_link",
+      "body1": "front_left_caster_wheel_link",
+      "type": "RevoluteJoint",
+      "axis": "Y",
+      "local_pos0_m": [
+        -0.027,
+        0,
+        -0.06104545454545454
+      ],
+      "local_pos1_m": [
+        0,
+        0,
+        0
+      ],
+      "local_rot0_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_rot1_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "front_right_caster_swivel_joint",
+      "body0": "base_link",
+      "body1": "front_right_caster_swivel_link",
+      "type": "RevoluteJoint",
+      "axis": "Z",
+      "local_pos0_m": [
+        0.2315,
+        -0.197,
+        0.09254545454545454
+      ],
+      "local_pos1_m": [
+        0,
+        0,
+        0
+      ],
+      "local_rot0_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_rot1_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "front_right_caster_wheel_joint",
+      "body0": "front_right_caster_swivel_link",
+      "body1": "front_right_caster_wheel_link",
+      "type": "RevoluteJoint",
+      "axis": "Y",
+      "local_pos0_m": [
+        -0.027,
+        0,
+        -0.06104545454545454
+      ],
+      "local_pos1_m": [
+        0,
+        0,
+        0
+      ],
+      "local_rot0_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_rot1_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "rear_left_caster_swivel_joint",
+      "body0": "base_link",
+      "body1": "rear_left_caster_swivel_link",
+      "type": "RevoluteJoint",
+      "axis": "Z",
+      "local_pos0_m": [
+        -0.257,
+        0.1975,
+        0.09254545454545454
+      ],
+      "local_pos1_m": [
+        0,
+        0,
+        0
+      ],
+      "local_rot0_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_rot1_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "rear_left_caster_wheel_joint",
+      "body0": "rear_left_caster_swivel_link",
+      "body1": "rear_left_caster_wheel_link",
+      "type": "RevoluteJoint",
+      "axis": "Y",
+      "local_pos0_m": [
+        -0.027,
+        0,
+        -0.06104545454545454
+      ],
+      "local_pos1_m": [
+        0,
+        0,
+        0
+      ],
+      "local_rot0_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_rot1_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "rear_right_caster_swivel_joint",
+      "body0": "base_link",
+      "body1": "rear_right_caster_swivel_link",
+      "type": "RevoluteJoint",
+      "axis": "Z",
+      "local_pos0_m": [
+        -0.257,
+        -0.1975,
+        0.09254545454545454
+      ],
+      "local_pos1_m": [
+        0,
+        0,
+        0
+      ],
+      "local_rot0_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_rot1_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "rear_right_caster_wheel_joint",
+      "body0": "rear_right_caster_swivel_link",
+      "body1": "rear_right_caster_wheel_link",
+      "type": "RevoluteJoint",
+      "axis": "Y",
+      "local_pos0_m": [
+        -0.027,
+        0,
+        -0.06104545454545454
+      ],
+      "local_pos1_m": [
+        0,
+        0,
+        0
+      ],
+      "local_rot0_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "local_rot1_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "controller_geometry": {
+    "wheelRadius": 0.08,
+    "wheelDistance": 0.4769668332689978
+  },
+  "python_body_override": {
+    "length": 0.8980000019073486,
+    "width": 0.5697999894618988,
+    "height": 0.444,
+    "track": 0.4769668332689978,
+    "wheel_radius": 0.08
+  },
+  "existing_runtime_drive_attributes_as_initial_baseline": {
+    "front_right_caster_swivel_joint": {
+      "drive:angular:physics:damping": 0.00034906598739326,
+      "drive:angular:physics:maxForce": 0.10000000149011612,
+      "drive:angular:physics:stiffness": 0.0,
+      "drive:angular:physics:targetPosition": 0.0,
+      "drive:angular:physics:targetVelocity": 0.0,
+      "drive:angular:physics:type": "force"
+    },
+    "rear_right_caster_wheel_joint": {},
+    "right_wheel_joint": {
+      "drive:angular:physics:damping": 100.0,
+      "drive:angular:physics:maxForce": 10.0,
+      "drive:angular:physics:stiffness": 0.0,
+      "drive:angular:physics:targetPosition": 0.0,
+      "drive:angular:physics:targetVelocity": 0.0,
+      "drive:angular:physics:type": "force"
+    },
+    "rear_right_caster_swivel_joint": {
+      "drive:angular:physics:damping": 0.00034906598739326,
+      "drive:angular:physics:maxForce": 0.10000000149011612,
+      "drive:angular:physics:stiffness": 0.0,
+      "drive:angular:physics:targetPosition": 0.0,
+      "drive:angular:physics:targetVelocity": 0.0,
+      "drive:angular:physics:type": "force"
+    },
+    "front_left_caster_swivel_joint": {
+      "drive:angular:physics:damping": 0.00034906598739326,
+      "drive:angular:physics:maxForce": 0.10000000149011612,
+      "drive:angular:physics:stiffness": 0.0,
+      "drive:angular:physics:targetPosition": 0.0,
+      "drive:angular:physics:targetVelocity": 0.0,
+      "drive:angular:physics:type": "force"
+    },
+    "front_left_caster_wheel_joint": {},
+    "front_right_caster_wheel_joint": {},
+    "rear_left_caster_wheel_joint": {},
+    "rear_left_caster_swivel_joint": {
+      "drive:angular:physics:damping": 0.0003490060043986887,
+      "drive:angular:physics:maxForce": 0.10000000149011612,
+      "drive:angular:physics:stiffness": 0.0,
+      "drive:angular:physics:targetPosition": 0.0,
+      "drive:angular:physics:targetVelocity": 0.0,
+      "drive:angular:physics:type": "force"
+    },
+    "left_wheel_joint": {
+      "drive:angular:physics:damping": 100.0,
+      "drive:angular:physics:maxForce": 10.0,
+      "drive:angular:physics:stiffness": 0.0,
+      "drive:angular:physics:targetPosition": 0.0,
+      "drive:angular:physics:targetVelocity": 0.0,
+      "drive:angular:physics:type": "force"
+    }
+  },
+  "existing_runtime_mass_summary": {
+    "base_kg": 60,
+    "each_drive_wheel_kg": 2,
+    "each_swivel_link_kg": 0.5,
+    "each_caster_wheel_kg": 0.3,
+    "total_kg": 67.2
+  },
+  "mass_inertia_policy": "Masses above are old simulator settings, not CAD-certified values. Do not copy old inertia tensors/COM blindly after resizing.",
+  "blocking_physics_decision": "Geometry wheel bottoms now aligned at Z=0. Still requires active colliders, rigid bodies, joints, mass/inertia and live contact validation.",
+  "automatic_scene_write": false,
+  "case_dimensions_m": [
+    0.81,
+    0.56,
+    0.25
+  ],
+  "case_top_ground_z_m": 0.296,
+  "v6_6_note": "Only caster fork leg length/axle height changed. Swivel installation anchors unchanged. Wheel rolling joint local Z decreased by 16.5 mm. No physics applied.",
+  "wheel_collision_geometry": "Six Mesh guides in this export. Convert to native Y-axis cylinders when applying physics; do not use obsolete native guide paths."
+}

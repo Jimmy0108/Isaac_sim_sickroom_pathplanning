@@ -1,0 +1,23 @@
+# Curated repository allow-list. Original workspace materials stay local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/CHANGELOG.md
+!/requirements-offline.txt
+!/navigation/
+!/archive/
+!/assets/
+!/evidence/
+!/docs/
+!/tools/
+**/__pycache__/
+**/*.py[cod]
+**/.env
+**/.env.*
+**/node_modules/
+**/.venv/
+**/test_outputs/
+**/slam_outputs/
+**/validation_outputs/
+**/.DS_Store

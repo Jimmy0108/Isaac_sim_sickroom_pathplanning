@@ -1,0 +1,143 @@
+{
+  "source": "C:\\Users\\jinyu\\Desktop\\NTUT_icar\\醫療機器人\\AGV_model\\revision_20261105_v6_5_D555\\TZAGV_B02_v6_5_D555.blend",
+  "source_sha256": "a159b43d541853496e63557c332594b66077ea7322e8839f01cf816be76bc29d",
+  "source_unchanged": true,
+  "changed_objects": [
+    "front_left_caster_axle_nut_-1",
+    "front_left_caster_axle_nut_1",
+    "front_left_caster_axle_visual",
+    "front_left_caster_axle_washer_-1",
+    "front_left_caster_axle_washer_1",
+    "front_left_caster_fork_-1_visual",
+    "front_left_caster_fork_1_visual",
+    "front_right_caster_axle_nut_-1",
+    "front_right_caster_axle_nut_1",
+    "front_right_caster_axle_visual",
+    "front_right_caster_axle_washer_-1",
+    "front_right_caster_axle_washer_1",
+    "front_right_caster_fork_-1_visual",
+    "front_right_caster_fork_1_visual",
+    "rear_left_caster_axle_nut_-1",
+    "rear_left_caster_axle_nut_1",
+    "rear_left_caster_axle_visual",
+    "rear_left_caster_axle_washer_-1",
+    "rear_left_caster_axle_washer_1",
+    "rear_left_caster_fork_-1_visual",
+    "rear_left_caster_fork_1_visual",
+    "rear_right_caster_axle_nut_-1",
+    "rear_right_caster_axle_nut_1",
+    "rear_right_caster_axle_visual",
+    "rear_right_caster_axle_washer_-1",
+    "rear_right_caster_axle_washer_1",
+    "rear_right_caster_fork_-1_visual",
+    "rear_right_caster_fork_1_visual",
+    "front_left_caster_hub_visual",
+    "front_left_caster_tire_visual",
+    "front_left_caster_wheel_collision",
+    "front_right_caster_hub_visual",
+    "front_right_caster_tire_visual",
+    "front_right_caster_wheel_collision",
+    "rear_left_caster_hub_visual",
+    "rear_left_caster_tire_visual",
+    "rear_left_caster_wheel_collision",
+    "rear_right_caster_hub_visual",
+    "rear_right_caster_tire_visual",
+    "rear_right_caster_wheel_collision"
+  ],
+  "changed_wheel_link_transforms": [
+    "front_left_caster_wheel_link",
+    "front_right_caster_wheel_link",
+    "rear_left_caster_wheel_link",
+    "rear_right_caster_wheel_link"
+  ],
+  "unchanged_mesh_count": 301,
+  "caster_axle_drop_mm": 16.5,
+  "caster_radius_mm": 31.5,
+  "drive_radius_mm": 80,
+  "drive_track_mm": 476.9668332689978,
+  "body_geometry_unchanged": true,
+  "all_wheel_XY_unchanged": true,
+  "swivel_installation_fixed": true,
+  "measurements": [
+    {
+      "name": "front_left_caster_tire_visual",
+      "bottom_mm": 0.0,
+      "z_size_mm": 63.00000846385956
+    },
+    {
+      "name": "front_left_caster_wheel_collision",
+      "bottom_mm": 0.0,
+      "z_size_mm": 63.00000846385956
+    },
+    {
+      "name": "front_right_caster_tire_visual",
+      "bottom_mm": 0.0,
+      "z_size_mm": 63.00000846385956
+    },
+    {
+      "name": "front_right_caster_wheel_collision",
+      "bottom_mm": 0.0,
+      "z_size_mm": 63.00000846385956
+    },
+    {
+      "name": "left_drive_wheel_collision",
+      "bottom_mm": -7.450580596923828e-06,
+      "z_size_mm": 160.0000038743019
+    },
+    {
+      "name": "rear_left_caster_tire_visual",
+      "bottom_mm": 0.0,
+      "z_size_mm": 63.00000846385956
+    },
+    {
+      "name": "rear_left_caster_wheel_collision",
+      "bottom_mm": 0.0,
+      "z_size_mm": 63.00000846385956
+    },
+    {
+      "name": "rear_right_caster_tire_visual",
+      "bottom_mm": 0.0,
+      "z_size_mm": 63.00000846385956
+    },
+    {
+      "name": "rear_right_caster_wheel_collision",
+      "bottom_mm": 0.0,
+      "z_size_mm": 63.00000846385956
+    },
+    {
+      "name": "right_drive_wheel_collision",
+      "bottom_mm": -7.450580596923828e-06,
+      "z_size_mm": 160.0000038743019
+    }
+  ],
+  "physics_configured": false,
+  "isaac_tested": false,
+  "reopened_blend_pass": true,
+  "reopened_USD_pass": true,
+  "USD_six_wheel_guides": [
+    {
+      "path": "/TZAGV_B02/TZAGV_B02_root/rear_right_caster_wheel_link/rear_right_caster_wheel_collision/圓柱體_058",
+      "bottom_mm": 0.0
+    },
+    {
+      "path": "/TZAGV_B02/TZAGV_B02_root/rear_left_caster_wheel_link/rear_left_caster_wheel_collision/圓柱體_043",
+      "bottom_mm": 0.0
+    },
+    {
+      "path": "/TZAGV_B02/TZAGV_B02_root/left_drive_wheel_link/left_drive_wheel_collision/Cylinder_071",
+      "bottom_mm": -7.450580596923828e-06
+    },
+    {
+      "path": "/TZAGV_B02/TZAGV_B02_root/front_right_caster_wheel_link/front_right_caster_wheel_collision/圓柱體_028",
+      "bottom_mm": 0.0
+    },
+    {
+      "path": "/TZAGV_B02/TZAGV_B02_root/front_left_caster_wheel_link/front_left_caster_wheel_collision/圓柱體_013",
+      "bottom_mm": 0.0
+    },
+    {
+      "path": "/TZAGV_B02/TZAGV_B02_root/right_drive_wheel_link/right_drive_wheel_collision/Cylinder_072",
+      "bottom_mm": -7.450580596923828e-06
+    }
+  ]
+}

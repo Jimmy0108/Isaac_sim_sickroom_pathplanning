@@ -1,0 +1,30 @@
+{
+  "source_hashes": {
+    "C:\\Users\\jinyu\\Documents\\ChatGPT\\子計畫四\\outputs\\revision_20261105_v6_6_caster_ground\\TZAGV_B02_v6_6_geometry.usdc": "4788bd63533820fca1191d9c31ebd3ccb20eb3618eb01b08e42041096d4f4aca",
+    "C:\\Users\\jinyu\\Documents\\ChatGPT\\子計畫四\\AGV_configured_v4.usd": "e04a3e14f9611f4fb6cd48de81b125018047d97a8ac14dca0b165a85eeeb2228",
+    "C:\\Users\\jinyu\\Documents\\ChatGPT\\子計畫四\\AGV_control.usd": "18d72f288a300131dbba54f378e0fedc22f16459941287b657ae87f8cc1991c8"
+  },
+  "offline_validation": "PASS",
+  "rigid_bodies": 11,
+  "joints": 10,
+  "native_wheel_colliders": 6,
+  "wheel_bottoms_m": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "max_joint_anchor_error_m": 1.0030651105818346e-08,
+  "all_relationship_targets_resolve": true,
+  "test_scene_has_target": true,
+  "source_files_unchanged": true,
+  "isaac_runtime_tested": false,
+  "mass_policy": "old masses preserved; box/cylinder inertia approximation and base COM180mm are explicit initial engineering assumptions, not CAD measured",
+  "wheel_friction": "static0.7/dynamic0.6 provisional baseline, not tuned",
+  "drive": "source maxForce5 damping100 preserved",
+  "lidar": "old RTX profile preserved; mount optical Z345mm approximate; not scan validated",
+  "D555": "geometry only",
+  "motion_control": "source OnPlaybackTick chain retained, no manual heading compensation"
+}

@@ -1,0 +1,24 @@
+{
+  "source_file": "C:\\Users\\jinyu\\Desktop\\NTUT_icar\\醫療機器人\\AGV_model\\revision_20261005_vendor\\AGV_parameters_v4.json",
+  "model_geometry": {
+    "length_m": 0.88,
+    "width_m": 0.56,
+    "wheel_radius_m": 0.09,
+    "drive_wheel_track_m": 0.514,
+    "wheel_centres_original_base_m": [
+      [
+        0,
+        0.257,
+        0.09
+      ],
+      [
+        0,
+        -0.257,
+        0.09
+      ]
+    ]
+  },
+  "provenance_note": "Track 0.514 is the model centre-to-centre estimate; not independently measured hardware. Body width is not used in wheel conversion.",
+  "frame_note": "User identifies lidar end as front, original base_link -X. Logical planning +X means physical front. yaw_plan=wrap(yaw_base+pi); v_base=-v_plan; omega_base=omega_plan. Logical left/right are swapped relative to original +X convention; joint signs unverified.",
+  "environment_note": "Demo is synthetic; real room geometry/scale must be supplied as a consistent occupied-cell map. No factory speed, steering-radius or 4WS parameters imported."
+}

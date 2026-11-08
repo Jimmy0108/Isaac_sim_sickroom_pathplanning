@@ -1,0 +1,31 @@
+{
+  "release": "2026-11-07-v66-nav-2.0-continuous-cg",
+  "entry": "AMR_V66_Navigation.py",
+  "archive_layout": "FLAT_FILES; extract contents into existing V66_Python_Navigation",
+  "remote_project": "/isaac-sim/.local/share/ov/data/AMR_Project/1019_Scene/Collected_sickroom_with_hand_colaTest/new_car/python_nav/V66_Python_Navigation",
+  "runtime_sha256": {
+    "amr_planner_core.py": "7cce6b7de481c23ac94a79f933d294a894d675d9087444330057357467561d0f",
+    "AMR_V66_Navigation.py": "bcc511e1bea9a7ded9ea35d5bd9906500c766f46518edb8bc951402c9ff4bbd5",
+    "CHECK_Installed_2_0.py": "c9ee28132d20fa5a677f3488b9bd2a9c9be7a617aee92fbd14c7531f9a8ae130",
+    "isaac_io.py": "7ead204d5dead92f1eaa2a8c224c4be77b042c67ed97ad0051343c9d9b0f97b1",
+    "occupancy.py": "9abcb843cb6294547d444d86e14e8ed0b6e54e2cba83db0fa061cbb90a763651",
+    "path_geometry.py": "65b32ddaae73f87ad676009e009ef1e1c58b26ae2fd9346afb3709792b5439e9",
+    "path_smoothing.py": "27dcb5f9b151ff1ea2753695f44f41c588f9cc5a2224afaeffe2856f6068598a",
+    "rpp_core.py": "dfad640974c99683bfbcf68893273f0e5a12796a229f513827178061d826baba",
+    "slam_core.py": "3854461ce73328d0f04e5348cd6622d6bd58d06fd9b8a71e24b742b2f5cd6e04",
+    "speed_profile.py": "44c6ca91e965a00b62a329b2029c5b4198ade27ff02e40f420b4a3a56979e7c7",
+    "tracking_safety.py": "9b7272dd44ff753d2acfe7b9e5005c38bc5c0bae4a85bf4b093a110a3c12df58",
+    "trajectory_optimization.py": "808d4d33ba5cb530bd7cc097a5fb532414f9d83344e7032ddc4ed3eb99430134",
+    "v66_app.py": "16b5a0e60ad836c0864f52d92562b11d01a063c4eeeea068cb0ca4aed7b9c6f6",
+    "v66_bootstrap.py": "0398bdc0c49b4b7195adb9c78fee493f49f2f0e09133e03d6c1b3dcf32e1f6fc",
+    "V66_CasterContactCandidate.py": "478411ffb7f4fe6c3076f703b36c2f097d1de85429236add22f73a6a7e9e8bbd",
+    "v66_control.py": "e1e156a8fcf724dcbacbfb61b455bec277f6335f4f6b294a33fff8a09962810c",
+    "v66_io.py": "af453bcb0e6edeb96fa060325d6ebf8608201c2831bebefa0e0d1ced7d5cb4c9",
+    "v66_nav_config.json": "2826878bdd482f081216cc3900f5525039443a70df9f9fb4ea78b0f90ab29a45",
+    "V66_VehicleAudit.py": "f06366d379fa428f16c400a8dfded4a8b0b0b8d6ddf0edf53bd80cc475489f9c"
+  },
+  "isaac_runtime_verified": false,
+  "backup_required": true,
+  "maps_included": false,
+  "physics_changes_automatic": false
+}

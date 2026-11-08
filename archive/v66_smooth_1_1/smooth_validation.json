@@ -1,0 +1,18 @@
+{
+  "move_groups_smoothed": 2,
+  "move_groups_kept_original": 0,
+  "policy": "Gear/spin/end poses preserved; sampled full-footprint check at ~1 cm. Unsafe spline falls back to original segment; no continuous collision or dynamics guarantee.",
+  "start_pose_unchanged": true,
+  "goal_pose_unchanged": true,
+  "all_sampled_footprints_clear": true,
+  "gear_sequence": [
+    "reverse",
+    "spin",
+    "reverse",
+    "spin"
+  ],
+  "raw_samples": 191,
+  "smooth_samples": 383,
+  "rotation_to_move_stop_interlock": "PASS",
+  "isaac_runtime": "NOT_RUN"
+}

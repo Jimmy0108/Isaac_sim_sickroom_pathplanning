@@ -1,0 +1,11 @@
+flowchart TD
+ A["Run AMR_TeleopMap.py"] --> B["Play並等待落地"]
+ B --> C["啟用鍵盤 / 方向按鈕遙控"]
+ C --> D["以USD位姿拼接光達回波"]
+ D --> E["儲存PNG / PGM / NPZ"]
+ E --> F["停車並Create/select B"]
+ F --> G["用Move工具拖曳地板B點"]
+ G --> H["Preview / Navigate"]
+ H --> I["A取當下車身姿態；未知區域封鎖"]
+ I --> J["Hybrid A* + Voronoi field"]
+ J --> K["地板綠線與差速回授追蹤"]

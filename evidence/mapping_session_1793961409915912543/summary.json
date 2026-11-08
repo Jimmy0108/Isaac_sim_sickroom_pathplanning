@@ -1,0 +1,36 @@
+{
+  "revision": "2026-11-06-v66-nav-1.0",
+  "error": null,
+  "navigation_acceptance": "NOT_STARTED",
+  "sensor_frames": 491,
+  "dropped_sensor_queue_frames": 0,
+  "map_accuracy": "REQUIRES_REVIEW",
+  "candidate_map": null,
+  "manual_compensation": false,
+  "active_recovery": false,
+  "fresh_world_pose_is_localization": false,
+  "final_command_v_w": [
+    0.0,
+    0.0
+  ],
+  "normal_export_stop_verified": false,
+  "final_stop_evidence": {
+    "reason": "Standstill dwell",
+    "wheel_surface_speed_m_s": 8.411407470703155e-05,
+    "body_window_speed_m_s": 4.128240244608606e-05,
+    "body_window_rotation_rad_s": 0.0001943501621812168,
+    "body_median_speed_m_s": 2.468426471066708e-05,
+    "body_median_yaw_rate_rad_s": 0.0003888416977133602,
+    "window_s": 0.13333333333333286,
+    "confirmed": false,
+    "sample_time_s": 52.13333333333333,
+    "age_s": -52.13333333333333,
+    "quiet_dwell_s": 0.0,
+    "required_dwell_s": 0.35,
+    "command_v_w": [
+      0.0,
+      0.0
+    ],
+    "usage": "SIMULATOR STOP INTERLOCK ONLY; never steering/SLAM pose feedback"
+  }
+}

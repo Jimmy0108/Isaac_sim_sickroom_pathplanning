@@ -1,0 +1,32 @@
+{
+  "revision": "V66-smooth-1.1",
+  "runtime_files": [
+    "AMR_V66_Navigation.py",
+    "amr_planner_core.py",
+    "path_smoothing.py",
+    "rpp_core.py",
+    "v66_app.py",
+    "v66_nav_config.json"
+  ],
+  "sha256": {
+    "AMR_V66_Navigation.py": "5330cd029269a163764608671a460556e6b8e6dcb722cdb62eebbb3b659276a9",
+    "amr_planner_core.py": "f6b2f60c3b1db303272a982d22c18d9fd96b870e065d0c618868ff27d97537ce",
+    "path_smoothing.py": "c84102ef7c0b0c23f9098a641c9feb4953797dd2a9b22797dbf81767d482f822",
+    "rpp_core.py": "2cd814c9073b13f2b5228095a693d46071a04cfca49395e6b477b1cbd6fe4294",
+    "v66_app.py": "3a4d4741564c002c6e1ef70a6af617f6838c51e53c27481eea1f2ebb0ae473f5",
+    "v66_nav_config.json": "76280f908fb8a7f58b6f0c928856023653f57e2f9c7510f04ec4715528c1bbf2",
+    "SMOOTH_PATCH_操作與改動.md": "8b6ff23cf94bfe4dd8e2d43685018f0dbd55d9e40d57400f35bf6a7db8c87a2c",
+    "smooth_validation.json": "6abc7cc84ba81e0eba2699411578b566d73807bbf2b9defb489ce90d5d47309d",
+    "offline_path_comparison.png": "21517c38a47c0f279eae5b16046799c127f21b96e30e854c3dfec89cd102fd48"
+  },
+  "base_runtime_hashes": {
+    "AMR_V66_Navigation.py": "692b6a0931d403bc6a8264ef81df8f4fc6e9bbaf8f0bb8c9b83eefee98c3dba4",
+    "amr_planner_core.py": "e6a5e149843827ef1f8ffccba4eb68f01c4749264a87b390a009dccaffebde4e",
+    "rpp_core.py": "eaec41b53918dd875cdac27783fc6d2e5adcc18ab244cd86e9a9007b2553edab",
+    "v66_app.py": "d72d2083acc6837d7a4dac78e50f14c37e53513ac108491ffaf2a03c56183463",
+    "v66_nav_config.json": "5aff97140a20ce507aa13665587aa7ad0e149acccceff5e98d42a7b4b960e6e5"
+  },
+  "maps_included": false,
+  "usd_included": false,
+  "isaac_runtime_tested": false
+}

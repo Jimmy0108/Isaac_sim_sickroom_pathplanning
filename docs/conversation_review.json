@@ -1,0 +1,31 @@
+{
+  "reviewed_on": "2026-11-08",
+  "scope": "User-visible final replies in five related conversations; shared branch history is not independent evidence; no private reasoning or credentials exported",
+  "threads": [
+    {
+      "thread_id": "01a10fe2-cfd9-7271-943a-d438c9e7bd11",
+      "reviewed_final_replies": 142,
+      "reached_oldest": true
+    },
+    {
+      "thread_id": "01a111ad-402f-7d40-a383-f84d857d377a",
+      "reviewed_final_replies": 97,
+      "reached_oldest": true
+    },
+    {
+      "thread_id": "01a1ab03-9d67-7043-a0a5-c36994c8ec69",
+      "reviewed_final_replies": 318,
+      "reached_oldest": true
+    },
+    {
+      "thread_id": "01a0befd-6a93-7861-9081-a00f2eb2bbca",
+      "reviewed_final_replies": 15,
+      "reached_oldest": true
+    },
+    {
+      "thread_id": "01a15c9d-4e05-7b51-b441-84ac0fa692f4",
+      "reviewed_final_replies": 421,
+      "reached_oldest": true
+    }
+  ]
+}

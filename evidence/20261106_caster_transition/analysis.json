@@ -1,0 +1,300 @@
+{
+  "policy": "Offline analysis of live records; not a new Isaac simulation",
+  "input_sha256": {
+    "wheel_contact_1793973053694937406.zip": "584c374bb86f030b8bc09811479b209e332ae5da1e641a97f5eca9145a1dbb48",
+    "mapping_session_1793973082151399909.zip": "27fec8d77282be63cad8bad4a6c9ca378820b071e39f76b033be352c7183fc72"
+  },
+  "config_acceleration": 0.1,
+  "segments": [
+    {
+      "start_s": 10.266666666666667,
+      "end_s": 13.833333333333334,
+      "body_yaw_change_deg": 0.2876330213811092,
+      "wheel_angle_yaw_change_deg": 0.2807053543789386,
+      "path_displacement_m": 0.6870051260309982,
+      "lateral_from_initial_heading_m": 0.0014548840944953257,
+      "caster_axis_errors_start_deg": [
+        0.03658173947254121,
+        0.18454576163864725,
+        1.8160100561927555,
+        0.11801751798754127
+      ],
+      "caster_axis_errors_end_deg": [
+        0.13381374450579736,
+        0.12986409423674494,
+        0.1006010825527509,
+        0.04754899556717184
+      ]
+    },
+    {
+      "start_s": 20.333333333333332,
+      "end_s": 26.466666666666665,
+      "body_yaw_change_deg": 7.163684534748745,
+      "wheel_angle_yaw_change_deg": 3.923051170810138,
+      "path_displacement_m": 1.9400969870320925,
+      "lateral_from_initial_heading_m": -0.23444492174162512,
+      "caster_axis_errors_start_deg": [
+        46.277012806737936,
+        58.98222835123934,
+        52.919385434953675,
+        45.573416123629165
+      ],
+      "caster_axis_errors_end_deg": [
+        0.02308103043830857,
+        0.0260453325380941,
+        0.02447438902899117,
+        0.04402239043356766
+      ]
+    },
+    {
+      "start_s": 20.333333333333332,
+      "end_s": 23.0,
+      "body_yaw_change_deg": 7.136232968607433,
+      "wheel_angle_yaw_change_deg": 3.8623524860812855,
+      "path_displacement_m": 0.3635891059625925,
+      "lateral_from_initial_heading_m": -0.03797888116653776,
+      "caster_axis_errors_start_deg": [
+        46.277012806737936,
+        58.98222835123934,
+        52.919385434953675,
+        45.573416123629165
+      ],
+      "caster_axis_errors_end_deg": [
+        0.052027372140822606,
+        0.06019627838815786,
+        0.03384540857024866,
+        0.006633934916917863
+      ]
+    },
+    {
+      "start_s": 23.0,
+      "end_s": 26.466666666666665,
+      "body_yaw_change_deg": 0.027451566141311286,
+      "wheel_angle_yaw_change_deg": 0.060698684728852426,
+      "path_displacement_m": 1.5765687241793354,
+      "lateral_from_initial_heading_m": -0.0006152855512801536,
+      "caster_axis_errors_start_deg": [
+        0.052027372140822606,
+        0.06019627838815786,
+        0.03384540857024866,
+        0.006633934916917863
+      ],
+      "caster_axis_errors_end_deg": [
+        0.02308103043830857,
+        0.0260453325380941,
+        0.02447438902899117,
+        0.04402239043356766
+      ]
+    }
+  ],
+  "max_tilt_deg": 0.04737995037014558,
+  "contact_metadata": {
+    "revision": "V66-contact-direction-1.0",
+    "motor_writer": "Existing v66_app only",
+    "policy": "ContactReportAPI threshold=0 in temporary layer; no gains/friction/mass/geometry/dt tuning",
+    "developer_isaac_runtime_verified": false,
+    "automatic_abort_tilt_deg": 5.0,
+    "record_interval_sim_s": 0.02,
+    "limitations": [
+      "No contact events is NOT proof of no contact.",
+      "Velocity at nominal wheel bottom is a flat-ground kinematic indicator, not a measured contact-patch slip ratio.",
+      "Caster alignment is measured from wheel centre relative to swivel origin; small speed makes it undefined.",
+      "Per-pair impulses are reported values, not isolated motor torque."
+    ],
+    "body_order": [
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_wheel_link",
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_swivel_link",
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_wheel_link",
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/left_drive_wheel_link",
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_wheel_link",
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_wheel_link",
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link",
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_swivel_link",
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_swivel_link",
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_swivel_link",
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/right_drive_wheel_link"
+    ],
+    "joint_order": [
+      "rear_left_caster_swivel_joint",
+      "left_wheel_joint",
+      "rear_right_caster_swivel_joint",
+      "front_left_caster_swivel_joint",
+      "front_right_caster_swivel_joint",
+      "right_wheel_joint",
+      "rear_left_caster_wheel_joint",
+      "rear_right_caster_wheel_joint",
+      "front_left_caster_wheel_joint",
+      "front_right_caster_wheel_joint"
+    ],
+    "contact_reporting_ok": true,
+    "error": null,
+    "contact_errors": [],
+    "contact_callback_count": 1608,
+    "pair_counts": {
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/left_drive_wheel_link/wheel_contact_collider <-> /World/Colider/floor": 1608,
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/right_drive_wheel_link/wheel_contact_collider <-> /World/Colider/floor": 1608,
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_wheel_link/wheel_contact_collider <-> /World/Colider/floor": 1608,
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_wheel_link/wheel_contact_collider <-> /World/Colider/floor": 1608,
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_wheel_link/wheel_contact_collider <-> /World/Colider/floor": 1608,
+      "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_wheel_link/wheel_contact_collider <-> /World/Colider/floor": 1608
+    },
+    "retained_pair_events": 9648,
+    "dropped_pair_events": 0,
+    "kinematic_samples": 804,
+    "acceptance": "DIAGNOSTIC_ONLY; no guarantee of stable motion or navigation"
+  },
+  "limitations": [
+    "Contact impulses do not isolate motor torque or certify full tire slip.",
+    "Nominal-bottom residual is a kinematic indicator, not measured tire contact-patch slip.",
+    "Drive saturation and unique causal parameter cannot be proved from these signals alone.",
+    "Straight baseline is reverse before turning; not a matched same-direction causal experiment."
+  ],
+  "events": [
+    {
+      "wall_unix_s": 1793973082.2921364,
+      "wall_monotonic_s": 6458959.641081117,
+      "physics_s": 0.0,
+      "mode": "STARTUP",
+      "message": "V66 dimensions, six wheel colliders and graph bindings checked. No old torque/friction/caster repair applied."
+    },
+    {
+      "wall_unix_s": 1793973082.293455,
+      "wall_monotonic_s": 6458959.64239772,
+      "physics_s": 0.0,
+      "mode": "STARTUP",
+      "message": "Caster inventory: validated_existing_V66_four_casters; no geometry edits."
+    },
+    {
+      "wall_unix_s": 1793973082.2942767,
+      "wall_monotonic_s": 6458959.643219299,
+      "physics_s": 0.0,
+      "mode": "STARTUP",
+      "message": "Existing wheel binding verified; solver, drive gains, force and materials preserved."
+    },
+    {
+      "wall_unix_s": 1793973082.3452106,
+      "wall_monotonic_s": 6458959.694153918,
+      "physics_s": 0.0,
+      "mode": "STARTUP",
+      "message": "Waiting for Play; no saved-map load or active recovery movement on startup."
+    },
+    {
+      "wall_unix_s": 1793973092.463845,
+      "wall_monotonic_s": 6458969.812788021,
+      "physics_s": 0.05,
+      "mode": "STARTUP",
+      "message": "Scene physics rate retained: 60.0 Hz. Render timing is unchanged."
+    },
+    {
+      "wall_unix_s": 1793973092.46479,
+      "wall_monotonic_s": 6458969.813732405,
+      "physics_s": 0.05,
+      "mode": "STARTUP",
+      "message": "Waiting >=3 simulation seconds and 1 second of quiet wheel encoders..."
+    },
+    {
+      "wall_unix_s": 1793973127.029055,
+      "wall_monotonic_s": 6459004.377997798,
+      "physics_s": 3.05,
+      "mode": "STARTUP",
+      "message": "Validating one common physics clock and wheel/body standstill before manual motion..."
+    },
+    {
+      "wall_unix_s": 1793973127.2547336,
+      "wall_monotonic_s": 6459004.603676493,
+      "physics_s": 3.066666666666667,
+      "mode": "STARTUP",
+      "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+    },
+    {
+      "wall_unix_s": 1793973132.9143193,
+      "wall_monotonic_s": 6459010.263262044,
+      "physics_s": 3.55,
+      "mode": "MANUAL",
+      "message": "Manual ready. Test four directions; then Start NEW map. A is never read from world pose."
+    },
+    {
+      "wall_unix_s": 1793973196.8404462,
+      "wall_monotonic_s": 6459074.189389192,
+      "physics_s": 10.016666666666667,
+      "mode": "MANUAL",
+      "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+    },
+    {
+      "wall_unix_s": 1793973197.4298463,
+      "wall_monotonic_s": 6459074.778789141,
+      "physics_s": 10.083333333333334,
+      "mode": "MANUAL",
+      "message": "Direct target -0.90 m/s, +0.00 rad/s; no heading compensation."
+    },
+    {
+      "wall_unix_s": 1793973228.1820312,
+      "wall_monotonic_s": 6459105.530974085,
+      "physics_s": 13.833333333333334,
+      "mode": "MANUAL",
+      "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+    },
+    {
+      "wall_unix_s": 1793973231.8475437,
+      "wall_monotonic_s": 6459109.196486717,
+      "physics_s": 14.3,
+      "mode": "MANUAL",
+      "message": "Direct target +0.00 m/s, +0.30 rad/s; no heading compensation."
+    },
+    {
+      "wall_unix_s": 1793973274.9641917,
+      "wall_monotonic_s": 6459152.313134689,
+      "physics_s": 19.616666666666667,
+      "mode": "MANUAL",
+      "message": "Direct target +0.90 m/s, +0.00 rad/s; no heading compensation."
+    },
+    {
+      "wall_unix_s": 1793973333.8525429,
+      "wall_monotonic_s": 6459211.201485794,
+      "physics_s": 26.5,
+      "mode": "MANUAL",
+      "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+    },
+    {
+      "wall_unix_s": 1793973346.6551836,
+      "wall_monotonic_s": 6459224.004126198,
+      "physics_s": 0.0,
+      "mode": "MANUAL",
+      "message": "Timeline stopped by operator; exporting interruption diagnostics, not claiming a verified physical stop."
+    }
+  ],
+  "angle_and_displacement_decomposition": [
+    {
+      "start_s": 20.333333333333332,
+      "end_s": 23.0,
+      "wheels": {
+        "left_drive_wheel_link": {
+          "projected_centre_displacement_m": -0.39350090102506596,
+          "wheel_arc_m": -0.3943242645263672,
+          "rolling_mismatch_m": 0.0008233635013012441
+        },
+        "right_drive_wheel_link": {
+          "projected_centre_displacement_m": -0.334094364554895,
+          "wheel_arc_m": -0.3621715641021729,
+          "rolling_mismatch_m": 0.028077199547277887
+        }
+      }
+    },
+    {
+      "start_s": 23.0,
+      "end_s": 26.466666666666665,
+      "wheels": {
+        "left_drive_wheel_link": {
+          "projected_centre_displacement_m": -1.576671724869236,
+          "wheel_arc_m": -1.5768103612247137,
+          "rolling_mismatch_m": 0.00013863635547783915
+        },
+        "right_drive_wheel_link": {
+          "projected_centre_displacement_m": -1.576443242272214,
+          "wheel_arc_m": -1.576305066424909,
+          "rolling_mismatch_m": -0.0001381758473051331
+        }
+      }
+    }
+  ]
+}

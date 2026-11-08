@@ -1,0 +1,44 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "World"
+{
+    def Xform "AGV_configured_v4" (
+        prepend references = @./AGV_configured_v66.usd@
+    )
+    {
+        double3 xformOp:translate = (0, 0, 0.01)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "AGV_control" (
+        prepend references = @./AGV_control_v66.usd@
+    )
+    {
+    }
+
+    def PhysicsScene "PhysicsScene" (
+        apiSchemas = ["PhysxSceneAPI"]
+    )
+    {
+        vector3f physics:gravityDirection = (0, 0, -1)
+        float physics:gravityMagnitude = 9.81
+        custom token physxScene:solverType = "TGS"
+        custom uint physxScene:timeStepsPerSecond = 240
+    }
+
+    def Cube "Ground" (
+        prepend apiSchemas = ["PhysicsCollisionAPI"]
+    )
+    {
+        double size = 1
+        float3 xformOp:scale = (10, 10, 0.1)
+        double3 xformOp:translate = (0, 0, -0.05)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+}
+

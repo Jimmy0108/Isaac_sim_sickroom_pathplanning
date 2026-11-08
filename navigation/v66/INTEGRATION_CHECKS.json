@@ -1,0 +1,31 @@
+{
+  "script_editor_async_separate_scope": "PASS",
+  "replan_clock": "PASS",
+  "preserved_modules": [
+    "isaac_io.py",
+    "slam_core.py",
+    "occupancy.py",
+    "v66_control.py",
+    "v66_io.py",
+    "v66_bootstrap.py",
+    "V66_VehicleAudit.py"
+  ],
+  "new_module_order": [
+    "occupancy",
+    "slam_core",
+    "path_geometry",
+    "amr_planner_core",
+    "trajectory_optimization",
+    "speed_profile",
+    "tracking_safety",
+    "rpp_core",
+    "isaac_io",
+    "V66_VehicleAudit",
+    "v66_control",
+    "v66_io",
+    "v66_bootstrap",
+    "path_smoothing",
+    "v66_app"
+  ],
+  "isaac_runtime": false
+}

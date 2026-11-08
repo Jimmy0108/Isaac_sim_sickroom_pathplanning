@@ -1,0 +1,136 @@
+{
+  "checks": {
+    "necessary_spin_fallback": "PASS",
+    "blocked_or_outside_goal_rejected": "PASS",
+    "stop_interlock_retained": "PASS",
+    "software_wheel_envelope": "PASS",
+    "current_lidar_collision_rejected": "PASS",
+    "braking_collision_rejected": "PASS",
+    "all_source_syntax": "PASS"
+  },
+  "cases": {
+    "recorded_map": {
+      "metrics": {
+        "length_m": 6.0282713955399725,
+        "motion_groups": [
+          "forward"
+        ],
+        "spin_groups": 0,
+        "direction_switches": 0
+      },
+      "search_mode": "continuous_first",
+      "smoothing": {
+        "method": "Two-stage numerical CG + checked interpolation; differential variant, not exact reproduction",
+        "groups": [
+          {
+            "gear": 1,
+            "accepted": true,
+            "selected": "cg_coarse",
+            "coarse_cg": {
+              "evaluations": 2960,
+              "initial_objective": 3.3800450240257858,
+              "final_objective": 2.7443666132060414,
+              "reason": "Maximum number of iterations has been exceeded.",
+              "improved": true
+            },
+            "fine_cg": {
+              "evaluations": 2678,
+              "initial_objective": 8.488108226632928,
+              "final_objective": 2.7835007565826118,
+              "reason": "Desired error not necessarily achieved due to precision loss.",
+              "improved": true
+            }
+          }
+        ],
+        "move_groups_smoothed": 1,
+        "move_groups_kept_original": 0,
+        "before": {
+          "length_m": 6.185478240481719,
+          "motion_groups": [
+            "forward"
+          ],
+          "spin_groups": 0,
+          "direction_switches": 0
+        },
+        "after": {
+          "length_m": 6.0282713955399725,
+          "motion_groups": [
+            "forward"
+          ],
+          "spin_groups": 0,
+          "direction_switches": 0
+        },
+        "safety": "Sampled full footprint and curvature checks; no dynamics/continuous-CCD guarantee"
+      },
+      "wall_seconds": 11.340618500005803,
+      "ideal_replay": {
+        "state": "done",
+        "seconds": 21.650000000000002,
+        "position_error": 0.06958107947016348,
+        "yaw_error_deg": 2.3849645938386566,
+        "max_command_v": 0.8761044609015999,
+        "max_command_w": 0.59876682509564
+      }
+    },
+    "open_90_degree": {
+      "metrics": {
+        "length_m": 4.21977308223289,
+        "motion_groups": [
+          "forward"
+        ],
+        "spin_groups": 0,
+        "direction_switches": 0
+      },
+      "search_mode": "continuous_first",
+      "smoothing": {
+        "method": "Two-stage numerical CG + checked interpolation; differential variant, not exact reproduction",
+        "groups": [
+          {
+            "gear": 1,
+            "accepted": true,
+            "selected": "cg_coarse",
+            "coarse_cg": {
+              "evaluations": 1656,
+              "initial_objective": 0.9166140649466474,
+              "final_objective": 0.8038098997645419,
+              "reason": "Maximum number of iterations has been exceeded.",
+              "improved": true
+            },
+            "fine_cg": {
+              "evaluations": 377,
+              "initial_objective": 0.9687263354664684,
+              "final_objective": 0.8107171565127608,
+              "reason": "Optimization terminated successfully.",
+              "improved": true
+            }
+          }
+        ],
+        "move_groups_smoothed": 1,
+        "move_groups_kept_original": 0,
+        "before": {
+          "length_m": 4.147513757211045,
+          "motion_groups": [
+            "forward"
+          ],
+          "spin_groups": 0,
+          "direction_switches": 0
+        },
+        "after": {
+          "length_m": 4.21977308223289,
+          "motion_groups": [
+            "forward"
+          ],
+          "spin_groups": 0,
+          "direction_switches": 0
+        },
+        "safety": "Sampled full footprint and curvature checks; no dynamics/continuous-CCD guarantee"
+      }
+    }
+  },
+  "isaac_runtime_verified": false,
+  "limitations": [
+    "No PhysX/contact/slip verification",
+    "Recorded replay excludes live obstacles added after snapshot",
+    "No optimality or continuous collision guarantee"
+  ]
+}

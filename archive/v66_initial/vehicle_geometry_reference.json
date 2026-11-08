@@ -1,0 +1,20 @@
+{
+  "wheel_radius": 0.08,
+  "track": 0.4769668332689978,
+  "length": 0.898,
+  "width": 0.5698,
+  "height": 0.444,
+  "front_axis_sign": -1,
+  "linear_command_sign": -1,
+  "angular_command_sign": 1,
+  "logical_left_joint": "right_wheel_joint",
+  "logical_right_joint": "left_wheel_joint",
+  "encoder_sign_left": -1,
+  "encoder_sign_right": -1,
+  "lidar_xyz_m": [
+    -0.23,
+    0,
+    0.345
+  ],
+  "note": "Merge into matching existing config fields; not auto-read by old Python"
+}

@@ -1,0 +1,10 @@
+# Preserve original release bytes for installation SHA-256 checks.
+* -text whitespace=cr-at-eol
+*.usd filter=lfs diff=lfs merge=lfs -text
+*.usdc filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+evidence/**/control_diagnostics.json filter=lfs diff=lfs merge=lfs -text
+evidence/**/physics_clock_audit.json filter=lfs diff=lfs merge=lfs -text
+evidence/**/stop_tracking.json filter=lfs diff=lfs merge=lfs -text
+evidence/**/contact_pairs.json filter=lfs diff=lfs merge=lfs -text
+evidence/**/wheel_kinematics.json filter=lfs diff=lfs merge=lfs -text

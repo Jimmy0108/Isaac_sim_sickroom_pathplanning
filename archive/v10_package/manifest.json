@@ -1,0 +1,79 @@
+{
+  "revision": "V10.5-simple",
+  "entry": "AMR_SimpleNavigation_V10_5.py",
+  "baseline_recording": "mapping_session_1793276113072335610.zip",
+  "files": {
+    "AMR_SimpleNavigation_V10_5.py": {
+      "bytes": 3186,
+      "sha256": "f00c197cd9b31dbdff91cf42d4d1cef943aabed6d091c12230cb454c698c6499"
+    },
+    "occupancy.py": {
+      "bytes": 5167,
+      "sha256": "9abcb843cb6294547d444d86e14e8ed0b6e54e2cba83db0fa061cbb90a763651"
+    },
+    "slam_core.py": {
+      "bytes": 21845,
+      "sha256": "c0cf113d4c2d91d4584851395e0baa2cd5cc5d5d03cd3471ce0ce6e5c8809675"
+    },
+    "amr_planner_core.py": {
+      "bytes": 19125,
+      "sha256": "7c3eebf5f60e28586ab167fbcd4a235e2bfd39a14e678302f69ea1046144de85"
+    },
+    "rpp_core.py": {
+      "bytes": 10707,
+      "sha256": "83acd5604252a78de8270ae636fa7aec31c06c4917324cdcc0650fff5f664d75"
+    },
+    "isaac_io.py": {
+      "bytes": 39268,
+      "sha256": "edceced9416a9a0f9acaeaab31e846788364c26ec5609f7609b6cb3271fd9ddd"
+    },
+    "v105_control.py": {
+      "bytes": 6393,
+      "sha256": "7b835a7fce8695026ab3ec2c3423e593b6daef4001d8e53c46d49fad0317d6b4"
+    },
+    "v105_io.py": {
+      "bytes": 10649,
+      "sha256": "fb763177e4242f5d2a19faba47fe3db1fc8d3aa47494a3e147abeffd45a87ddd"
+    },
+    "v105_bootstrap.py": {
+      "bytes": 12865,
+      "sha256": "5f9fa5c3c5f4fb33f26b622a315eda956db1a1a3b05b7f53ffbfda16580fc4b9"
+    },
+    "v105_app.py": {
+      "bytes": 49672,
+      "sha256": "2c62925ea4e79f7866cbffafa1650c6e516f3ea8ec7324982cfff392f884ba66"
+    },
+    "v105_config.json": {
+      "bytes": 2783,
+      "sha256": "92375aaa7a268b89d4bd89381ba53fb6a65b62c3a8fb426b89bc6c36cf1e6a9b"
+    },
+    "README_先看這份.md": {
+      "bytes": 7534,
+      "sha256": "ed66bb7be59701b3fde08ac128eaeb450fa44a4620f7ae26fdb4eb140757b281"
+    },
+    "CHANGELOG_V10_5.md": {
+      "bytes": 4140,
+      "sha256": "63df9878e4d032ed8c1f58a54b0e6accb2936998972446ab7a6b5072ddb93acf"
+    },
+    "validation.json": {
+      "bytes": 1022,
+      "sha256": "c3857c222797a3f2ec0463ea395a85c86698e55949c75a72c00efb0a2fb1a5eb"
+    },
+    "test_v105_control.py": {
+      "bytes": 2731,
+      "sha256": "4ca3076c44adf3ec08531ea13f226c392d8c0bcbdf1130781bccdf0d7c3003c5"
+    },
+    "test_v105_goal.py": {
+      "bytes": 6070,
+      "sha256": "44f743824a314f364f786447c2d953516c8096fab5ce245c26ad6c10a872b5ca"
+    },
+    "test_v105_io.py": {
+      "bytes": 3547,
+      "sha256": "f601914a0e6da0de32ee23d0f03c26e7fed613493a8d4b2ea7ac1a3fb1a9a4c1"
+    },
+    "test_v105_app.py": {
+      "bytes": 6451,
+      "sha256": "378c60a59a60e6b69dcc803506be4fdf0bd262e0f097f142b3810aa083f0d2b2"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": "V66 navigation 1.0",
+  "date": "2026-11-06",
+  "source_package_unchanged": true,
+  "python_ast_compile": "PASS",
+  "offline_smoke_checks": 6,
+  "offline_smoke_result": "PASS",
+  "offline_usd_contract": "PASS",
+  "usd_check_count": 86,
+  "usd_failed_checks": [],
+  "measured_drive_track_m": 0.47696682810783386,
+  "six_wheel_bottoms_base_z_m": [
+    -1.7881393449270533e-09,
+    -1.7881393449270533e-09,
+    5.066394803687757e-10,
+    5.066394803687757e-10,
+    5.066394803687757e-10,
+    5.066394803687757e-10
+  ],
+  "old_radius_rejection": "PASS; offline mutation .08 -> .09 was rejected, disk asset unchanged",
+  "isaac_sim_runtime": "NOT_RUN",
+  "motion_acceptance": "NOT_TESTED",
+  "map_acceptance": "NOT_TESTED",
+  "navigation_acceptance": "NOT_STARTED",
+  "caveat": "USD/static and offline tests do not certify contacts, traction, stable motion, lidar data flow, SLAM or navigation in Isaac Sim 6.0.1-rc.7",
+  "asset_hashes": {
+    "AGV_configured_v66.usd": "3bc000441779ef71240e3b64f97e5653d31aadb298c068d8bf4c6003950ae3be",
+    "AGV_control_v66.usd": "42ede5943772ca0265b8ef824117e8b850527399ffac6238cf1b2f587a3753ac"
+  }
+}

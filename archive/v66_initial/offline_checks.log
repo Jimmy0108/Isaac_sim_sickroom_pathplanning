@@ -1,0 +1,12 @@
+
+test_drive_units_and_signed_wheel_odom (test_v66_smoke.MigrationTests.test_drive_units_and_signed_wheel_odom) ... ok
+test_manual_forward_has_no_angular_correction (test_v66_smoke.MigrationTests.test_manual_forward_has_no_angular_correction) ... ok
+test_old_map_rejected_before_estimator_is_loaded (test_v66_smoke.MigrationTests.test_old_map_rejected_before_estimator_is_loaded) ... ok
+test_planner_uses_new_footprint_and_exposed_field_settings (test_v66_smoke.MigrationTests.test_planner_uses_new_footprint_and_exposed_field_settings) ... ok
+test_scene_startup_contains_no_old_physics_writes (test_v66_smoke.MigrationTests.test_scene_startup_contains_no_old_physics_writes) ... ok
+test_sensor_is_taken_on_post_physics_step (test_v66_smoke.MigrationTests.test_sensor_is_taken_on_post_physics_step) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.024s
+
+OK

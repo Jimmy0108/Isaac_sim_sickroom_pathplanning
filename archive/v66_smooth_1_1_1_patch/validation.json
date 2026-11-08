@@ -1,0 +1,9 @@
+{
+  "source": "User exported runtime_sources/v66_app.py",
+  "syntax": "PASS",
+  "real_replan_branch_timer_reset": "PASS",
+  "early_timeout_prevented": "PASS",
+  "eight_second_limit_retained": "PASS",
+  "collision_check_unchanged": true,
+  "isaac_motion_runtime_tested": false
+}

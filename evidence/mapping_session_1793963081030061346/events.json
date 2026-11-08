@@ -1,0 +1,352 @@
+[
+  {
+    "wall_unix_s": 1793963081.1663628,
+    "wall_monotonic_s": 6448958.515306254,
+    "physics_s": 0.0,
+    "mode": "STARTUP",
+    "message": "V66 dimensions, six wheel colliders and graph bindings checked. No old torque/friction/caster repair applied."
+  },
+  {
+    "wall_unix_s": 1793963081.1676087,
+    "wall_monotonic_s": 6448958.516551635,
+    "physics_s": 0.0,
+    "mode": "STARTUP",
+    "message": "Caster inventory: validated_existing_V66_four_casters; no geometry edits."
+  },
+  {
+    "wall_unix_s": 1793963081.1684504,
+    "wall_monotonic_s": 6448958.517393173,
+    "physics_s": 0.0,
+    "mode": "STARTUP",
+    "message": "Existing wheel binding verified; solver, drive gains, force and materials preserved."
+  },
+  {
+    "wall_unix_s": 1793963081.2189567,
+    "wall_monotonic_s": 6448958.567899756,
+    "physics_s": 0.0,
+    "mode": "STARTUP",
+    "message": "Waiting for Play; no saved-map load or active recovery movement on startup."
+  },
+  {
+    "wall_unix_s": 1793963085.5150783,
+    "wall_monotonic_s": 6448962.864021113,
+    "physics_s": 0.05,
+    "mode": "STARTUP",
+    "message": "Scene physics rate retained: 60.0 Hz. Render timing is unchanged."
+  },
+  {
+    "wall_unix_s": 1793963085.5159094,
+    "wall_monotonic_s": 6448962.864852171,
+    "physics_s": 0.05,
+    "mode": "STARTUP",
+    "message": "Waiting >=3 simulation seconds and 1 second of quiet wheel encoders..."
+  },
+  {
+    "wall_unix_s": 1793963121.8286965,
+    "wall_monotonic_s": 6448999.177639173,
+    "physics_s": 3.05,
+    "mode": "STARTUP",
+    "message": "Validating one common physics clock and wheel/body standstill before manual motion..."
+  },
+  {
+    "wall_unix_s": 1793963128.1818385,
+    "wall_monotonic_s": 6449005.530781239,
+    "physics_s": 3.55,
+    "mode": "MANUAL",
+    "message": "Manual ready. Test four directions; then Start NEW map. A is never read from world pose."
+  },
+  {
+    "wall_unix_s": 1793963169.1532395,
+    "wall_monotonic_s": 6449046.502182498,
+    "physics_s": 7.35,
+    "mode": "MANUAL",
+    "message": "Direct target +0.00 m/s, +0.90 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793963191.1362183,
+    "wall_monotonic_s": 6449068.485162138,
+    "physics_s": 10.233333333333333,
+    "mode": "MANUAL",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963193.9593837,
+    "wall_monotonic_s": 6449071.308326718,
+    "physics_s": 10.616666666666667,
+    "mode": "MANUAL",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963193.9596317,
+    "wall_monotonic_s": 6449071.308574037,
+    "physics_s": 10.616666666666667,
+    "mode": "MANUAL",
+    "message": "Requested: new_map; waiting for wheel/body standstill and pending worker."
+  },
+  {
+    "wall_unix_s": 1793963196.2330947,
+    "wall_monotonic_s": 6449073.582037216,
+    "physics_s": 10.916666666666666,
+    "mode": "MAPPING",
+    "message": "New map started at local origin. Use direct buttons/WASD to scan; saved map unchanged."
+  },
+  {
+    "wall_unix_s": 1793963196.7692838,
+    "wall_monotonic_s": 6449074.118226484,
+    "physics_s": 10.983333333333333,
+    "mode": "MAPPING",
+    "message": "Direct target +0.00 m/s, +0.90 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793963241.3939962,
+    "wall_monotonic_s": 6449118.742939312,
+    "physics_s": 16.616666666666667,
+    "mode": "MAPPING",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963244.5287259,
+    "wall_monotonic_s": 6449121.87766825,
+    "physics_s": 17.016666666666666,
+    "mode": "MAPPING",
+    "message": "Direct target +0.90 m/s, +0.00 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793963277.4279335,
+    "wall_monotonic_s": 6449154.776876184,
+    "physics_s": 21.183333333333334,
+    "mode": "MAPPING",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963292.8924897,
+    "wall_monotonic_s": 6449170.24143234,
+    "physics_s": 23.2,
+    "mode": "MAPPING",
+    "message": "Direct target +0.00 m/s, +0.90 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793963328.7953663,
+    "wall_monotonic_s": 6449206.144309593,
+    "physics_s": 27.75,
+    "mode": "MAPPING",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963357.7888682,
+    "wall_monotonic_s": 6449235.1378107,
+    "physics_s": 31.45,
+    "mode": "MAPPING",
+    "message": "Direct target +0.90 m/s, +0.00 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793963394.5734596,
+    "wall_monotonic_s": 6449271.922403046,
+    "physics_s": 36.15,
+    "mode": "MAPPING",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963400.468299,
+    "wall_monotonic_s": 6449277.817241449,
+    "physics_s": 36.916666666666664,
+    "mode": "MAPPING",
+    "message": "Direct target +0.00 m/s, -0.90 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793963423.5342786,
+    "wall_monotonic_s": 6449300.883221627,
+    "physics_s": 39.9,
+    "mode": "MAPPING",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963426.989293,
+    "wall_monotonic_s": 6449304.338236224,
+    "physics_s": 40.31666666666667,
+    "mode": "MAPPING",
+    "message": "Direct target +0.90 m/s, +0.00 rad/s; no heading compensation."
+  },
+  {
+    "wall_unix_s": 1793963465.3670468,
+    "wall_monotonic_s": 6449342.715989703,
+    "physics_s": 45.25,
+    "mode": "MAPPING",
+    "message": "STOP: local 2D scan blocks swept footprint; hit front XY=[1.021, 0.324] m; prim=/World/Colider/wall_s"
+  },
+  {
+    "wall_unix_s": 1793963466.8889854,
+    "wall_monotonic_s": 6449344.237928489,
+    "physics_s": 45.45,
+    "mode": "MAPPING",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963478.4884126,
+    "wall_monotonic_s": 6449355.837355924,
+    "physics_s": 46.9,
+    "mode": "MAPPING",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963478.4886792,
+    "wall_monotonic_s": 6449355.837621643,
+    "physics_s": 46.9,
+    "mode": "MAPPING",
+    "message": "Requested: finish_map; waiting for wheel/body standstill and pending worker."
+  },
+  {
+    "wall_unix_s": 1793963478.6238163,
+    "wall_monotonic_s": 6449355.972758306,
+    "physics_s": 46.916666666666664,
+    "mode": "READY",
+    "message": "Candidate saved and frozen for navigation. A=current SLAM estimate. Create B, preview, navigate."
+  },
+  {
+    "wall_unix_s": 1793963493.226091,
+    "wall_monotonic_s": 6449370.575034061,
+    "physics_s": 48.7,
+    "mode": "READY",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963493.2263722,
+    "wall_monotonic_s": 6449370.575314884,
+    "physics_s": 48.7,
+    "mode": "READY",
+    "message": "Requested: promote_map; waiting for wheel/body standstill and pending worker."
+  },
+  {
+    "wall_unix_s": 1793963493.2421405,
+    "wall_monotonic_s": 6449370.591082748,
+    "physics_s": 48.7,
+    "mode": "BUSY",
+    "message": "Candidate confirmed; old saved files archived, slam_maps updated."
+  },
+  {
+    "wall_unix_s": 1793963498.0825777,
+    "wall_monotonic_s": 6449375.4315202,
+    "physics_s": 49.333333333333336,
+    "mode": "READY",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963498.0828366,
+    "wall_monotonic_s": 6449375.431778974,
+    "physics_s": 49.333333333333336,
+    "mode": "READY",
+    "message": "Requested: load_map; waiting for wheel/body standstill and pending worker."
+  },
+  {
+    "wall_unix_s": 1793963498.211385,
+    "wall_monotonic_s": 6449375.560327848,
+    "physics_s": 49.35,
+    "mode": "LOCALIZE",
+    "message": "Saved map loaded: stationary lidar localization only. No recovery motion."
+  },
+  {
+    "wall_unix_s": 1793963501.8839624,
+    "wall_monotonic_s": 6449379.232904853,
+    "physics_s": 49.8,
+    "mode": "READY",
+    "message": "Localized from lidar + odom. A=current estimate; set B then navigate."
+  },
+  {
+    "wall_unix_s": 1793963508.7445006,
+    "wall_monotonic_s": 6449386.093443733,
+    "physics_s": 50.71666666666667,
+    "mode": "READY",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963508.7610824,
+    "wall_monotonic_s": 6449386.110025364,
+    "physics_s": 50.71666666666667,
+    "mode": "READY",
+    "message": "B selected. Move XY; rotate local +X arrow to desired final vehicle front. Z is ignored."
+  },
+  {
+    "wall_unix_s": 1793963539.6127338,
+    "wall_monotonic_s": 6449416.961676693,
+    "physics_s": 53.78333333333333,
+    "mode": "READY",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963539.6129997,
+    "wall_monotonic_s": 6449416.961942133,
+    "physics_s": 53.78333333333333,
+    "mode": "READY",
+    "message": "Requested: preview; waiting for wheel/body standstill and pending worker."
+  },
+  {
+    "wall_unix_s": 1793963539.7748713,
+    "wall_monotonic_s": 6449417.123814284,
+    "physics_s": 53.8,
+    "mode": "PLAN",
+    "message": "Planning XY AND final heading with differential Hybrid A* + Voronoi; wheels stopped."
+  },
+  {
+    "wall_unix_s": 1793963545.2141821,
+    "wall_monotonic_s": 6449422.563125,
+    "physics_s": 53.916666666666664,
+    "mode": "READY",
+    "message": "Plan ready: 371 expansions; final XY and yaw required."
+  },
+  {
+    "wall_unix_s": 1793963569.112492,
+    "wall_monotonic_s": 6449446.461435339,
+    "physics_s": 56.61666666666667,
+    "mode": "READY",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963569.1127794,
+    "wall_monotonic_s": 6449446.46172185,
+    "physics_s": 56.61666666666667,
+    "mode": "READY",
+    "message": "Requested: navigate; waiting for wheel/body standstill and pending worker."
+  },
+  {
+    "wall_unix_s": 1793963569.1854873,
+    "wall_monotonic_s": 6449446.534430856,
+    "physics_s": 56.61666666666667,
+    "mode": "PLAN",
+    "message": "Planning XY AND final heading with differential Hybrid A* + Voronoi; wheels stopped."
+  },
+  {
+    "wall_unix_s": 1793963574.741862,
+    "wall_monotonic_s": 6449452.090804877,
+    "physics_s": 56.71666666666667,
+    "mode": "NAV",
+    "message": "Plan ready: 371 expansions; final XY and yaw required."
+  },
+  {
+    "wall_unix_s": 1793963811.856401,
+    "wall_monotonic_s": 6449689.205343789,
+    "physics_s": 83.48333333333333,
+    "mode": "READY",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793963811.8566298,
+    "wall_monotonic_s": 6449689.205572209,
+    "physics_s": 83.48333333333333,
+    "mode": "READY",
+    "message": "GOAL_REACHED_BY_SLAM_ESTIMATE: XY error 0.045 m, yaw error 4.91 deg."
+  },
+  {
+    "wall_unix_s": 1793964429.1267173,
+    "wall_monotonic_s": 6450306.475661018,
+    "physics_s": 157.08333333333334,
+    "mode": "READY",
+    "message": "Stop requested: targets zero; physical standstill must be verified. Manual compensation is OFF."
+  },
+  {
+    "wall_unix_s": 1793964429.1269858,
+    "wall_monotonic_s": 6450306.475928016,
+    "physics_s": 157.08333333333334,
+    "mode": "READY",
+    "message": "Requested: export; waiting for wheel/body standstill and pending worker."
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "revision": "V66-contact-direction-1.0",
+  "motor_writer": "Existing v66_app only",
+  "policy": "ContactReportAPI threshold=0 in temporary layer; no gains/friction/mass/geometry/dt tuning",
+  "developer_isaac_runtime_verified": false,
+  "automatic_abort_tilt_deg": 5.0,
+  "record_interval_sim_s": 0.02,
+  "limitations": [
+    "No contact events is NOT proof of no contact.",
+    "Velocity at nominal wheel bottom is a flat-ground kinematic indicator, not a measured contact-patch slip ratio.",
+    "Caster alignment is measured from wheel centre relative to swivel origin; small speed makes it undefined.",
+    "Per-pair impulses are reported values, not isolated motor torque."
+  ],
+  "error": null,
+  "contact_errors": [],
+  "contact_callback_count": 0,
+  "contact_reporting_ok": false,
+  "pair_counts": {},
+  "retained_pair_events": 0,
+  "dropped_pair_events": 0,
+  "kinematic_samples": 0,
+  "acceptance": "DIAGNOSTIC_ONLY; no guarantee of stable motion or navigation"
+}

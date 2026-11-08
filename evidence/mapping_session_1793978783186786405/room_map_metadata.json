@@ -1,0 +1,44 @@
+{
+  "scan_backend": "PHYSX_COLLISION_RAYCAST",
+  "stage_identifier": "/isaac-sim/.local/share/ov/data/AMR_Project/1019_Scene/Collected_sickroom_with_hand_colaTest/new_car/sickroom_with_hand_colaTest.usd",
+  "display_anchor": [
+    1.0318694115120757,
+    0.8628973960875445,
+    3.141592653589793
+  ],
+  "display_z": -1.546585321949188,
+  "vehicle_contract_id": "TZAGV_B02_V6.6_20261105_ground_aligned",
+  "body": {
+    "length": 0.898,
+    "width": 0.5698,
+    "height": 0.444,
+    "track": 0.4769668332689978,
+    "wheel_radius": 0.08
+  },
+  "sensor_origin_front_m": [
+    0.22999999999999998,
+    0.0,
+    0.345
+  ],
+  "paths": {
+    "base": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link",
+    "lidar": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Lidar_2D",
+    "controller": "/World/AGV_control/AGV_DifferentialGraph/DifferentialController"
+  },
+  "revision": "2026-11-06-v66-nav-1.1-smooth",
+  "localization": "actual encoders + local lidar ONLY",
+  "method": "wheel odometry + scan matching + experimental loop-closure pose graph",
+  "loops": 3,
+  "origin": [
+    -12.0,
+    -12.0
+  ],
+  "resolution": 0.05,
+  "shape": [
+    480,
+    480
+  ],
+  "scans": 63,
+  "known_free_cells": 10285,
+  "unknown_cells": 219366
+}

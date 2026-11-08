@@ -1,0 +1,1714 @@
+[
+  {
+    "path": "/World/Colider/floor",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -3.670691144885956,
+        -4.0800015000735845,
+        -1.6605863527297244
+      ],
+      [
+        6.05368947728768,
+        5.644379122100052,
+        -1.5465863527297246
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(0.9972268158078381, 0, 0, -0.07442229392970971)",
+      "xformOp:scale": [
+        15.0,
+        15.0,
+        0.2
+      ],
+      "xformOp:translate": [
+        2.0903494143874783,
+        1.3722610719530408,
+        -2.813309390753903
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/bed",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -1.6348625660671159,
+        -1.496461146550804,
+        -0.9896028073419714
+      ],
+      [
+        -0.16326975800298488,
+        0.9444487227851064,
+        -0.7868415833590272
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(0.9932988165201787, 0, 0, -0.11557448290869554)",
+      "xformOp:scale": [
+        1.7098260572692598,
+        3.996487824882095,
+        0.3557214455841125
+      ],
+      "xformOp:translate": [
+        -1.577309056201843,
+        -0.4842214243558751,
+        -1.5582845532464902
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/pillow",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -1.5540856421594247,
+        -1.4141601753078206,
+        -0.7654237857010817
+      ],
+      [
+        -0.8653339149935093,
+        -0.8935518634775237,
+        -0.6136922179112203
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(0.9793988007011729, 0, 0, -0.20193560653115186)",
+      "xformOp:scale": [
+        1.0894144878934695,
+        0.5252676635199605,
+        0.2661957329646693
+      ],
+      "xformOp:translate": [
+        -2.122297857151697,
+        -2.0243088059520566,
+        -1.2097508803616686
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/wall_e",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -2.7695417697094054,
+        -1.5767636954470154,
+        -1.6539997269527411
+      ],
+      [
+        -1.1557861144788881,
+        5.108955268581573,
+        1.4810002730472587
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(0.993641652404504, 0, 0, -0.11258892754994564)",
+      "xformOp:scale": [
+        0.15,
+        12.0,
+        5.5
+      ],
+      "xformOp:translate": [
+        -3.44327007384938,
+        3.098413660644349,
+        -0.15175390693463384
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/wall_s",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -2.969462673785837,
+        -2.730415093373351,
+        -1.6960773894655072
+      ],
+      [
+        3.7336649854444817,
+        -1.1003115302289848,
+        1.4686955116512885
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(0.6229892647972671, -0.0037936204241657743, -0.0002808038633983563, -0.78222113595877)",
+      "xformOp:scale": [
+        0.15,
+        12.0,
+        5.5
+      ],
+      "xformOp:translate": [
+        0.6703529049637238,
+        -3.3602865119318737,
+        -0.19945778755633226
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/trashbin_01",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -2.189654060888757,
+        0.16443123085326997,
+        -1.791837584951097
+      ],
+      [
+        -1.887554060888757,
+        0.46653123085327,
+        -1.0963170258799972
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        0.53,
+        0.53,
+        1.2202115071422803
+      ],
+      "xformOp:translate": [
+        -3.576498352436416,
+        0.553475843602228,
+        -2.533468956869381
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/trashbin_02",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -2.33177046301652,
+        -0.3057821418420743,
+        -1.7976122285522056
+      ],
+      [
+        -2.0296704630165197,
+        -0.0036821418420743546,
+        -1.1020916694811058
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        0.53,
+        0.53,
+        1.2202115071422803
+      ],
+      "xformOp:translate": [
+        -3.825825373713193,
+        -0.2714598979685515,
+        -2.5435999105555367
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/cabinet",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -2.5067336068200405,
+        -1.2395662254027477,
+        -1.9187326523447075
+      ],
+      [
+        -1.8722537975913345,
+        -0.5813703968568895,
+        -0.5507326523447076
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(0.9907041833936049, 0, 0, -0.13603389653468909)",
+      "xformOp:scale": [
+        0.89,
+        0.95,
+        2.4
+      ],
+      "xformOp:translate": [
+        -3.8412170214134873,
+        -1.5973128265435417,
+        -2.1661976356924697
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/sickroomOBJ/bed/sugarfine_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000_normalconsistency01_gaussperface1_001",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -2.499229320885935,
+        -1.9045914214930355,
+        -1.7440286232455893
+      ],
+      [
+        0.6449462386420638,
+        1.3412019097012093,
+        -0.38295607556519523
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/sickroomOBJ/anesthesia_machine/sugarfine_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000_normalconsistency01_gaussperface1_003",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        2.0786733434437226,
+        -2.728587315874494,
+        -1.8437208639808613
+      ],
+      [
+        4.043851736885786,
+        -0.8164106293824395,
+        0.008624511230939748
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/sickroomOBJ/cabinet/sugarfine_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000_normalconsistency01_gaussperface1_002",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        1.4374348668636197,
+        -2.391300940354306,
+        -1.7426147899298092
+      ],
+      [
+        4.239109590641016,
+        0.11861731296730615,
+        1.1871879498951763
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/wall_w",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        3.34266302186038,
+        -2.971133197342681,
+        -1.6926447491976173
+      ],
+      [
+        4.956418677090898,
+        3.714585766685907,
+        1.4423552508023825
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(0.993641652404504, 0, 0, -0.11258892754994564)",
+      "xformOp:scale": [
+        0.15,
+        12.0,
+        5.5
+      ],
+      "xformOp:translate": [
+        7.279896227150244,
+        0.6521513766168647,
+        -0.21955219157476752
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/wall_n_main",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -1.82405709174421,
+        2.1982724473294337,
+        -1.693949064339486
+      ],
+      [
+        4.879070567486108,
+        3.8283760104738005,
+        1.4708238367773097
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(0.6229892647972671, -0.0037936204241657743, -0.0002808038633983563, -0.78222113595877)",
+      "xformOp:scale": [
+        0.15,
+        12.0,
+        5.5
+      ],
+      "xformOp:translate": [
+        2.6798363822297357,
+        5.2865337349151185,
+        -0.19572388382647068
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/wall_n_1",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        3.3992392440132693,
+        1.956965932095271,
+        -1.6953767820898014
+      ],
+      [
+        4.615283223594728,
+        2.6092117733489544,
+        1.4468767384334276
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(0.6229892647972671, -0.0037936204241657743, -0.0002808038633983563, -0.78222113595877)",
+      "xformOp:scale": [
+        0.685738509480636,
+        1.9999999999999991,
+        5.5
+      ],
+      "xformOp:translate": [
+        7.030282866322806,
+        4.005419039863356,
+        -0.21798249443541556
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/celling",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -4.567901794123734,
+        -3.50326799290926,
+        1.4352370999412478
+      ],
+      [
+        3.9820982058762646,
+        5.046732007090739,
+        1.5492370999412477
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        15.0,
+        15.0,
+        0.2
+      ],
+      "xformOp:translate": [
+        -0.5138627967083065,
+        1.3539158019135786,
+        2.6179598244583295
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Colider/wall_n_2",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -1.7907245788306239,
+        2.557620558245941,
+        -1.675219515780087
+      ],
+      [
+        -0.2476570804178812,
+        3.499244058535595,
+        1.472515770424904
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "none",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(0.8653959199986774, -0.0036346570638710355, 0.0011223523241447695, -0.5010742771714901)",
+      "xformOp:scale": [
+        0.15,
+        3.0,
+        5.5
+      ],
+      "xformOp:translate": [
+        -1.788054087060092,
+        5.313039137527664,
+        -0.17781030294314315
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle/Circle_Material_0/Circle_Material_0",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -0.7807471484576333,
+        0.11444655515905237,
+        -0.789773278785082
+      ],
+      [
+        -0.7131494424302941,
+        0.1820444110897197,
+        -0.6726711731433682
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xformOp:translate": [
+        0.0,
+        -1.4210854715202004e-14,
+        -7.105427357601002e-15
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle/Circle_Material_001_0/Circle_Material_001_0",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -0.7762262706853453,
+        0.11896742728052813,
+        -0.7909994678313452
+      ],
+      [
+        -0.717670320202582,
+        0.17752351015080348,
+        -0.7897732358022957
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle/Circle_Material_002_0/Circle_Material_002_0",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -0.7752436170442176,
+        0.12157338002399105,
+        -0.7847969365884544
+      ],
+      [
+        -0.7413851759800347,
+        0.18204440634661848,
+        -0.7017841221018462
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle_001/Circle_001_Material_001_0/Circle_001_Material_001_0",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -0.7674572301452753,
+        0.1391928964166205,
+        -0.6741430298710709
+      ],
+      [
+        -0.7372512911146082,
+        0.15640639594229777,
+        -0.672666752204153
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle_002/Circle_002_Material_001_0/Circle_002_Material_001_0",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -0.7782748988992363,
+        0.11691894648337653,
+        -0.6749876271854998
+      ],
+      [
+        -0.7156216903537828,
+        0.17957203734378885,
+        -0.6709994698747564
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle_002/Circle_002_Material_001_0_1/Circle_002_Material_001_0",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -0.7785601253067735,
+        0.11663370997687413,
+        -0.6748172883815984
+      ],
+      [
+        -0.7153364611499435,
+        0.17985727408604177,
+        -0.6710802499551052
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Coca_Cola_Can/Meshes/Sketchfab_model/cdc348a3a565440293fc025c02124033_fbx/RootNode/Circle_002/Circle_002_Material_0/Circle_002_Material_0",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -0.7783515430265247,
+        0.11684229062108072,
+        -0.6726712083096026
+      ],
+      [
+        -0.7155450400887511,
+        0.17964869375750991,
+        -0.6725265246660395
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "physxCollision:contactOffset": "-inf",
+      "physxCollision:minTorsionalPatchRadius": 0.0,
+      "physxCollision:restOffset": "-inf",
+      "physxCollision:torsionalPatchRadius": 0.0,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Box/Meshes/Sketchfab_model/a0dc61f4bffe4d9ba466d6d1dc0b6b24_3ds/Box001/_DSMeshMatrix/Object_4/Object_0",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -1.0442893700344598,
+        -0.5245556343344531,
+        -0.7787208642241458
+      ],
+      [
+        -0.7430789332860903,
+        -0.1470213980741405,
+        -0.628720867589946
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xformOp:translate": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/Box/Meshes/Sketchfab_model/a0dc61f4bffe4d9ba466d6d1dc0b6b24_3ds/Box001/_DSMeshMatrix/Object_5/Object_1",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        -0.9544817669433149,
+        -0.5012006177126274,
+        -0.6774882374223776
+      ],
+      [
+        -0.8328865363772353,
+        -0.1703764146959662,
+        -0.628720867589946
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xformOp:translate": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/waist_link_2/waist_link_3/waist_link_4/chest/neck_link/head/box_1",
+    "type": "Cube",
+    "world_aabb": [
+      [
+        -0.234550868596845,
+        -0.4801259192609251,
+        -0.39293309969710416
+      ],
+      [
+        -0.047275478045784705,
+        -0.30786680360029,
+        -0.2129330925445468
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        0.1599999964237213,
+        0.14000000059604645,
+        0.18000000715255737
+      ],
+      "xformOp:translate": [
+        0.0,
+        0.0,
+        0.08
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/waist_link_2/waist_link_3/waist_link_4/chest/neck_link/cylinder_1",
+    "type": "Cylinder",
+    "world_aabb": [
+      [
+        -0.1888511068875985,
+        -0.4419342949968912,
+        -0.4629330954502732
+      ],
+      [
+        -0.09297523975503122,
+        -0.34605842786432395,
+        -0.40293309679137773
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xformOp:translate": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/waist_link_2/waist_link_3/waist_link_4/chest/box_1",
+    "type": "Cube",
+    "world_aabb": [
+      [
+        -0.277544303130723,
+        -0.5869385304701096,
+        -0.8629330991010578
+      ],
+      [
+        -0.004282043511906752,
+        -0.20105419239110556,
+        -0.4629330931405933
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        0.20000000298023224,
+        0.3499999940395355,
+        0.4000000059604645
+      ],
+      "xformOp:translate": [
+        0.0,
+        0.0,
+        0.1
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/waist_link_2/waist_link_3/waist_link_4/cylinder_1",
+    "type": "Cylinder",
+    "world_aabb": [
+      [
+        -0.22480455929459528,
+        -0.477887747403888,
+        -0.9029330952267558
+      ],
+      [
+        -0.05702178734803445,
+        -0.3101049754573271,
+        -0.8229330970148951
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xformOp:translate": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/waist_link_2/waist_link_3/cylinder_1",
+    "type": "Cylinder",
+    "world_aabb": [
+      [
+        -0.22480455929459528,
+        -0.477887747403888,
+        -0.9929330952267558
+      ],
+      [
+        -0.05702178734803445,
+        -0.3101049754573271,
+        -0.9129330970148951
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xformOp:translate": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/waist_link_2/cylinder_1",
+    "type": "Cylinder",
+    "world_aabb": [
+      [
+        -0.22480455929459528,
+        -0.477887747403888,
+        -1.0829330952267557
+      ],
+      [
+        -0.05702178734803445,
+        -0.3101049754573271,
+        -1.002933097014895
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xformOp:translate": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/robotwitharm/Geometry/world/base_cart/waist_link_1/cylinder_1",
+    "type": "Cylinder",
+    "world_aabb": [
+      [
+        -0.22480455929459528,
+        -0.477887747403888,
+        -1.1729330952267558
+      ],
+      [
+        -0.05702178734803445,
+        -0.3101049754573271,
+        -1.0929330970148952
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xformOp:translate": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/robotwitharm/Geometry/world/base_cart/box_1",
+    "type": "Cube",
+    "world_aabb": [
+      [
+        -0.3917937110346232,
+        -0.6824175919639786,
+        -1.5329330991010577
+      ],
+      [
+        0.10996736439199345,
+        -0.10557513089723664,
+        -1.1329330931405932
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:orient": "(1, 0, 0, 0)",
+      "xformOp:scale": [
+        0.4000000059604645,
+        0.5,
+        0.4000000059604645
+      ],
+      "xformOp:translate": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:orient",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_right_caster_wheel_link/wheel_contact_collider",
+    "type": "Cylinder",
+    "world_aabb": [
+      [
+        0.717808587520181,
+        0.6557638105342792,
+        -1.5272614048433941
+      ],
+      [
+        0.7808085885334599,
+        0.6750267390499519,
+        -1.4642614038301152
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/rear_left_caster_wheel_link/wheel_contact_collider",
+    "type": "Cylinder",
+    "world_aabb": [
+      [
+        0.717808587520181,
+        1.0507638212631152,
+        -1.5272614048433941
+      ],
+      [
+        0.7808085885334599,
+        1.0700267497787879,
+        -1.4642614038301152
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/left_drive_wheel_link/wheel_contact_collider",
+    "type": "Cylinder",
+    "world_aabb": [
+      [
+        0.9533085991132844,
+        1.073878694359462,
+        -1.5272614048433941
+      ],
+      [
+        1.1133085955370057,
+        1.1288786940614388,
+        -1.3672614084196728
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_right_caster_wheel_link/wheel_contact_collider",
+    "type": "Cylinder",
+    "world_aabb": [
+      [
+        1.2063086014676678,
+        0.6562638189981388,
+        -1.5272614048433941
+      ],
+      [
+        1.2693086024809468,
+        0.6755267475138115,
+        -1.4642614038301152
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/front_left_caster_wheel_link/wheel_contact_collider",
+    "type": "Cylinder",
+    "world_aabb": [
+      [
+        1.2063086014676678,
+        1.0512638148258135,
+        -1.5272614048433941
+      ],
+      [
+        1.2693086024809468,
+        1.0705267433414862,
+        -1.4642614038301152
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/center",
+    "type": "Cube",
+    "world_aabb": [
+      [
+        0.708308609246074,
+        0.5828952789644407,
+        -1.481261404843394
+      ],
+      [
+        1.358308585404216,
+        1.1428952813486264,
+        -1.231261404843394
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:scale": [
+        0.6499999761581421,
+        0.5600000023841858,
+        0.25
+      ],
+      "xformOp:translate": [
+        0.0,
+        0.0,
+        0.17099999999999999
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/front_lower",
+    "type": "Cube",
+    "world_aabb": [
+      [
+        0.6283085982192147,
+        0.5828952789644407,
+        -1.4812614031446618
+      ],
+      [
+        0.7083085964310754,
+        1.1428952813486264,
+        -1.4167614065421266
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:scale": [
+        0.07999999821186066,
+        0.5600000023841858,
+        0.06449999660253525
+      ],
+      "xformOp:translate": [
+        -0.365,
+        0.0,
+        0.07825
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/front_upper",
+    "type": "Cube",
+    "world_aabb": [
+      [
+        0.6283085982192147,
+        0.5828952789644407,
+        -1.3357614064229173
+      ],
+      [
+        0.7083085964310754,
+        1.1428952813486264,
+        -1.2312614032638711
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:scale": [
+        0.07999999821186066,
+        0.5600000023841858,
+        0.10450000315904617
+      ],
+      "xformOp:translate": [
+        -0.365,
+        0.0,
+        0.24375
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/rear_lower",
+    "type": "Cube",
+    "world_aabb": [
+      [
+        1.3583085982192147,
+        0.5828952789644407,
+        -1.4812614031446618
+      ],
+      [
+        1.4383085964310753,
+        1.1428952813486264,
+        -1.4167614065421266
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:scale": [
+        0.07999999821186066,
+        0.5600000023841858,
+        0.06449999660253525
+      ],
+      "xformOp:translate": [
+        0.365,
+        0.0,
+        0.07825
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/rear_upper",
+    "type": "Cube",
+    "world_aabb": [
+      [
+        1.3583085982192147,
+        0.5828952789644407,
+        -1.3357614064229173
+      ],
+      [
+        1.4383085964310753,
+        1.1428952813486264,
+        -1.2312614032638711
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:scale": [
+        0.07999999821186066,
+        0.5600000023841858,
+        0.10450000315904617
+      ],
+      "xformOp:translate": [
+        0.365,
+        0.0,
+        0.24375
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/first_deck",
+    "type": "Cube",
+    "world_aabb": [
+      [
+        0.6323086042392838,
+        0.5868952870706724,
+        -1.2312614047875148
+      ],
+      [
+        1.4343085904110062,
+        1.1388952732423947,
+        -1.2262614048992735
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:scale": [
+        0.8019999861717224,
+        0.5519999861717224,
+        0.004999999888241291
+      ],
+      "xformOp:translate": [
+        0.0,
+        0.0,
+        0.2985
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/second_deck",
+    "type": "Cube",
+    "world_aabb": [
+      [
+        0.6323086042392838,
+        0.5868952870706724,
+        -1.0862614048564327
+      ],
+      [
+        1.4343085904110062,
+        1.1388952732423947,
+        -1.0832614048303557
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:scale": [
+        0.8019999861717224,
+        0.5519999861717224,
+        0.003000000026077032
+      ],
+      "xformOp:translate": [
+        0.0,
+        0.0,
+        0.4425
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/front_bumper",
+    "type": "Cube",
+    "world_aabb": [
+      [
+        0.5843085974443543,
+        0.5828952789644407,
+        -1.472261404508118
+      ],
+      [
+        0.6283085972059357,
+        1.1428952813486264,
+        -1.4422614051786702
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:scale": [
+        0.04399999976158142,
+        0.5600000023841858,
+        0.029999999329447746
+      ],
+      "xformOp:translate": [
+        -0.42700000000000005,
+        0.0,
+        0.07
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/rear_bumper",
+    "type": "Cube",
+    "world_aabb": [
+      [
+        1.4383085974443544,
+        0.5828952789644407,
+        -1.472261404508118
+      ],
+      [
+        1.4823085972059358,
+        1.1428952813486264,
+        -1.4422614051786702
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOp:scale": [
+        0.04399999976158142,
+        0.5600000023841858,
+        0.029999999329447746
+      ],
+      "xformOp:translate": [
+        0.42700000000000005,
+        0.0,
+        0.07
+      ],
+      "xformOpOrder": [
+        "xformOp:translate",
+        "xformOp:scale"
+      ]
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/enclosure_pentagon_panel_04/Cube_053",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        1.0590086002338517,
+        1.0768952869449437,
+        -1.226261413247649
+      ],
+      [
+        1.4016085882175553,
+        1.0783952869579823,
+        -1.0862614126516026
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/enclosure_pentagon_panel_03/Cube_052",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        1.4013086032790902,
+        0.6485952735284971,
+        -1.226261413247649
+      ],
+      [
+        1.4028086032921288,
+        1.07719528678457,
+        -1.0862614126516026
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/enclosure_pentagon_panel_05/Cube_054",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        0.8619998108527946,
+        0.8626740516601948,
+        -1.226261413247649
+      ],
+      [
+        1.0595112171963146,
+        1.0781296252510018,
+        -1.0862614126516026
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/enclosure_pentagon_panel_01/Cube_050",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        0.8619998179577537,
+        0.6476609285606543,
+        -1.226261413247649
+      ],
+      [
+        1.0595112100913553,
+        0.8631165151542837,
+        -1.0862614126516026
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Collision/enclosure_pentagon_panel_02/Cube_051",
+    "type": "Mesh",
+    "world_aabb": [
+      [
+        1.0590086002338517,
+        0.6473952733550848,
+        -1.226261413247649
+      ],
+      [
+        1.4016085882175553,
+        0.6488952733681234,
+        -1.0862614126516026
+      ]
+    ],
+    "attributes": {
+      "physics:approximation": "convexHull",
+      "physics:collisionEnabled": true,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  },
+  {
+    "path": "/World/AGV_configured_v4/TZAGV_B02_vendor_v4/TZAGV_B02_root/right_drive_wheel_link/wheel_contact_collider",
+    "type": "Cylinder",
+    "world_aabb": [
+      [
+        0.9533085991132844,
+        0.5969118662516283,
+        -1.5272614048433941
+      ],
+      [
+        1.1133085955370057,
+        0.6519118659536051,
+        -1.3672614084196728
+      ]
+    ],
+    "attributes": {
+      "physics:collisionEnabled": true,
+      "xformOpOrder": null
+    },
+    "note": "AABB is a broad-phase bound, not proof that a mesh is solid or overlapping."
+  }
+]

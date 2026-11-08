@@ -1,0 +1,38 @@
+{
+  "revision": "V10.5-simple",
+  "syntax_passed": [
+    "AMR_SimpleNavigation_V10_5.py",
+    "v105_app.py",
+    "v105_bootstrap.py",
+    "v105_control.py",
+    "v105_io.py",
+    "isaac_io.py",
+    "slam_core.py",
+    "occupancy.py",
+    "rpp_core.py",
+    "amr_planner_core.py"
+  ],
+  "offline_tests_passed": 23,
+  "test_command": "python -m unittest test_v105_control test_v105_goal test_v105_io test_v105_app -q",
+  "baseline": "mapping_session_1793276113072335610.zip",
+  "unchanged_cores": {
+    "slam_core.py": true,
+    "occupancy.py": true,
+    "rpp_core.py": true,
+    "amr_planner_core.py": true
+  },
+  "io_non_display_AST_unchanged": true,
+  "isaac_sim_runtime_tested": false,
+  "scope": "Pure math/mock state checks only, not physical straightness or navigation success",
+  "entry_source_loader_passed": [
+    "occupancy",
+    "slam_core",
+    "amr_planner_core",
+    "rpp_core",
+    "isaac_io",
+    "v105_control",
+    "v105_io",
+    "v105_bootstrap",
+    "v105_app"
+  ]
+}

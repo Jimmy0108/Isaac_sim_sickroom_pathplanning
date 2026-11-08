@@ -1,0 +1,21 @@
+{
+  "reviewed_on": "2026-11-08",
+  "scope": "Initial curated repository import",
+  "source_files_hash_verified": 215,
+  "python_syntax_files": 95,
+  "json_parse_files": 75,
+  "original_offline_hybrid_unit_tests": {
+    "passed": 8,
+    "command": "python -m unittest discover -s archive/20261021_offline_hybrid -p 'test_*.py'"
+  },
+  "runtime_release_manifest": "navigation/v66/RELEASE_MANIFEST_2_0.json",
+  "runtime_hash_verified": true,
+  "geometry_config_rpp_consistency": "PASS",
+  "credential_pattern_check": "PASS",
+  "isaac_sim_executed_this_review": false,
+  "usd_opened_this_review": false,
+  "usd_reason": "Local pxr module unavailable; asset binary hashes and prior migration validation preserved",
+  "scene_environment_included": false,
+  "new_physical_or_navigation_acceptance": false,
+  "historical_whitespace_policy": "Source bytes preserved, including existing trailing blank lines, to keep installation hashes reproducible."
+}

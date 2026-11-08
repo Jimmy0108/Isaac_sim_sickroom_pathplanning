@@ -1,0 +1,25 @@
+flowchart TD
+ A["Actual wheel joint angles"] --> B["Wheel odom: odom to base_link"]
+ C["Local lidar scan + static mount"] --> D["ICP scan matching"]
+ B --> D
+ D --> E["map to odom correction"]
+ D --> F["Keyframes / occupancy grid"]
+ F --> G["Loop candidate verification"]
+ G --> H["Pose graph optimization / map rebuild"]
+ H --> E
+ H --> F
+ F --> I["Hybrid A* + Voronoi global path"]
+ E --> J["Estimated map pose"]
+ I --> K["RPP local rollout / speed regulation"]
+ J --> K
+ C --> L["Short-lived local obstacle layer"]
+ L --> K
+ K --> M["v / omega to differential controller"]
+ K --> N{"Blocked?"}
+ N -- Yes --> O["Stop, update planning snapshot, replan"]
+ O --> I
+ P["Keyboard + draggable GoalB"] --> M
+ P --> I
+ Q["One-time USD display alignment"] --> R["Floor visualization only"]
+ I --> R
+ K --> R

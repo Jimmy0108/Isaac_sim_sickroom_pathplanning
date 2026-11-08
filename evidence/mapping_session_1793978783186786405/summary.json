@@ -1,0 +1,36 @@
+{
+  "revision": "2026-11-06-v66-nav-1.1-smooth",
+  "error": "RuntimeError: STOP_NOT_VERIFIED: requested replan aborted after 8 physics seconds; diagnostic export is not a successful stop",
+  "navigation_acceptance": "IN_PROGRESS",
+  "sensor_frames": 654,
+  "dropped_sensor_queue_frames": 0,
+  "map_accuracy": "REQUIRES_REVIEW",
+  "candidate_map": null,
+  "manual_compensation": false,
+  "active_recovery": false,
+  "fresh_world_pose_is_localization": false,
+  "final_command_v_w": [
+    0.0,
+    0.0
+  ],
+  "normal_export_stop_verified": false,
+  "final_stop_evidence": {
+    "reason": "Motion or nonzero motor target remains",
+    "wheel_surface_speed_m_s": 0.18370885848998111,
+    "body_window_speed_m_s": 0.3676621449814604,
+    "body_window_rotation_rad_s": 0.04248601032615951,
+    "body_median_speed_m_s": 0.37797899276536456,
+    "body_median_yaw_rate_rad_s": 0.03435936197638512,
+    "window_s": 0.13333333333333997,
+    "confirmed": false,
+    "sample_time_s": 68.46666666666667,
+    "age_s": 0.0,
+    "quiet_dwell_s": 0.0,
+    "required_dwell_s": 0.35,
+    "command_v_w": [
+      0.0,
+      0.0
+    ],
+    "usage": "SIMULATOR STOP INTERLOCK ONLY; never steering/SLAM pose feedback"
+  }
+}

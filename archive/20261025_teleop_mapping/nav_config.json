@@ -1,0 +1,33 @@
+{
+  "paths": {
+    "base": "/World/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link",
+    "controller": "/World/AGV_DifferentialGraph/DifferentialController",
+    "lidar": "/World/TZAGV_B02_vendor_v4/TZAGV_B02_root/base_link/Lidar_2D",
+    "floor": "/World/Collision/floor"
+  },
+  "body": {
+    "length": 0.88,
+    "width": 0.56,
+    "height": 0.45,
+    "track": 0.514,
+    "wheel_radius": 0.09
+  },
+  "front_axis_sign": -1,
+  "linear_command_sign": -1,
+  "angular_command_sign": 1,
+  "map_resolution": 0.05,
+  "map_size_m": 24.0,
+  "scan_max_range": 12.0,
+  "teleop_speed": 0.25,
+  "teleop_turn": 0.55,
+  "keyboard_lease_wall_seconds": 0.75,
+  "proximity_stop": true,
+  "map_source": "SCANNED",
+  "goal_marker": "/World/PythonNav/GoalB",
+  "goal_yaw_from_marker": false,
+  "preview_only": false,
+  "live_lidar_stop": true,
+  "nav_speed": 0.35,
+  "nav_turn": 0.7,
+  "safety_margin": 0.04
+}
