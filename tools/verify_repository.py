@@ -22,6 +22,7 @@ def main():
         data = path.read_bytes()
         if data.startswith(b'version https://git-lfs.github.com/spec/v1'):
             errors.append(f"LFS pointer only, run git lfs pull: {entry['path']}")
+            continue
         elif hashlib.sha256(data).hexdigest() != entry['sha256']:
             errors.append(f"Source hash differs: {entry['path']}")
 
@@ -39,6 +40,8 @@ def main():
     sensitive = re.compile(r'(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|AKIA[A-Z0-9]{16}|-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----)')
     for path in files:
         try:
+            if path.read_bytes().startswith(b'version https://git-lfs.github.com/spec/v1'):
+                continue
             if path.suffix == '.py':
                 value = path.read_text(encoding='utf-8-sig')
                 ast.parse(value, filename=str(path))
