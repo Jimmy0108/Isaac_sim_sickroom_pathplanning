@@ -878,8 +878,8 @@
   {
     "path": "assets/v66/AGV_configured_v66.usd",
     "source": "outputs/Isaac_V6_6_Migration/AGV_configured_v66.usd",
-    "sha256": "3bc000441779ef71240e3b64f97e5653d31aadb298c068d8bf4c6003950ae3be",
-    "bytes": 41010960
+    "sha256": "c141f5171012f9bf0a4e97ea8dd93d793ca0961ef38a2d2e53f435a154bf5595",
+    "bytes": 41036385
   },
   {
     "path": "assets/v66/AGV_control_v66.usd",
